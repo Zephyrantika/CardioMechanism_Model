@@ -119,7 +119,8 @@ def test_deterministic_settings_schema() -> None:
 
 def test_cudnn_version_is_string_when_present() -> None:
     version = cudnn_version()
-    assert version is None or isinstance(version, str)
+    # torch.backends.cudnn.version() returns an int (e.g. 91900); absent -> None.
+    assert version is None or isinstance(version, (str, int))
 
 
 def test_environment_report_dataclass_defaults() -> None:
