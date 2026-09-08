@@ -107,18 +107,24 @@ class ConditionedRGCN(nn.Module):
     ) -> torch.Tensor:
         """Return hidden states [num_nodes, hidden] for one query."""
         x = self.node_embedding.weight
+        edge_index = graph["edge_index"].to(x.device)
+        edge_type = graph["edge_type"].to(x.device)
         if not condition:
             q_d = torch.zeros_like(q_d)
         seed_state = None
+        seed_global = None
         if seed_injection and seed_hpo_local:
             seed_global = torch.tensor(
-                [hpo_offset + index for index in seed_hpo_local], dtype=torch.long
+                [hpo_offset + index for index in seed_hpo_local],
+                dtype=torch.long,
+                device=x.device,
             )
             seed_state = x[seed_global].clone()
 
-        row, col = graph["edge_index"]
         degree = torch.zeros(int(x.size(0)), device=x.device)
-        degree.index_add_(0, col, torch.ones_like(col, dtype=x.dtype))
+        degree.index_add_(
+            0, edge_index[1], torch.ones_like(edge_index[1], dtype=x.dtype)
+        )
         degree = degree.clamp(min=1.0)
         degree_norm = 1.0 / degree.sqrt()
 
@@ -126,7 +132,7 @@ class ConditionedRGCN(nn.Module):
             gamma = torch.sigmoid(self.film_gamma[layer](q_d)).unsqueeze(0)
             beta = self.film_beta[layer](q_d).unsqueeze(0)
             messages = _relation_messages(
-                x, graph["edge_index"], graph["edge_type"],
+                x, edge_index, edge_type,
                 degree_norm, self._relation_weight(layer).unbind(0),
             )
             conditioned = gamma * messages + beta
