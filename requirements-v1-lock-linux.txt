@@ -1,0 +1,13 @@
+# Frozen Linux/CUDA environment for V1 - Milestone 0 selection.
+#
+# Platform: Linux x86_64 / Python 3.11 / CUDA 12.8 driver / cuDNN 9 (bundled
+# with the cu128 PyTorch build). Selected officially compatible combination:
+#   PyTorch 2.11.0 + cu128, PyG 2.8.0, pyg-lib 0.7.0.
+# After the server environment is validated, replace this curated list with a
+# full `pip freeze` output resolved on that server (never copy a Windows lock).
+#
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://data.pyg.org/whl/torch-2.11.0+cu128.html
+torch==2.11.0
+torch_geometric==2.8.0
+pyg-lib==0.7.0

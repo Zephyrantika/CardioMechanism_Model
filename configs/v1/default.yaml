@@ -1,0 +1,8 @@
+# V1 default configuration bundle (Milestone 0).
+
+includes:
+  - data.yaml
+  - model.yaml
+  - training.yaml
+
+project_root: ".."

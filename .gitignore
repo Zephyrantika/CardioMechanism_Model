@@ -36,3 +36,12 @@ outputs/**/*
 !outputs/paths/.gitkeep
 !outputs/metrics/.gitkeep
 !outputs/cases/.gitkeep
+
+# V1 generated artifacts and checkpoints (never committed)
+outputs/v1/
+data/processed/v1/
+data/graphs/v1/
+checkpoints/
+*.ckpt
+*.pt
+*.pth

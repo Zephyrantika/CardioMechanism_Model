@@ -32,6 +32,13 @@ dev = [
   "pytest",
   "pytest-cov",
 ]
+# V1 deep-learning stack. Install torch first from the official CUDA index
+# (see requirements-v1-lock-linux.txt); this group only declares PyG pieces
+# so CPU-only environments stay installable without CUDA wheels.
+deep = [
+  "torch_geometric>=2.8,<2.9",
+  "pyg-lib>=0.7,<0.8",
+]
 all = [
   "pandas",
   "pyarrow",
@@ -46,9 +53,12 @@ all = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/phenotype_network_v0"]
+packages = ["src/phenotype_network_v0", "src/phenotype_network_v1"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
 pythonpath = ["src"]
+markers = [
+  "gpu: GPU integration tests; skipped automatically when CUDA is absent",
+]

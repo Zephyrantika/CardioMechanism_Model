@@ -1,0 +1,23 @@
+# V1 data paths and frozen V0 inputs (Milestone 0 scaffold).
+# V1 keeps every artifact in isolated namespaces; V0 folds, graphs and
+# processed tables are read-only inputs and are never overwritten.
+
+paths:
+  # V1 working namespaces (generated artifacts are not committed)
+  v1_processed: "${PHENOTYPE_NETWORK_PROCESSED_DIR:-data/processed}/v1"
+  v1_graphs: "${PHENOTYPE_NETWORK_GRAPHS_DIR:-data/graphs}/v1"
+  v1_outputs: "${PHENOTYPE_NETWORK_OUTPUTS_DIR:-outputs}/v1"
+  v1_checkpoints: "${PHENOTYPE_NETWORK_OUTPUTS_DIR:-outputs}/v1/checkpoints"
+  # Frozen V0 inputs (do not edit or regenerate)
+  v0_folds: "${PHENOTYPE_NETWORK_FOLDS_DIR:-data/folds}"
+  v0_graphs: "${PHENOTYPE_NETWORK_GRAPHS_DIR:-data/graphs}"
+
+frozen:
+  # V0 fold/graph contract consumed by later milestones (M1+).
+  number_of_folds: 5
+  phenotype_nodes: 19836
+  gene_nodes: 16606
+  pathway_nodes: 1816
+  total_nodes: 38258
+  candidate_genes: 16606
+  diseases: 451

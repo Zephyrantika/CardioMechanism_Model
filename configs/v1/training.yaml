@@ -1,0 +1,21 @@
+# V1 training configuration (Milestone 0 placeholder).
+
+training:
+  seed: 42
+  device: "cpu"            # "cuda" on the GPU server after environment check
+  fold: 0                  # single fold per run; fold index 0..4
+  max_epochs: 100
+  batch_size: 64
+  learning_rate: 1.0e-3
+  weight_decay: 0.0
+  amp: false               # enable only after FP32 equivalence smoke test
+
+data:
+  minimum_phenotypes_per_query: 3
+
+logging:
+  level: "INFO"
+  structured: true
+
+# All randomised runs accept --seed, --device, --fold, --config, --resume,
+# and --output-dir (enforced from M1 onward).

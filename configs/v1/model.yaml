@@ -1,0 +1,21 @@
+# V1 model configuration (Milestone 0 placeholder).
+# Concrete architecture fields are filled by later milestones (M2+:
+# Phenotype-Conditioned R-GCN and RWR residual). This file exists now so the
+# scaffold, config hashing, and checkpoint manifest are exercised end to end.
+
+model:
+  name: "phenotype_conditioned_rgcn"  # resolved in M2
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.1
+  phenotype_conditioning: true
+  rwr_residual: true
+  relation_budget:
+    hpo_hpo: 0.40
+    hpo_gene: 0.60
+    gene_gene: 0.45
+    gene_pathway: 0.15
+    pathway_gene: 0.15
+    pathway_pathway: 0.40
+
+# Reserved for M2+; values above are placeholders to stabilise the schema.

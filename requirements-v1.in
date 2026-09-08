@@ -1,0 +1,6 @@
+# V1 deep-learning stack (Milestone 0).
+# torch must be installed from the official CUDA wheel index; see
+# requirements-v1-lock-linux.txt for the frozen Linux/CUDA environment.
+torch==2.11.0
+torch_geometric==2.8.0
+pyg-lib==0.7.0
