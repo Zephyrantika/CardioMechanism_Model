@@ -64,3 +64,35 @@ query subsets; their metrics must not be interpreted as model quality:
   patient cohort exists; SUA/LDL-C/hs-CRP/IVUS values are never generated.
 * External methods without a passed unchanged smoke test are unavailable and
   are not presented as reproduced.
+
+---
+
+## 6. GPU full-training results (2026-09-09, local RTX 4060 8GB)
+
+All five folds trained with the M3 default recipe (AdamW 1e-3, BCE on covered
+positive genes, per-query SGD, early stopping patience 30 on val loss,
+best-epoch checkpoints ~epoch 2-3, full 30+ epochs before stop):
+
+| Fold | V1 MRR | V1 R@10 | V0 RWR MRR | V0 RWR R@10 | V1/V0 MRR |
+|---|---|---|---|---|---|
+| 0 | 0.0196 | 0.0337 | 0.0400 | 0.0787 | 0.49 |
+| 1 | 0.0096 | 0.0133 | 0.0332 | 0.0244 | 0.29 |
+| 2 | 0.0318 | 0.0696 | 0.0905 | 0.1253 | 0.35 |
+| 3 | 0.0296 | 0.0455 | 0.0522 | 0.0795 | 0.57 |
+| 4 | 0.0179 | 0.0556 | 0.0593 | 0.1111 | 0.30 |
+| mean | 0.0217 | 0.0435 | 0.0550 | 0.0838 | 0.39 |
+
+### Honest scientific statement (section 13)
+The current M3 recipe does NOT meet the scientific performance gate: on every
+fold V1 is well below the frozen V0 raw-RWR comparator (mean MRR 0.0217 vs
+0.0550). Training quickly overfits (validation loss rises after epoch 2-3),
+which indicates the recipe - not the architecture alone - needs improvement.
+
+### Recorded recipe hypotheses for the next iteration (not yet run)
+* degree-stratified PU negative sampling during training (M4 machinery exists),
+* learning-rate schedule / lower LR with longer warmup,
+* larger hidden dimension / FiLM capacity regularisation (dropout, weight decay),
+* query-encoder pretraining or stronger phenotype dropout augmentation,
+* validation-based hyperparameter search already implemented (M4) should select
+  these knobs instead of defaults.
+A negative engineering result stays visible here until a recipe beats V0 RWR.
