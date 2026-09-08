@@ -1,0 +1,24 @@
+# V1-B clinical extension configuration (reserved, Milestone 8 gate).
+# V1-A ships with no clinical cohort. Do not add patient values, unit
+# conversions, or feature mappings here until a compliant cohort is supplied
+# (see V1_IMPLEMENTATION_PLAN.md section 11).
+
+clinical:
+  status: "not_started_no_patient_cohort"
+  feature_ids:
+    - "CLIN:SUA"
+    - "CLIN:LDL_C"
+    - "CLIN:HS_CRP"
+    - "CLIN:IVUS_PLAQUE_BURDEN"
+    - "CLIN:IVUS_MIN_LUMEN_AREA"
+  long_format_columns:
+    - "patient_id"
+    - "visit_id"
+    - "site_id"
+    - "visit_datetime"
+    - "disease_id"
+    - "feature_id"
+    - "value"
+    - "unit"
+    - "missing_reason"
+    - "source_record_id"
