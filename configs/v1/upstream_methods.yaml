@@ -1,0 +1,72 @@
+# V1 upstream literature methods manifest (Milestone 2).
+# Snapshot audit date: 2026-08-05 (V1_IMPLEMENTATION_PLAN.md section 12).
+# Before adaptation each repository URL, immutable commit SHA, license, runtime,
+# data source and expected command are recorded here; a failed unchanged smoke
+# test blocks that external baseline (never silently replaced).
+
+methods:
+  - name: Speos
+    class: required_reproduction
+    doi: "10.1038/s41467-023-42975-z"
+    repo_url: "https://github.com/fratajcz/speos"
+    commit_sha: "9618b361f3919a5eafc062d9fe58a03c0d8348be"
+    license: "unknown_pending_review"   # GitHub reports NOASSERTION; review the in-repo LICENSE before adaptation
+    runtime: "conda/docker"
+    data_status: "data downloader provided upstream"
+    expected_command: "upstream training and benchmark entry points (see repo README)"
+    smoke_status: "not_run_local_no_environment"
+
+  - name: XGDAG
+    class: required_reproduction
+    doi: "10.1093/bioinformatics/btad482"
+    repo_url: "https://github.com/GiDeCarlo/XGDAG"
+    commit_sha: "1b801a5d62773a5179159a1d8e0429a4701b35e3"
+    license: "none"                     # no repository license: execute pinned source for comparison only; never copy or redistribute
+    runtime: "conda/python"
+    data_status: "data and pretrained models upstream"
+    expected_command: "training and ranking entry points (see repo README)"
+    smoke_status: "not_run_local_no_environment"
+
+  - name: BioPathNet
+    class: method_component_reuse
+    doi: "10.1038/s41551-025-01598-z"
+    repo_url: "https://github.com/emyyue/BioPathNet"
+    commit_sha: "b051a9003a1363b5655cdb7dfdad60609c0e4fe3"
+    license: "MIT"
+    runtime: "python (pinned requirements)"
+    data_status: "mock data included"
+    expected_command: "mock train/predict/visualize before adapting path reasoning"
+    smoke_status: "not_run_local_no_environment"
+
+  - name: Network_Enhancement
+    class: method_component_reuse
+    doi: "10.1038/s41467-018-05469-x"
+    repo_url: "https://github.com/wangboyunze/Network_Enhancement"
+    commit_sha: "8662284871274b805ed82f725af54ab76dc79e53"
+    license: "GPL-3.0"
+    runtime: "MATLAB"
+    data_status: "bundled data"
+    expected_command: "network-denoising ablation only; Python port requires numerical parity tests"
+    smoke_status: "not_run_local_no_environment"
+
+  - name: CoLiPE
+    class: method_component_reuse
+    doi: "10.1073/pnas.2416646122"
+    repo_url: "https://github.com/serhan-yilmaz/CoLiPE"
+    commit_sha: "ee74162e4121e76373cd3abb4d6337ac9f1cf5ac"
+    license: "GPL-3.0"
+    runtime: "MATLAB"
+    data_status: "bundled inputs"
+    expected_command: "reuse degree-bias evaluation design only, not code"
+    smoke_status: "not_run_local_no_environment"
+
+  - name: genedise
+    class: method_component_reuse
+    doi: "10.1371/journal.pcbi.1007276"
+    repo_url: "https://github.com/b2slab/genedise"
+    commit_sha: "10074e2482270cbfef0e1393912c22c57902cbc8"
+    license: "MIT"
+    runtime: "R/MATLAB workflows"
+    data_status: "data upstream"
+    expected_command: "evaluation protocol used as a benchmark cross-check, not a deep comparator"
+    smoke_status: "not_run_local_no_environment"
