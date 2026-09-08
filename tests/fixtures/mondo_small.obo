@@ -1,0 +1,35 @@
+format-version: 1.2
+data-version: releases/test
+ontology: mondo
+
+[Term]
+id: MONDO:0000001
+name: disease
+
+[Term]
+id: MONDO:0004995
+name: cardiovascular disorder
+is_a: MONDO:0000001 ! disease
+
+[Term]
+id: MONDO:1000001
+name: arterial disorder
+is_a: MONDO:0004995 ! cardiovascular disorder
+
+[Term]
+id: MONDO:0021661
+name: coronary atherosclerosis
+xref: OMIM:1
+is_a: MONDO:1000001 ! arterial disorder
+
+[Term]
+id: MONDO:0005068
+name: myocardial infarction
+xref: ORPHANET:2
+is_a: MONDO:1000001 ! arterial disorder
+
+[Term]
+id: MONDO:2000001
+name: non-cardiovascular disorder
+xref: OMIM:9
+is_a: MONDO:0000001 ! disease

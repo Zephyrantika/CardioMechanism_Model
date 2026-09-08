@@ -1,0 +1,21 @@
+relation_budget:
+  phenotype:
+    phenotype_is_a_phenotype: 0.40
+    phenotype_associated_with_gene: 0.60
+  gene:
+    gene_associated_with_phenotype: 0.15
+    gene_interacts_with_gene: 0.60
+    gene_participates_in_pathway: 0.25
+  pathway:
+    pathway_contains_gene: 0.70
+    pathway_part_of_pathway: 0.30
+
+rwr:
+  restart_probability: 0.30
+  tolerance: 1.0e-10
+  max_iterations: 500
+
+pathway:
+  minimum_genes: 5
+  maximum_genes: 500
+

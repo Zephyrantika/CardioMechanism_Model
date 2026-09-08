@@ -1,0 +1,8 @@
+#string_protein_id	alias	source
+9606.P1	10	Ensembl_HGNC_entrez_id
+9606.P2	20	Ensembl_HGNC_entrez_id
+9606.P3	10	Ensembl_HGNC_entrez_id
+9606.P4	30	Ensembl_HGNC_entrez_id
+9606.P4	31	Ensembl_HGNC_entrez_id
+9606.P5	GENE5	Ensembl_EntrezGene
+9606.P6	40	Ensembl_HGNC_entrez_id

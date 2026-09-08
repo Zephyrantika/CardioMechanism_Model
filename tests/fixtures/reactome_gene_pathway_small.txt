@@ -1,0 +1,13 @@
+10	R-HSA-1	https://x/1	Wrong source name	TAS	Homo sapiens
+20	R-HSA-1	https://x/1	Wrong source name	IEA	Homo sapiens
+20	R-HSA-1	https://x/1	Wrong source name	IEA	Homo sapiens
+20	R-HSA-2	https://x/2	Purine	TAS	Homo sapiens
+30	R-HSA-2	https://x/2	Purine	TAS	Homo sapiens
+40	R-HSA-2	https://x/2	Purine	TAS	Homo sapiens
+10	R-HSA-3	https://x/3	Large	TAS	Homo sapiens
+20	R-HSA-3	https://x/3	Large	TAS	Homo sapiens
+30	R-HSA-3	https://x/3	Large	TAS	Homo sapiens
+40	R-HSA-3	https://x/3	Large	TAS	Homo sapiens
+bad	R-HSA-1	https://x/1	Immune	TAS	Homo sapiens
+50	R-HSA-404	https://x/404	Missing	TAS	Homo sapiens
+60	R-MMU-4	https://x/4	Mouse	TAS	Mus musculus

@@ -1,0 +1,54 @@
+random_seed: 42
+number_of_folds: 5
+
+benchmark:
+  minimum_phenotypes_per_disease: 3
+  minimum_genes_per_disease: 1
+
+folds:
+  disease_disjoint: true
+  train_folds: 3
+  validation_folds: 1
+  test_folds: 1
+  family_anchor_depth: 4
+  weight_clip_quantile: 0.99
+
+semantic_baseline:
+  aggregation_methods: [max, top5_mean, weighted_sum]
+
+rwr:
+  alpha_grid: [0.1, 0.2, 0.3, 0.5, 0.7]
+
+calibration:
+  development_null_queries: 100
+  final_null_queries: 1000
+  matched_pool_size: 25
+  matching_temperature: 0.5
+  zero_variance_tolerance: 1.0e-12
+  rwr_batch_size: 64
+
+evaluation:
+  recall_ks: [1, 5, 10, 20]
+  bootstrap_iterations: 1000
+  random_repetitions: 100
+
+module_detection:
+  candidate_gene_count: 200
+  minimum_module_size: 5
+  maximum_module_size: 100
+  perturbation_runs: 50
+  minimum_consensus_frequency: 0.60
+
+explanation:
+  maximum_path_length: 4
+  paths_per_gene: 3
+  target_gene_count: 20
+  epsilon: 1.0e-12
+  minimum_relative_contribution: 1.0e-6
+  relation_penalty:
+    hpo_hpo: 0.10
+    hpo_gene: 0.00
+    gene_gene: 0.20
+    gene_pathway: 0.15
+    pathway_gene: 0.15
+

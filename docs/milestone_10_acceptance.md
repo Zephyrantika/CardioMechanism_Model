@@ -1,0 +1,11 @@
+# Milestone 10 Acceptance
+
+Milestone 10 evaluates 451 family-disjoint test diseases against a fixed universe of 16,606 NCBI Gene IDs. The unified output contains 7,216 disease-model records across 16 baselines, predictors, and ablations. Candidate coverage is identical across ranking methods; 10 diseases have no covered positive and remain explicitly unevaluable.
+
+The preregistered primary predictor is uncalibrated RWR. Its overall Recall@10 is 0.0903 and MRR is 0.0535, versus 0.0727 and 0.0506 for semantic maximum. Raw RWR exceeds the best semantic method on Recall@10 or MRR in all five folds. Family-cluster bootstrap differences against semantic maximum are positive but include zero, so no statistical-significance claim is made. Empirical-percentile calibration removes degree correlation but reduces Recall@10 to 0.0111 and MRR to 0.0101; it remains a bias-sensitivity result, not the primary ranking.
+
+All nine ablations use validation-only alpha selection. HPO-Gene plus PPI has the highest MRR (0.0584); removing HPO hierarchy has the highest Recall@10 (0.1018). These are reported as post hoc ablation findings and do not replace the frozen primary model. STRING 900 gives Recall@10 0.0984 and MRR 0.0543; its paired differences from STRING 700 include zero. BioGRID 5.0.260 gives 0.0798 and 0.0476 and is significantly lower than STRING 700, demonstrating source sensitivity.
+
+Frozen external-only resources are BioGRID 5.0.260, GWAS Catalog 2026-08-03 v1.0 full, GTEx v10, GO releases/2026-06-15, and GOA human generated 2026-05-21. SHA256 values and transformation counts are in `data/raw/external_validation_manifest.json` and `outputs/qc/external_validation_qc.json`. They never enter training, tuning, or candidate-universe construction.
+
+Acceptance checks pass: 5/5 majority-fold criterion, complete convergence, family-cluster bootstrap, explicit unmapped audits, STRING threshold sensitivity, BioGRID source sensitivity, no label leakage, and deterministic tests (`77 passed`).

@@ -1,0 +1,49 @@
+format-version: 1.2
+data-version: hp/test-fixture
+ontology: hp
+
+[Term]
+id: HP:0000001
+name: All
+def: "Root phenotype." []
+
+[Term]
+id: HP:0000002
+name: Child phenotype
+def: "A child phenotype." []
+synonym: "Child feature" EXACT []
+is_a: HP:0000001 ! All
+
+[Term]
+id: HP:0000003
+name: Grandchild phenotype
+is_a: HP:0000002 ! Child phenotype
+
+[Term]
+id: HP:0000004
+name: Duplicate-parent phenotype
+is_a: HP:0000002 ! Child phenotype
+is_a: HP:0000100 ! Replaced phenotype
+
+[Term]
+id: HP:0000100
+name: Replaced phenotype
+is_obsolete: true
+replaced_by: HP:0000002
+
+[Term]
+id: HP:0000101
+name: Unresolved obsolete phenotype
+is_obsolete: true
+
+[Term]
+id: HP:0000102
+name: Ambiguous obsolete phenotype
+is_obsolete: true
+replaced_by: HP:0000002
+replaced_by: HP:0000003
+
+[Term]
+id: TEST:0001
+name: Non-HPO term
+

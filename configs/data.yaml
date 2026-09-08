@@ -1,0 +1,49 @@
+paths:
+  raw: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}"
+  interim: "${PHENOTYPE_NETWORK_INTERIM_DIR:-data/interim}"
+  processed: "${PHENOTYPE_NETWORK_PROCESSED_DIR:-data/processed}"
+  folds: "${PHENOTYPE_NETWORK_FOLDS_DIR:-data/folds}"
+  graphs: "${PHENOTYPE_NETWORK_GRAPHS_DIR:-data/graphs}"
+  outputs: "${PHENOTYPE_NETWORK_OUTPUTS_DIR:-outputs}"
+
+hpo:
+  ontology_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/hpo/hp.obo"
+  annotation_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/hpo/phenotype.hpoa"
+  gene_disease_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/hpo/genes_to_disease.txt"
+  gene_phenotype_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/hpo/genes_to_phenotype.txt"
+
+mondo:
+  ontology_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/mondo/mondo-2026-07-06.obo"
+
+string:
+  species_taxonomy_id: 9606
+  links_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/string/9606.protein.links.full.v12.0.txt.gz"
+  aliases_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/string/9606.protein.aliases.v12.0.txt.gz"
+  thresholds: [400, 700, 900]
+  version: "12.0"
+
+reactome:
+  gene_pathway_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/reactome/NCBI2Reactome_All_Levels.v97.txt"
+  pathway_hierarchy_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/reactome/ReactomePathwaysRelation.v97.txt"
+  pathway_metadata_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/reactome/ReactomePathways.v97.txt"
+  species_name: "Homo sapiens"
+  version: "97"
+
+external_validation:
+  biogrid_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/biogrid/BIOGRID-ALL-2026-08-03.tab3.zip"
+  biogrid_version: "5.0.260"
+  gwas_catalog_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/gwas_catalog/gwas-catalog-associations-full-2026-08-03.zip"
+  gwas_catalog_version: "2026-08-03 v1.0 full"
+  gtex_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/gtex/GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz"
+  gtex_version: "v10 RNASeQC v2.4.2"
+  go_ontology_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/go/go-basic-2026-06-26.obo"
+  go_version: "releases/2026-06-15"
+  goa_human_file: "${PHENOTYPE_NETWORK_RAW_DIR:-data/raw}/go/goa_human-2026-05-28.gaf.gz"
+  goa_human_version: "generated 2026-05-21"
+
+identifiers:
+  canonical_phenotype: "HPO"
+  canonical_disease: "MONDO"
+  canonical_gene: "NCBI_GENE"
+  canonical_pathway: "REACTOME"
+

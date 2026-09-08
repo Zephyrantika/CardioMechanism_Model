@@ -1,0 +1,10 @@
+#version: test-2026
+database_id	disease_name	qualifier	hpo_id	reference	evidence	onset	frequency	sex	modifier	aspect	biocuration
+OMIM:1	Coronary disease		HP:0000001	PMID:1	PCS		50%			P	TEST:curator
+OMIM:1	Coronary disease		HP:0000002	PMID:2	PCS		1/2			P	TEST:curator
+OMIM:1	Coronary disease		HP:0000100	PMID:3	PCS		bad-value			P	TEST:curator
+OMIM:1	Coronary disease		HP:0000001	PMID:1	PCS		50%			P	TEST:curator
+OMIM:1	Coronary disease	NOT	HP:0000003	PMID:4	PCS		HP:0040284			P	TEST:curator
+ORPHA:2	Myocardial infarction		HP:0000001	PMID:5	PCS					P	TEST:curator
+OMIM:9	Other disease		HP:0000001	PMID:6	PCS					P	TEST:curator
+UNKNOWN:3	Unknown disease		HP:0000001	PMID:7	PCS					P	TEST:curator

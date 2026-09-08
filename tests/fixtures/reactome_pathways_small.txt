@@ -1,0 +1,5 @@
+R-HSA-1	Immune cytokine signaling	Homo sapiens
+R-HSA-2	Purine and urate metabolism	Homo sapiens
+R-HSA-3	Large lipid pathway	Homo sapiens
+R-HSA-5	Empty pathway	Homo sapiens
+R-MMU-4	Mouse immune pathway	Mus musculus
