@@ -45,9 +45,9 @@ def _configure_logging(level: str) -> None:
     )
 
 
-def _build_scorer(root: Path, fold: int, device, seed: int):  # noqa: ANN001
+def _build_scorer(root: Path, fold: int, device, seed: int, model_root: str = "conditioned/full"):  # noqa: ANN001
     ensemble_dir = root / "outputs" / "v1" / "ensemble" / "degree_stratified" / f"fold_{fold}"
-    conditioned_dir = root / "outputs" / "v1" / "conditioned" / "full" / f"fold_{fold}"
+    conditioned_dir = root / "outputs" / "v1" / model_root / f"fold_{fold}"
     checkpoint_candidates = sorted(ensemble_dir.glob("member_*.pt")) or [None]
     if checkpoint_candidates == [None] and (conditioned_dir / "model.pt").exists():
         checkpoint_candidates = [conditioned_dir / "model.pt"]
@@ -113,6 +113,11 @@ def _v0_rwr_rankings(root: Path, fold: int) -> dict[str, list[str]]:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fold", type=int, required=True)
+    parser.add_argument(
+        "--model-root",
+        default="conditioned/full",
+        help="Checkpoint root under outputs/v1 (e.g. conditioned/full, gpu/recipe/a/fold_N).",
+    )
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--smoke", action="store_true")
@@ -124,7 +129,7 @@ def main(argv: list[str] | None = None) -> int:
     seed_everything(args.seed)
     device = torch.device(args.device if torch.cuda.is_available() or args.device == "cpu" else "cpu")
 
-    scorer = _build_scorer(root, args.fold, device, args.seed)
+    scorer = _build_scorer(root, args.fold, device, args.seed, args.model_root)
     queries = pd.read_parquet(
         root / "data" / "processed" / "v1" / f"fold_{args.fold}" / "query_instances.parquet"
     )

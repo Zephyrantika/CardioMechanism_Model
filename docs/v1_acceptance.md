@@ -113,3 +113,17 @@ is not mainly a missing-negative-sampling problem; per-query memorisation is
 strong at this task scale. Architecture-level changes (self-supervised graph
 pretraining / link prediction, stronger regularisation, phenotype
 augmentation) are the next research stage, outside the acceptance framework.
+### 6.2 Second iteration (fold 0): regularisation / capacity variants
+
+| Recipe | best epoch | V1 MRR | V1 R@10 |
+|---|---|---|---|
+| D: lr 3e-4, dropout 0.4, wd 1e-2 | 2 | 0.0148 | 0.0337 |
+| E: hidden 256, dropout 0.3, lr 3e-4 | 3 | 0.0091 | 0.0112 |
+| default (best so far) | 2 | 0.0196 | 0.0337 |
+| V0 raw RWR | - | 0.0400 | 0.0787 |
+
+Neither stronger regularisation (D) nor larger capacity (E) reaches V0 on
+fold 0. Scientific gate: NOT MET with the recipes tried. The next stage is
+architecture-level research (self-supervised graph pretraining / link
+prediction objectives), which is outside the milestone acceptance framework
+and is documented here as an open problem.
