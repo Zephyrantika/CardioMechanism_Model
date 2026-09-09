@@ -30,7 +30,8 @@ from phenotype_network_v1.models.decoder import ScoreDecoder
 from phenotype_network_v1.models.gcn import build_unified_from_stores
 from phenotype_network_v1.models.losses import classification_loss
 from phenotype_network_v1.models.phenotype_encoder import QueryPhenotypeEncoder
-from phenotype_network_v1.training.sampling import seed_everything
+from phenotype_network_v1.training.pu import sample_unlabelled, targets_from_sample
+from phenotype_network_v1.training.sampling import derive_seed, seed_everything
 from phenotype_network_v1.training.trainer import (
     EarlyStopping,
     describe_model,
@@ -72,6 +73,11 @@ def load_fold_inputs(root: Path, fold: int) -> dict[str, Any]:
     gene_node_indices = list(
         range(int(graph["offsets"]["gene"]), int(graph["offsets"]["gene"]) + n_gene)
     )
+    # Gene degrees from the frozen graph (in-degree of gene nodes).
+    edge_index = graph["edge_index"]
+    degrees = torch.zeros(int(graph["num_nodes"]), dtype=torch.long)
+    degrees.index_add_(0, edge_index[1], torch.ones(edge_index.size(1), dtype=torch.long))
+    gene_degrees = [int(degrees[g]) for g in gene_node_indices]
     # Frozen V0 RWR residual (log1p). Missing disease/gene records map to 0.
     rwr_path = root / "outputs" / "rankings" / f"fold_{fold}" / "rwr" / "rankings.parquet"
     rwr_by_disease: dict[str, dict[str, float]] = {}
@@ -91,6 +97,7 @@ def load_fold_inputs(root: Path, fold: int) -> dict[str, Any]:
         "hpo_offset": int(graph["offsets"]["phenotype"]),
         "rwr_by_disease": rwr_by_disease,
         "rwr_missing_count": 0,
+        "gene_degrees": gene_degrees,
     }
 
 
@@ -139,8 +146,23 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--hidden-dim", type=int, default=128)
     parser.add_argument("--relation-bases", type=int, default=8)
     parser.add_argument("--rho", type=float, default=0.20)
+    parser.add_argument("--dropout", type=float, default=0.20)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", default="cpu")
+    parser.add_argument(
+        "--pu",
+        action="store_true",
+        help="Use degree-stratified sampled-unlabelled records as negatives.",
+    )
+    parser.add_argument("--ratio", type=int, default=20, help="PU sample ratio.")
+    parser.add_argument("--weight-decay", type=float, default=1e-5)
+    parser.add_argument("--patience", type=int, default=30)
+    parser.add_argument(
+        "--loss-focus",
+        choices=("all", "positive_only"),
+        default="all",
+        help="all = BCE over positives+sampled; positive_only = weight 1 only for positives.",
+    )
     parser.add_argument("--smoke", action="store_true")
     parser.add_argument("--output-dir", type=Path, default=None)
     parser.add_argument("--log-level", default="INFO")
@@ -175,6 +197,7 @@ def main(argv: list[str] | None = None) -> int:
         num_layers=2,
         relation_bases=args.relation_bases,
         rho=args.rho,
+        dropout=args.dropout,
         seed=args.seed,
     )
     decoder = ScoreDecoder(
@@ -193,9 +216,9 @@ def main(argv: list[str] | None = None) -> int:
     decoder_query_on = args.ablation not in {"no_query_conditioning"}
 
     optimizer = torch.optim.AdamW(
-        model.parameters(), lr=args.learning_rate, weight_decay=1e-5
+        model.parameters(), lr=args.learning_rate, weight_decay=args.weight_decay
     )
-    early = EarlyStopping(patience=30 if not args.smoke else 1)
+    early = EarlyStopping(patience=(args.patience if not args.smoke else 1))
     loss_fn = classification_loss
     LOGGER.info(
         "ablation=%s fold=%d params=%d device=%s queries=%d",
@@ -219,7 +242,26 @@ def main(argv: list[str] | None = None) -> int:
         gene_hidden = hidden[torch.tensor(inputs["gene_node_indices"], dtype=torch.long)]
         query_vector = q_d if decoder_query_on else torch.zeros_like(q_d)
         logits = decoder(gene_hidden, query_vector, q["rwr_feature"].to(device))
-        return logits, q["targets"].to(device)
+        weight = torch.ones_like(q["targets"])
+        if args.pu:
+            row2 = frame.iloc[position]
+            positives = {
+                inputs["gene_id_to_local"][str(g)]
+                for g in row2.covered_positive_gene_ids
+                if str(g) in inputs["gene_id_to_local"]
+            }
+            samples, _ = sample_unlabelled(
+                member=0,
+                base_seed=derive_seed(args.seed, position),
+                positive_genes=positives,
+                gene_degrees=inputs["gene_degrees"],
+                ratio=args.ratio,
+            )
+            _, weight = targets_from_sample(inputs["n_gene"], positives, samples)
+            if args.loss_focus == "positive_only":
+                weight = (q["targets"] > 0).float()
+            weight = torch.tensor(weight, dtype=torch.float32)
+        return logits, q["targets"].to(device), weight.to(device)
 
     history = []
     for epoch in range(1, args.epochs + 1):
@@ -227,8 +269,8 @@ def main(argv: list[str] | None = None) -> int:
         total = 0.0
         for position in range(len(train_frame)):
             optimizer.zero_grad()
-            logits, targets = score_query(position, train_frame)
-            loss = loss_fn(logits, targets)
+            logits, targets, weight = score_query(position, train_frame)
+            loss = loss_fn(logits, targets, sample_weight=weight)
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
@@ -238,8 +280,8 @@ def main(argv: list[str] | None = None) -> int:
         val_count = min(len(val_frame), 20)
         with torch.no_grad():
             for position in range(val_count):
-                logits, targets = score_query(position, val_frame)
-                val_total += float(loss_fn(logits, targets))
+                logits, targets, weight = score_query(position, val_frame)
+                val_total += float(loss_fn(logits, targets, sample_weight=weight))
         val_loss = val_total / max(1, val_count)
         history.append(
             {"epoch": epoch, "train_loss": total / len(train_frame), "val_loss": val_loss}
@@ -271,6 +313,11 @@ def main(argv: list[str] | None = None) -> int:
         },
     )
     summary = {
+        "pu": args.pu,
+        "ratio": args.ratio,
+        "learning_rate": args.learning_rate,
+        "weight_decay": args.weight_decay,
+        "patience": args.patience,
         "ablation": args.ablation,
         "fold": args.fold,
         "params": total_params,

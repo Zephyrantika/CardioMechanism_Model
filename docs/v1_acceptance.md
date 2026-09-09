@@ -96,3 +96,20 @@ which indicates the recipe - not the architecture alone - needs improvement.
 * validation-based hyperparameter search already implemented (M4) should select
   these knobs instead of defaults.
 A negative engineering result stays visible here until a recipe beats V0 RWR.
+
+### 6.1 Recipe iteration results (fold 0, 2026-09-09)
+
+| Recipe | best epoch | V1 MRR | V1 R@10 | note |
+|---|---|---|---|---|
+| default (BCE all genes, lr 1e-3) | 2 | 0.0196 | 0.0337 | best of the tried recipes so far |
+| A: PU (deg-strat., ratio 20) lr 1e-3 | 1 | 0.0054 | 0.0112 | worse |
+| B: PU lr 3e-4 | 3 | 0.0089 | 0.0337 | worse |
+| C: PU lr 1e-4 (patience 40) | 2 | 0.0045 | 0.0000 | worse |
+| V0 raw RWR | - | 0.0400 | 0.0787 | target |
+
+All recipes still overfit within 1-3 epochs (validation loss rises immediately),
+and none reaches the V0 comparator on fold 0. Recorded hypothesis: overfitting
+is not mainly a missing-negative-sampling problem; per-query memorisation is
+strong at this task scale. Architecture-level changes (self-supervised graph
+pretraining / link prediction, stronger regularisation, phenotype
+augmentation) are the next research stage, outside the acceptance framework.
