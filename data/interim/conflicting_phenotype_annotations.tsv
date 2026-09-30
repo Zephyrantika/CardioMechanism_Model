@@ -1,0 +1,7 @@
+disease_id	disease_name	original_disease_id	original_disease_name	hpo_id	original_hpo_id	frequency_weight	frequency_raw	frequency_method	reference	evidence	onset	sex	modifier	aspect	biocuration	source_database	mapping_method	annotation_polarity
+MONDO:0008908	MGAT2-congenital disorder of glycosylation	ORPHA:79329	MGAT2-CDG	HP:0001321	HP:0001321	0.5		missing_default	ORPHA:79329	TAS				P	ORPHA:orphadata[2026-09-02]	ORPHA	explicit_xref	negative
+MONDO:0008908	MGAT2-congenital disorder of glycosylation	OMIM:212066	Congenital disorder of glycosylation, type IIa	HP:0001321	HP:0001321	0.0	0/3	ratio	PMID:11228641	PCS				P	HPO:probinson[2023-04-09]	OMIM	explicit_xref	positive
+MONDO:0012669	Legius syndrome	ORPHA:137605	Legius syndrome	HP:0001067	HP:0001067	0.5		missing_default	ORPHA:137605	TAS				P	ORPHA:orphadata[2026-09-02]	ORPHA	explicit_xref	negative
+MONDO:0012669	Legius syndrome	OMIM:611431	Legius syndrome	HP:0001067	HP:0001067	0.0	0/18	ratio	OMIM:611431	IEA				P	HPO:skoehler[2010-06-20];HPO:probinson[2023-02-17]	OMIM	explicit_xref	positive
+MONDO:0013426	aneurysm-osteoarthritis syndrome	ORPHA:284984	Aneurysm-osteoarthritis syndrome	HP:0001363	HP:0001363	0.5		missing_default	ORPHA:284984	TAS				P	ORPHA:orphadata[2026-09-02]	ORPHA	explicit_xref	negative
+MONDO:0013426	aneurysm-osteoarthritis syndrome	OMIM:613795	Loeys-Dietz syndrome 3	HP:0001363	HP:0001363	0.017241379310344827	1/58	ratio	PMID:29392890;PMID:21217753	PCS				P	HP:probinson[2019-04-13];HP:probinson[2019-04-13];ORCID:0000-0002-0736-9199[2024-04-01]	OMIM	explicit_xref	positive

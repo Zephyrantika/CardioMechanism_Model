@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-08T14:30:42+00:00",
+  "edge_counts": {
+    "edge_gene_gene": 465738,
+    "edge_gene_hpo": 7808,
+    "edge_gene_pathway": 104078,
+    "edge_hpo_gene": 7808,
+    "edge_hpo_hpo": 48872,
+    "edge_pathway_gene": 104078,
+    "edge_pathway_pathway": 3910
+  },
+  "fold": 1,
+  "git_commit": "62a44ba07dad2e9705d19157d12e4d51e01da82e",
+  "node_counts": {
+    "gene": 16992,
+    "pathway": 2179,
+    "phenotype": 19894
+  },
+  "schema_version": 1,
+  "serialization_sha256": "968537e8b470a062ec2be41a4c4a991d90f4d44460777174c57633d6e2e8c2fd",
+  "source_inputs": {
+    "A_gene_gene.npz": "f3bceb6b5aac78207ebad5fdd0e88b4e74fe623238b88d9eec9cef2921a938f0",
+    "A_gene_hpo.npz": "8b61d08faf0e5c56052653bdd6c130ad30f61f0fe27a4b4baf838bd721776c47",
+    "A_gene_pathway.npz": "d01e3d60efb8fc9190c1a728d48979f6771ac211fcd0e11cda2e43de3ea91b05",
+    "A_hpo_gene.npz": "816c9ed15d7612442c95c9e84d8eb6331217998ca519727806453f1ae72acd8a",
+    "A_hpo_hpo.npz": "0321e8b4ce1d2d08a750cc9c0c2f10f2e37427c87d9bc5f6916ff3a574d8b99c",
+    "A_pathway_gene.npz": "e1fe38b2a656a44a5f0b1a9d574599dde23db1ad9bea451a71795d3376531bd0",
+    "A_pathway_pathway.npz": "e73a455ab461aa95f016f6100be15126af04e06ed4c4df3050001dc956def232",
+    "graph_qc.json": "91ab7d74b605b222c1aeae104aa6d0c7632d1ac7de6c8bcb713d79d2bc5e6f97",
+    "node_map.parquet": "a0897c2ab604dcf8a6cd6d8c25ba4681e8bcbca650bacfe1f24b649464d830ec"
+  },
+  "total_nodes": 39065
+}

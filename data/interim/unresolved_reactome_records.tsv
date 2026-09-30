@@ -1,0 +1,233 @@
+gene_id	pathway_id	url	source_pathway_name	evidence_code	species	reason
+J02428.1	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+J02428.1	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+J02428.1	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+J02428.1	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+J02428.1	R-HSA-9684482	https://reactome.org/PathwayBrowser/#/R-HSA-9684482	IFIT antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+K02485	R-HSA-69306	https://reactome.org/PathwayBrowser/#/R-HSA-69306	DNA Replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+K02485	R-HSA-9913635	https://reactome.org/PathwayBrowser/#/R-HSA-9913635	Strand-asynchronous mitochondrial DNA replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	TAS	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	IEA	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-9842860	https://reactome.org/PathwayBrowser/#/R-HSA-9842860	Regulation of endogenous retroelements	IEA	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-9842860	https://reactome.org/PathwayBrowser/#/R-HSA-9842860	Regulation of endogenous retroelements	TAS	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-9843970	https://reactome.org/PathwayBrowser/#/R-HSA-9843970	Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex	IEA	Homo sapiens	invalid_ncbi_gene_id
+KJ852773	R-HSA-9843970	https://reactome.org/PathwayBrowser/#/R-HSA-9843970	Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-8983711	https://reactome.org/PathwayBrowser/#/R-HSA-8983711	OAS antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9820952	https://reactome.org/PathwayBrowser/#/R-HSA-9820952	Respiratory Syncytial Virus Infection Pathway	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9820960	https://reactome.org/PathwayBrowser/#/R-HSA-9820960	Respiratory syncytial virus (RSV) attachment and entry	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9820962	https://reactome.org/PathwayBrowser/#/R-HSA-9820962	Assembly and release of respiratory syncytial virus (RSV) virions	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9820965	https://reactome.org/PathwayBrowser/#/R-HSA-9820965	Respiratory syncytial virus (RSV) genome replication, transcription and translation	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9828642	https://reactome.org/PathwayBrowser/#/R-HSA-9828642	Respiratory syncytial virus genome transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9828721	https://reactome.org/PathwayBrowser/#/R-HSA-9828721	Translation of respiratory syncytial virus mRNAs	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9833110	https://reactome.org/PathwayBrowser/#/R-HSA-9833110	RSV-host interactions	TAS	Homo sapiens	invalid_ncbi_gene_id
+KT992094	R-HSA-9834752	https://reactome.org/PathwayBrowser/#/R-HSA-9834752	Respiratory syncytial virus genome replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-8983711	https://reactome.org/PathwayBrowser/#/R-HSA-8983711	OAS antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9678108	https://reactome.org/PathwayBrowser/#/R-HSA-9678108	SARS-CoV-1 Infection	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9679506	https://reactome.org/PathwayBrowser/#/R-HSA-9679506	SARS-CoV Infections	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9684482	https://reactome.org/PathwayBrowser/#/R-HSA-9684482	IFIT antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9690722	https://reactome.org/PathwayBrowser/#/R-HSA-9690722	Viral strategies to evade IFIT action	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9692914	https://reactome.org/PathwayBrowser/#/R-HSA-9692914	SARS-CoV-1-host interactions	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9692916	https://reactome.org/PathwayBrowser/#/R-HSA-9692916	SARS-CoV-1 activates/modulates innate immune responses	TAS	Homo sapiens	invalid_ncbi_gene_id
+M12294.2	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	TAS	Homo sapiens	invalid_ncbi_gene_id
+MG736819	R-HSA-1266738	https://reactome.org/PathwayBrowser/#/R-HSA-1266738	Developmental Biology	IEA	Homo sapiens	invalid_ncbi_gene_id
+MG736819	R-HSA-9843743	https://reactome.org/PathwayBrowser/#/R-HSA-9843743	Transcriptional regulation of brown and beige adipocyte differentiation	IEA	Homo sapiens	invalid_ncbi_gene_id
+MG736819	R-HSA-9843745	https://reactome.org/PathwayBrowser/#/R-HSA-9843745	Adipogenesis	IEA	Homo sapiens	invalid_ncbi_gene_id
+MG736819	R-HSA-9844594	https://reactome.org/PathwayBrowser/#/R-HSA-9844594	Transcriptional regulation of brown and beige adipocyte differentiation by EBF2	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-166658	https://reactome.org/PathwayBrowser/#/R-HSA-166658	Complement cascade	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-166662	https://reactome.org/PathwayBrowser/#/R-HSA-166662	Lectin pathway of complement activation	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-166663	https://reactome.org/PathwayBrowser/#/R-HSA-166663	Initial triggering of complement	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-166786	https://reactome.org/PathwayBrowser/#/R-HSA-166786	Creation of C4 and C2 activators	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-168249	https://reactome.org/PathwayBrowser/#/R-HSA-168249	Innate Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9679506	https://reactome.org/PathwayBrowser/#/R-HSA-9679506	SARS-CoV Infections	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9679506	https://reactome.org/PathwayBrowser/#/R-HSA-9679506	SARS-CoV Infections	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9684482	https://reactome.org/PathwayBrowser/#/R-HSA-9684482	IFIT antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9690722	https://reactome.org/PathwayBrowser/#/R-HSA-9690722	Viral strategies to evade IFIT action	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694322	https://reactome.org/PathwayBrowser/#/R-HSA-9694322	Virion Assembly and Release	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694322	https://reactome.org/PathwayBrowser/#/R-HSA-9694322	Virion Assembly and Release	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694516	https://reactome.org/PathwayBrowser/#/R-HSA-9694516	SARS-CoV-2 Infection	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694516	https://reactome.org/PathwayBrowser/#/R-HSA-9694516	SARS-CoV-2 Infection	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694614	https://reactome.org/PathwayBrowser/#/R-HSA-9694614	Attachment and Entry	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694614	https://reactome.org/PathwayBrowser/#/R-HSA-9694614	Attachment and Entry	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694635	https://reactome.org/PathwayBrowser/#/R-HSA-9694635	Translation of Structural Proteins	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694676	https://reactome.org/PathwayBrowser/#/R-HSA-9694676	Translation of Replicase and Assembly of the Replication Transcription Complex	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694682	https://reactome.org/PathwayBrowser/#/R-HSA-9694682	SARS-CoV-2 Genome Replication and Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694682	https://reactome.org/PathwayBrowser/#/R-HSA-9694682	SARS-CoV-2 Genome Replication and Transcription	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694686	https://reactome.org/PathwayBrowser/#/R-HSA-9694686	Replication of the SARS-CoV-2 genome	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694686	https://reactome.org/PathwayBrowser/#/R-HSA-9694686	Replication of the SARS-CoV-2 genome	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694786	https://reactome.org/PathwayBrowser/#/R-HSA-9694786	Transcription of SARS-CoV-2 sgRNAs	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9694786	https://reactome.org/PathwayBrowser/#/R-HSA-9694786	Transcription of SARS-CoV-2 sgRNAs	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9705671	https://reactome.org/PathwayBrowser/#/R-HSA-9705671	SARS-CoV-2 activates/modulates innate and adaptive immune responses	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9705683	https://reactome.org/PathwayBrowser/#/R-HSA-9705683	SARS-CoV-2-host interactions	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9727281	https://reactome.org/PathwayBrowser/#/R-HSA-9727281	Translation of Accessory Proteins	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9733458	https://reactome.org/PathwayBrowser/#/R-HSA-9733458	Induction of Cell-Cell Fusion	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9772572	https://reactome.org/PathwayBrowser/#/R-HSA-9772572	Early SARS-CoV-2 Infection Events	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9772572	https://reactome.org/PathwayBrowser/#/R-HSA-9772572	Early SARS-CoV-2 Infection Events	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9772573	https://reactome.org/PathwayBrowser/#/R-HSA-9772573	Late SARS-CoV-2 Infection Events	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9772573	https://reactome.org/PathwayBrowser/#/R-HSA-9772573	Late SARS-CoV-2 Infection Events	IEA	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	TAS	Homo sapiens	invalid_ncbi_gene_id
+MN908947.3	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-8983711	https://reactome.org/PathwayBrowser/#/R-HSA-8983711	OAS antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-9684482	https://reactome.org/PathwayBrowser/#/R-HSA-9684482	IFIT antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001547	R-HSA-9690722	https://reactome.org/PathwayBrowser/#/R-HSA-9690722	Viral strategies to evade IFIT action	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001672	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001672	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001672	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001672	R-HSA-8983711	https://reactome.org/PathwayBrowser/#/R-HSA-8983711	OAS antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_001672	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9678108	https://reactome.org/PathwayBrowser/#/R-HSA-9678108	SARS-CoV-1 Infection	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9678108	https://reactome.org/PathwayBrowser/#/R-HSA-9678108	SARS-CoV-1 Infection	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9678110	https://reactome.org/PathwayBrowser/#/R-HSA-9678110	Attachment and Entry	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9679504	https://reactome.org/PathwayBrowser/#/R-HSA-9679504	Translation of Replicase and Assembly of the Replication Transcription Complex	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9679506	https://reactome.org/PathwayBrowser/#/R-HSA-9679506	SARS-CoV Infections	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9679506	https://reactome.org/PathwayBrowser/#/R-HSA-9679506	SARS-CoV Infections	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9679509	https://reactome.org/PathwayBrowser/#/R-HSA-9679509	Virion Assembly and Release	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9679514	https://reactome.org/PathwayBrowser/#/R-HSA-9679514	SARS-CoV-1 Genome Replication and Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9682706	https://reactome.org/PathwayBrowser/#/R-HSA-9682706	Replication of the SARS-CoV-1 genome	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9682708	https://reactome.org/PathwayBrowser/#/R-HSA-9682708	Transcription of SARS-CoV-1 sgRNAs	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9683701	https://reactome.org/PathwayBrowser/#/R-HSA-9683701	Translation of Structural Proteins	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9684482	https://reactome.org/PathwayBrowser/#/R-HSA-9684482	IFIT antiviral response	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9690722	https://reactome.org/PathwayBrowser/#/R-HSA-9690722	Viral strategies to evade IFIT action	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9692914	https://reactome.org/PathwayBrowser/#/R-HSA-9692914	SARS-CoV-1-host interactions	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9692914	https://reactome.org/PathwayBrowser/#/R-HSA-9692914	SARS-CoV-1-host interactions	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9692916	https://reactome.org/PathwayBrowser/#/R-HSA-9692916	SARS-CoV-1 activates/modulates innate immune responses	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9692916	https://reactome.org/PathwayBrowser/#/R-HSA-9692916	SARS-CoV-1 activates/modulates innate immune responses	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_004718.3	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	IEA	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-163282	https://reactome.org/PathwayBrowser/#/R-HSA-163282	Mitochondrial transcription initiation	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-163316	https://reactome.org/PathwayBrowser/#/R-HSA-163316	Mitochondrial transcription termination	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-6785470	https://reactome.org/PathwayBrowser/#/R-HSA-6785470	tRNA processing in the mitochondrion	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-69306	https://reactome.org/PathwayBrowser/#/R-HSA-69306	DNA Replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-72306	https://reactome.org/PathwayBrowser/#/R-HSA-72306	tRNA processing	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-72312	https://reactome.org/PathwayBrowser/#/R-HSA-72312	rRNA processing	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-75944	https://reactome.org/PathwayBrowser/#/R-HSA-75944	Transcription from mitochondrial promoters	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-8868766	https://reactome.org/PathwayBrowser/#/R-HSA-8868766	rRNA processing in the mitochondrion	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-8953854	https://reactome.org/PathwayBrowser/#/R-HSA-8953854	Metabolism of RNA	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-9836573	https://reactome.org/PathwayBrowser/#/R-HSA-9836573	Mitochondrial RNA degradation	TAS	Homo sapiens	invalid_ncbi_gene_id
+NC_012920	R-HSA-9913635	https://reactome.org/PathwayBrowser/#/R-HSA-9913635	Strand-asynchronous mitochondrial DNA replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-212436	https://reactome.org/PathwayBrowser/#/R-HSA-212436	Generic Transcription Pathway	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-2262752	https://reactome.org/PathwayBrowser/#/R-HSA-2262752	Cellular responses to stress	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-2559580	https://reactome.org/PathwayBrowser/#/R-HSA-2559580	Oxidative Stress Induced Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-2559583	https://reactome.org/PathwayBrowser/#/R-HSA-2559583	Cellular Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-2559585	https://reactome.org/PathwayBrowser/#/R-HSA-2559585	Oncogene Induced Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-73857	https://reactome.org/PathwayBrowser/#/R-HSA-73857	RNA Polymerase II Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-8853884	https://reactome.org/PathwayBrowser/#/R-HSA-8853884	Transcriptional Regulation by VENTX	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_000077.4	R-HSA-8953897	https://reactome.org/PathwayBrowser/#/R-HSA-8953897	Cellular responses to stimuli	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001244810	R-HSA-1266738	https://reactome.org/PathwayBrowser/#/R-HSA-1266738	Developmental Biology	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001244810	R-HSA-452723	https://reactome.org/PathwayBrowser/#/R-HSA-452723	Transcriptional regulation of pluripotent stem cells	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-1266738	https://reactome.org/PathwayBrowser/#/R-HSA-1266738	Developmental Biology	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-9734767	https://reactome.org/PathwayBrowser/#/R-HSA-9734767	Developmental Cell Lineages	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-9734779	https://reactome.org/PathwayBrowser/#/R-HSA-9734779	Developmental Cell Lineages of the Integumentary System	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-9924644	https://reactome.org/PathwayBrowser/#/R-HSA-9924644	Developmental Lineages of the Mammary Gland	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-9927418	https://reactome.org/PathwayBrowser/#/R-HSA-9927418	Developmental Lineage of Mammary Gland Luminal Epithelial Cells	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_001371720	R-HSA-9927426	https://reactome.org/PathwayBrowser/#/R-HSA-9927426	Developmental Lineage of Mammary Gland Alveolar Cells	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-212436	https://reactome.org/PathwayBrowser/#/R-HSA-212436	Generic Transcription Pathway	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-2262752	https://reactome.org/PathwayBrowser/#/R-HSA-2262752	Cellular responses to stress	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-2559580	https://reactome.org/PathwayBrowser/#/R-HSA-2559580	Oxidative Stress Induced Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-2559583	https://reactome.org/PathwayBrowser/#/R-HSA-2559583	Cellular Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-2559585	https://reactome.org/PathwayBrowser/#/R-HSA-2559585	Oncogene Induced Senescence	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-73857	https://reactome.org/PathwayBrowser/#/R-HSA-73857	RNA Polymerase II Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-8853884	https://reactome.org/PathwayBrowser/#/R-HSA-8853884	Transcriptional Regulation by VENTX	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-8878159	https://reactome.org/PathwayBrowser/#/R-HSA-8878159	Transcriptional regulation by RUNX3	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-8951936	https://reactome.org/PathwayBrowser/#/R-HSA-8951936	RUNX3 regulates p14-ARF	TAS	Homo sapiens	invalid_ncbi_gene_id
+NM_058195.3	R-HSA-8953897	https://reactome.org/PathwayBrowser/#/R-HSA-8953897	Cellular responses to stimuli	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-6790901	https://reactome.org/PathwayBrowser/#/R-HSA-6790901	rRNA modification in the nucleus and cytosol	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-6791226	https://reactome.org/PathwayBrowser/#/R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-72312	https://reactome.org/PathwayBrowser/#/R-HSA-72312	rRNA processing	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-72312	https://reactome.org/PathwayBrowser/#/R-HSA-72312	rRNA processing	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-8868773	https://reactome.org/PathwayBrowser/#/R-HSA-8868773	rRNA processing in the nucleus and cytosol	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-8868773	https://reactome.org/PathwayBrowser/#/R-HSA-8868773	rRNA processing in the nucleus and cytosol	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-8953854	https://reactome.org/PathwayBrowser/#/R-HSA-8953854	Metabolism of RNA	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_006880	R-HSA-8953854	https://reactome.org/PathwayBrowser/#/R-HSA-8953854	Metabolism of RNA	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_030583	R-HSA-1169410	https://reactome.org/PathwayBrowser/#/R-HSA-1169410	Antimicrobial mechanism of IFN-stimulated genes	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_030583	R-HSA-1280215	https://reactome.org/PathwayBrowser/#/R-HSA-1280215	Cytokine Signaling in Immune system	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_030583	R-HSA-168256	https://reactome.org/PathwayBrowser/#/R-HSA-168256	Immune System	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_030583	R-HSA-913531	https://reactome.org/PathwayBrowser/#/R-HSA-913531	Interferon Signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_030583	R-HSA-9833482	https://reactome.org/PathwayBrowser/#/R-HSA-9833482	PKR-mediated signaling	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-427413	https://reactome.org/PathwayBrowser/#/R-HSA-427413	NoRC negatively regulates rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-5250941	https://reactome.org/PathwayBrowser/#/R-HSA-5250941	Negative epigenetic regulation of rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-6790901	https://reactome.org/PathwayBrowser/#/R-HSA-6790901	rRNA modification in the nucleus and cytosol	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-6790901	https://reactome.org/PathwayBrowser/#/R-HSA-6790901	rRNA modification in the nucleus and cytosol	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-6791226	https://reactome.org/PathwayBrowser/#/R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-72312	https://reactome.org/PathwayBrowser/#/R-HSA-72312	rRNA processing	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-72312	https://reactome.org/PathwayBrowser/#/R-HSA-72312	rRNA processing	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-73863	https://reactome.org/PathwayBrowser/#/R-HSA-73863	RNA Polymerase I Transcription Termination	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-73863	https://reactome.org/PathwayBrowser/#/R-HSA-73863	RNA Polymerase I Transcription Termination	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-73864	https://reactome.org/PathwayBrowser/#/R-HSA-73864	RNA Polymerase I Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-73864	https://reactome.org/PathwayBrowser/#/R-HSA-73864	RNA Polymerase I Transcription	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-8868773	https://reactome.org/PathwayBrowser/#/R-HSA-8868773	rRNA processing in the nucleus and cytosol	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-8868773	https://reactome.org/PathwayBrowser/#/R-HSA-8868773	rRNA processing in the nucleus and cytosol	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-8953854	https://reactome.org/PathwayBrowser/#/R-HSA-8953854	Metabolism of RNA	TAS	Homo sapiens	invalid_ncbi_gene_id
+NR_046235	R-HSA-8953854	https://reactome.org/PathwayBrowser/#/R-HSA-8953854	Metabolism of RNA	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_144432	R-HSA-1266738	https://reactome.org/PathwayBrowser/#/R-HSA-1266738	Developmental Biology	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_144432	R-HSA-9758941	https://reactome.org/PathwayBrowser/#/R-HSA-9758941	Gastrulation	IEA	Homo sapiens	invalid_ncbi_gene_id
+NR_144432	R-HSA-9823730	https://reactome.org/PathwayBrowser/#/R-HSA-9823730	Formation of definitive endoderm	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-427389	https://reactome.org/PathwayBrowser/#/R-HSA-427389	ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-427413	https://reactome.org/PathwayBrowser/#/R-HSA-427413	NoRC negatively regulates rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-5250913	https://reactome.org/PathwayBrowser/#/R-HSA-5250913	Positive epigenetic regulation of rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-5250941	https://reactome.org/PathwayBrowser/#/R-HSA-5250941	Negative epigenetic regulation of rRNA expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73728	https://reactome.org/PathwayBrowser/#/R-HSA-73728	RNA Polymerase I Promoter Opening	TAS	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73762	https://reactome.org/PathwayBrowser/#/R-HSA-73762	RNA Polymerase I Transcription Initiation	TAS	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73772	https://reactome.org/PathwayBrowser/#/R-HSA-73772	RNA Polymerase I Promoter Escape	TAS	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73863	https://reactome.org/PathwayBrowser/#/R-HSA-73863	RNA Polymerase I Transcription Termination	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73863	https://reactome.org/PathwayBrowser/#/R-HSA-73863	RNA Polymerase I Transcription Termination	TAS	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73864	https://reactome.org/PathwayBrowser/#/R-HSA-73864	RNA Polymerase I Transcription	TAS	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-73864	https://reactome.org/PathwayBrowser/#/R-HSA-73864	RNA Polymerase I Transcription	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	IEA	Homo sapiens	invalid_ncbi_gene_id
+U13369	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-1643685	https://reactome.org/PathwayBrowser/#/R-HSA-1643685	Disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-5663205	https://reactome.org/PathwayBrowser/#/R-HSA-5663205	Infectious disease	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-9820952	https://reactome.org/PathwayBrowser/#/R-HSA-9820952	Respiratory Syncytial Virus Infection Pathway	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-9820965	https://reactome.org/PathwayBrowser/#/R-HSA-9820965	Respiratory syncytial virus (RSV) genome replication, transcription and translation	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-9824446	https://reactome.org/PathwayBrowser/#/R-HSA-9824446	Viral Infection Pathways	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-9833110	https://reactome.org/PathwayBrowser/#/R-HSA-9833110	RSV-host interactions	TAS	Homo sapiens	invalid_ncbi_gene_id
+U39662	R-HSA-9834752	https://reactome.org/PathwayBrowser/#/R-HSA-9834752	Respiratory syncytial virus genome replication	TAS	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	IEA	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-212165	https://reactome.org/PathwayBrowser/#/R-HSA-212165	Epigenetic regulation of gene expression	TAS	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	IEA	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-74160	https://reactome.org/PathwayBrowser/#/R-HSA-74160	Gene expression (Transcription)	TAS	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-9842860	https://reactome.org/PathwayBrowser/#/R-HSA-9842860	Regulation of endogenous retroelements	IEA	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-9842860	https://reactome.org/PathwayBrowser/#/R-HSA-9842860	Regulation of endogenous retroelements	TAS	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-9843970	https://reactome.org/PathwayBrowser/#/R-HSA-9843970	Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex	IEA	Homo sapiens	invalid_ncbi_gene_id
+X58075	R-HSA-9843970	https://reactome.org/PathwayBrowser/#/R-HSA-9843970	Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex	TAS	Homo sapiens	invalid_ncbi_gene_id

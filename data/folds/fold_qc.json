@@ -1,0 +1,25 @@
+{
+  "all_leakage_checks_passed": true,
+  "candidate_genes": 16992,
+  "candidate_universe_sha256": "c9b3db18d58664477404a6473033ad10b74b471996ebe89a93f35445606779b9",
+  "cross_fold_parent_child_pairs": 0,
+  "diseases": 451,
+  "families": 216,
+  "fold_disease_counts": {
+    "0": 91,
+    "1": 90,
+    "2": 90,
+    "3": 90,
+    "4": 90
+  },
+  "fold_family_counts": {
+    "0": 17,
+    "1": 26,
+    "2": 57,
+    "3": 58,
+    "4": 58
+  },
+  "number_of_folds": 5,
+  "parent_child_disease_pairs": 0,
+  "seed": 42
+}

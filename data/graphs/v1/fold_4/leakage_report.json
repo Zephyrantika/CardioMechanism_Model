@@ -1,0 +1,153 @@
+{
+  "audit": {
+    "candidate_universe_sha256": "3ca39c8b2a6d8b17414f53848be0b5d7fa17783c829d5573e3620142289dddfe",
+    "query_rows": 451,
+    "serialization_sha256": "143347ea6361603688bb7adfe3e1ed93bb7652f6092ad93074d964c5dcc6f312",
+    "training_ic_sha256": "beb5b319cde2cb654f35267a28c4fef6b1e7a8a70c9637b74f751850daf50ccf",
+    "unlabelled_never_confirmed_negative": true
+  },
+  "checks": {
+    "deterministic_serialization_hash": {
+      "details": "143347ea6361603688bb7adfe3e1ed93bb7652f6092ad93074d964c5dcc6f312",
+      "passed": true
+    },
+    "disease_families_disjoint": {
+      "details": [],
+      "passed": true
+    },
+    "disease_sets_disjoint": {
+      "details": [],
+      "passed": true
+    },
+    "graph_edge_counts_reconcile_v0": {
+      "details": {
+        "gene_gene": {
+          "expected": 465738,
+          "v0_nnz": 465738
+        },
+        "gene_hpo": {
+          "expected": 10490,
+          "v0_nnz": 10490
+        },
+        "gene_pathway": {
+          "expected": 104078,
+          "v0_nnz": 104078
+        },
+        "hpo_gene": {
+          "expected": 10490,
+          "v0_nnz": 10490
+        },
+        "hpo_hpo": {
+          "expected": 48872,
+          "v0_nnz": 48872
+        },
+        "pathway_gene": {
+          "expected": 104078,
+          "v0_nnz": 104078
+        },
+        "pathway_pathway": {
+          "expected": 3910,
+          "v0_nnz": 3910
+        }
+      },
+      "passed": true
+    },
+    "hpo_ids_in_fold_training_ic": {
+      "details": [],
+      "passed": true
+    },
+    "hpo_weights_nonnegative_finite": {
+      "details": null,
+      "passed": true
+    },
+    "no_confirmed_negative_labels": {
+      "details": {
+        "columns": [
+          "fold",
+          "split",
+          "disease_id",
+          "disease_family_ids",
+          "hpo_ids",
+          "hpo_weights",
+          "positive_gene_ids",
+          "covered_positive_gene_ids",
+          "unresolved_positive_gene_ids",
+          "source_version"
+        ]
+      },
+      "passed": true
+    },
+    "positive_genes_covered_or_unresolved": {
+      "details": {
+        "bad_rows": [],
+        "unresolved_total": 12
+      },
+      "passed": true
+    },
+    "split_partitions_match_frozen": {
+      "details": [],
+      "passed": true
+    },
+    "v0_fold_leakage_endorsed": {
+      "details": {
+        "all_diseases_assigned_once": true,
+        "candidate_universe_nonempty": true,
+        "disease_sets_disjoint": true,
+        "family_sets_disjoint": true,
+        "hpo_gene_edges_train_only": true,
+        "no_cross_fold_parent_child_pairs": true,
+        "no_direct_answer_edges": true,
+        "no_test_contributors": true,
+        "no_validation_contributors": true
+      },
+      "passed": true
+    }
+  },
+  "failed_checks": 0,
+  "fold": 4,
+  "passed_checks": 10,
+  "status": "PASS",
+  "v0_endorsed_leakage_report": {
+    "candidate_universe_sha256": "c9b3db18d58664477404a6473033ad10b74b471996ebe89a93f35445606779b9",
+    "checks": {
+      "all_diseases_assigned_once": true,
+      "candidate_universe_nonempty": true,
+      "disease_sets_disjoint": true,
+      "family_sets_disjoint": true,
+      "hpo_gene_edges_train_only": true,
+      "no_cross_fold_parent_child_pairs": true,
+      "no_direct_answer_edges": true,
+      "no_test_contributors": true,
+      "no_validation_contributors": true
+    },
+    "cross_fold_parent_child_pairs": [],
+    "direct_answer_edge_count": 0,
+    "fold": 4,
+    "hpo_gene_edges": 10988,
+    "parent_child_disease_pair_count": 0,
+    "test_candidate_coverage": {
+      "covered_genes": 91,
+      "fraction": 0.9891304347826086,
+      "reference_genes": 92,
+      "unevaluable_gene_ids": [
+        "151188"
+      ]
+    },
+    "test_diseases": 90,
+    "test_families": 58,
+    "train_diseases": 270,
+    "train_families": 141,
+    "validation_candidate_coverage": {
+      "covered_genes": 94,
+      "fraction": 0.9690721649484536,
+      "reference_genes": 97,
+      "unevaluable_gene_ids": [
+        "4567",
+        "7716",
+        "148345"
+      ]
+    },
+    "validation_diseases": 91,
+    "validation_families": 17
+  }
+}

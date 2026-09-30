@@ -1,0 +1,43 @@
+{
+  "candidate_universe_sha256": "c9b3db18d58664477404a6473033ad10b74b471996ebe89a93f35445606779b9",
+  "checks": {
+    "all_diseases_assigned_once": true,
+    "candidate_universe_nonempty": true,
+    "disease_sets_disjoint": true,
+    "family_sets_disjoint": true,
+    "hpo_gene_edges_train_only": true,
+    "no_cross_fold_parent_child_pairs": true,
+    "no_direct_answer_edges": true,
+    "no_test_contributors": true,
+    "no_validation_contributors": true
+  },
+  "cross_fold_parent_child_pairs": [],
+  "direct_answer_edge_count": 0,
+  "fold": 4,
+  "hpo_gene_edges": 10988,
+  "parent_child_disease_pair_count": 0,
+  "test_candidate_coverage": {
+    "covered_genes": 91,
+    "fraction": 0.9891304347826086,
+    "reference_genes": 92,
+    "unevaluable_gene_ids": [
+      "151188"
+    ]
+  },
+  "test_diseases": 90,
+  "test_families": 58,
+  "train_diseases": 270,
+  "train_families": 141,
+  "validation_candidate_coverage": {
+    "covered_genes": 94,
+    "fraction": 0.9690721649484536,
+    "reference_genes": 97,
+    "unevaluable_gene_ids": [
+      "4567",
+      "7716",
+      "148345"
+    ]
+  },
+  "validation_diseases": 91,
+  "validation_families": 17
+}

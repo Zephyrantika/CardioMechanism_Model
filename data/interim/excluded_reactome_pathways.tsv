@@ -1,0 +1,705 @@
+pathway_id	pathway_name	species	gene_count	included_in_primary_graph	source_version	reason
+R-HSA-109582	Hemostasis	Homo sapiens	634	False	97	above_maximum_genes
+R-HSA-109703	PKB-mediated events	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-110381	Resolution of AP sites via the single-nucleotide replacement pathway	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-111446	Activation of BIM and translocation to mitochondria 	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-111452	Activation and oligomerization of BAK protein	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-111995	phospho-PLA2 pathway	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-112122	ALKBH2 mediated reversal of alkylation damage	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-112126	ALKBH3 mediated reversal of alkylation damage	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-112313	Neurotransmitter uptake and metabolism In glial cells	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-114294	Activation, translocation and oligomerization of BAX	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1251932	PLCG1 events in ERBB2 signaling	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-1266738	Developmental Biology	Homo sapiens	1562	False	97	above_maximum_genes
+R-HSA-1280215	Cytokine Signaling in Immune system	Homo sapiens	845	False	97	above_maximum_genes
+R-HSA-1280218	Adaptive Immune System	Homo sapiens	1073	False	97	above_maximum_genes
+R-HSA-1296025	ATP sensitive Potassium channels	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-1296053	Classical Kir channels	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-1296061	HCN channels	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-1296067	Potassium transport channels	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-1299287	Tandem pore domain halothane-inhibited K+ channel (THIK)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-1299308	Tandem of pore domain in a weak inwardly rectifying K+ channels (TWIK)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-1299316	TWIK-releated acid-sensitive K+ channel (TASK)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1299344	TWIK-related spinal cord K+ channel (TRESK)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-1299361	TWIK-related alkaline pH activated K+ channel (TALK)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1299503	TWIK related potassium channel (TREK)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-1307965	betaKlotho-mediated ligand binding	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-1369007	Mitochondrial ABC transporters	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-139910	Activation of BMF and translocation to mitochondria	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-140179	Amine Oxidase reactions	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-140180	COX reactions	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-141333	Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-141334	PAOs oxidise polyamines to amines	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1430728	Metabolism	Homo sapiens	2195	False	97	above_maximum_genes
+R-HSA-1483076	Synthesis of CL	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-1483101	Synthesis of PS	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1483152	Hydrolysis of LPE	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1483171	Synthesis of BMP	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1483196	PI and PC transport between ER and Golgi membranes	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-156582	Acetylation	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1614603	Cysteine formation from homocysteine	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-162582	Signal Transduction	Homo sapiens	2611	False	97	above_maximum_genes
+R-HSA-162699	Synthesis of dolichyl-phosphate mannose	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-163282	Mitochondrial transcription initiation	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-163316	Mitochondrial transcription termination	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1640170	Cell Cycle	Homo sapiens	689	False	97	above_maximum_genes
+R-HSA-1643685	Disease	Homo sapiens	2478	False	97	above_maximum_genes
+R-HSA-164939	Nef mediated downregulation of CD28 cell surface expression	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-165158	Activation of AKT2	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-165160	PDE3B signalling	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-166020	Transfer of LPS from LBP carrier to CD14	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-1660502	PIPs transport between early and late endosome membranes	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1660508	PIPs transport between late endosome and Golgi membranes	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1660510	PIPs transport between Golgi and plasma membranes	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1660524	PIPs transport between plasma and early endosome membranes	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1660537	PIPs transport between early endosome and Golgi membranes	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-167021	PLC-gamma1 signalling	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-167060	NGF processing	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-168249	Innate Immune System	Homo sapiens	1140	False	97	above_maximum_genes
+R-HSA-168256	Immune System	Homo sapiens	2393	False	97	above_maximum_genes
+R-HSA-168277	Influenza Virus Induced Apoptosis	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-168305	Inhibition of Interferon Synthesis	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-168315	Inhibition of Host mRNA Processing and RNA Silencing	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-168874	Transport of HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum to the Golgi Apparatus	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-168888	Inhibition of IFN-beta	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-169131	Inhibition of PKR	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-171286	Synthesis and processing of ENV and VPU	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-176034	Interactions of Tat with host cellular proteins	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-177162	Conjugation of phenylacetate with glutamine	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-180897	Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-1839120	Signaling by FGFR1 amplification mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-1839128	FGFR4 mutant receptor activation	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-1855156	IPs transport between ER lumen and nucleus	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1855184	IPs transport between cytosol and ER lumen	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1855191	Synthesis of IPs in the nucleus	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-1855192	IPs transport between nucleus and ER lumen	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1855215	IPs transport between ER lumen and cytosol	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-1855231	Synthesis of IPs in the ER lumen	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-187042	TRKA activation by NGF	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-190374	FGFR1c and Klotho ligand binding and activation	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-190704	Oligomerization of connexins into connexons	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-190827	Transport of connexins along the secretory pathway	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-191650	Regulation of gap junction activity	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-192869	cRNA Synthesis	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-193681	Ceramide signalling	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-194306	Neuropilin interactions with VEGF and VEGFR	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-194315	Signaling by Rho GTPases	Homo sapiens	708	False	97	above_maximum_genes
+R-HSA-198745	Signalling to STAT3	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-198765	Signalling to ERK5	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-199991	Membrane Trafficking	Homo sapiens	636	False	97	above_maximum_genes
+R-HSA-2023837	Signaling by FGFR2 amplification mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2033515	t(4;14) translocations of FGFR3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-203754	NOSIP mediated eNOS trafficking	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-204626	Hypusine synthesis from eIF5A-lysine	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-205017	NFG and proNGF binds to p75NTR	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-209563	Axonal growth stimulation	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-209905	Catecholamine biosynthesis	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-210455	Astrocytic Glutamate-Glutamine Uptake And Metabolism	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-210746	Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-211163	AKT-mediated inactivation of FOXO1A	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-211728	Regulation of PAK-2p34 activity by PS-GAP/RHG10	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-211736	Stimulation of the cell death response by PAK-2p34	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-211957	Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-211994	Sterols are 12-hydroxylated by CYP8B1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-212436	Generic Transcription Pathway	Homo sapiens	1242	False	97	above_maximum_genes
+R-HSA-2142696	Synthesis of Hepoxilins (HX) and Trioxilins (TrX)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2160456	Phenylketonuria	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2161541	Abacavir metabolism	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-217271	FMO oxidises nucleophiles	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-2206280	MPS IX - Natowicz syndrome (Hyaluronan metabolism)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206282	MPS IIIB - Sanfilippo syndrome B	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206285	MPS VI - Maroteaux-Lamy syndrome	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206290	MPS IV - Morquio syndrome A	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206291	MPS IIIC - Sanfilippo syndrome C	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206292	MPS VII - Sly syndrome (Hyaluronan metabolism)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206296	MPS II - Hunter syndrome (HS-GAG degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206302	MPS I - Hurler syndrome (HS-GAG degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206305	MPS IIID - Sanfilippo syndrome D	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206307	MPS IIIA - Sanfilippo syndrome A	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2206308	MPS IV - Morquio syndrome B (Keratin metabolism)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2262752	Cellular responses to stress	Homo sapiens	800	False	97	above_maximum_genes
+R-HSA-2395516	Electron transport from NADPH to Ferredoxin	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-2408499	Formation of selenosugars for excretion	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-2408552	Methylation of MeSeH for excretion	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2466712	Biosynthesis of A2E, implicated in retinal degradation	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-2473224	Antagonism of Activin by Follistatin	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-2892245	POU5F1 (OCT4), SOX2, NANOG repress genes related to differentiation	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-2978092	Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3000497	Scavenging by Class H Receptors	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-3229133	Glycogen storage disease type Ib (SLC37A4)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3248023	Regulation by TREX1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3249367	STAT6-mediated induction of chemokines	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3274531	Glycogen storage disease type Ia (G6PC)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3282872	Severe congenital neutropenia type 4 (G6PC3)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3296197	Hydroxycarboxylic acid-binding receptors	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3304347	Loss of Function of SMAD4 in Cancer	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3311021	SMAD4 MH2 Domain Mutants in Cancer	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3315487	SMAD2/3 MH2 Domain Mutants in Cancer	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3359454	Defective TCN2 causes TCN2 deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3359457	Defective CBLIF causes IFD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3359462	Defective AMN causes MGA1	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3359463	Defective CUBN causes MGA1	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3359467	Defective MTRR causes HMAE	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3359469	Defective MTR causes HMAG	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3359471	Defective MMAB causes MMA, cblB type	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3359473	Defective MMADHC causes MMAHCD	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3359474	Defective MMACHC causes MAHCC	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3359475	Defective MMAA causes MMA, cblA type	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3359478	Defective MUT causes MMAM	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3359485	Defective CD320 causes MMATC	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3371598	Defective BTD causes biotidinase deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-350864	Regulation of thyroid hormone activity	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-351143	Agmatine biosynthesis	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-351200	Interconversion of polyamines	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-352238	Breakdown of the nuclear lamina	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3560792	Defective SLC26A2 causes chondrodysplasias	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3560796	Defective PAPSS2 causes SEMD-PA	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3642278	Loss of Function of TGFBR2 in Cancer	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3642279	TGFBR2 MSI Frameshift Mutants in Cancer	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3645790	TGFBR2 Kinase Domain Mutants in Cancer	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3656234	Defective HEXA causes GM2G1 (Hyaluronan metabolism)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3656248	Defective HEXB causes GM2G2 (Hyaluronan metabolism)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-3656535	TGFBR1 LBD Mutants in Cancer	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-372790	Signaling by GPCR	Homo sapiens	710	False	97	above_maximum_genes
+R-HSA-373756	SDK interactions	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-376172	DSCAM interactions	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-379397	Enzymatic degradation of dopamine by COMT	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-379398	Enzymatic degradation of Dopamine by monoamine oxidase	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-379401	Dopamine clearance from the synaptic cleft	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-380612	Metabolism of serotonin	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-380615	Serotonin clearance from the synaptic cleft	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-3814836	Glycogen storage disease type XV (GYG1)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-382551	Transport of small molecules	Homo sapiens	721	False	97	above_maximum_genes
+R-HSA-3828062	Glycogen storage disease type 0 (muscle GYS1)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3858516	Glycogen storage disease type 0 (liver GYS2)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-3878781	Glycogen storage disease type IV (GBE1)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-388396	GPCR downstream signalling	Homo sapiens	633	False	97	above_maximum_genes
+R-HSA-389542	NADPH regeneration	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-390650	Histamine receptors	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-392023	Adrenaline signalling through Alpha-2 adrenergic receptor	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-392499	Metabolism of proteins	Homo sapiens	2139	False	97	above_maximum_genes
+R-HSA-399710	Activation of AMPA receptors	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-4043911	Defective PMM2 causes PMM2-CDG	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4043916	Defective MPI causes MPI-CDG	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4085011	Defective GNE causes sialuria, NK and IBM2	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4085023	Defective GFPT1 causes CMSTA1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-417973	Adenosine P1 receptors	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-422475	Axon guidance	Homo sapiens	538	False	97	above_maximum_genes
+R-HSA-427589	Type II Na+/Pi cotransporters	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-427975	Proton/oligopeptide cotransporters	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-428359	Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-428559	Proton-coupled neutral amino acid transporters	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-429593	Inositol transporters	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-432030	Transport of glycerol from adipocytes to the liver by Aquaporins	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-433137	Sodium-coupled sulphate, di- and tri-carboxylate transporters	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-4341670	Defective NEU1 causes sialidosis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-434313	Intracellular metabolism of fatty acids regulates insulin secretion	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-444411	Rhesus glycoproteins mediate ammonium transport	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-446343	Localization of the PINCH-ILK-PARVIN complex to focal adhesions	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-451307	Activation of Na-permeable kainate receptors	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-4549349	Defective ALG2 causes CDG-1i	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4549356	Defective DPAGT1 causes CDG-1j, CMSTA2	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4549380	Defective ALG1 causes CDG-1k	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4551295	Defective ALG11 causes CDG-1p	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4570571	Defective RFT1 causes CDG-1n	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4687000	Defective MPDU1 causes CDG-1f	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4717374	Defective DPM1 causes DPM1-CDG	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-4719360	Defective DPM3 causes DPM3-CDG	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-4719377	Defective DPM2 causes DPM2-CDG	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-4720454	Defective ALG9 causes CDG-1l	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4720475	Defective ALG3 causes CDG-1d	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4720489	Defective ALG12 causes CDG-1g	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4724289	Defective ALG6 causes CDG-1c	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4724325	Defective ALG8 causes CDG-1h	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4755579	Defective SRD5A3 causes SRD5A3-CDG, KHRZ	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4755583	Defective DOLK causes DOLK-CDG	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4755609	Defective DHDDS causes RP59	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-4793950	Defective MAN1B1 causes MRT15	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4793952	Defective MGAT2 causes CDG-2a	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4793953	Defective B4GALT1 causes CDG-2d	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-4793954	Defective MOGS causes CDG-2b	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-480985	Synthesis of dolichyl-phosphate-glucose	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-500753	Pyrimidine biosynthesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5083627	Defective LARGE causes MDDGA6 and MDDGB6	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5083628	Defective POMGNT1 causes MDDGA3, MDDGB3 and MDDGC3	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5083629	Defective POMT2 causes MDDGA2, MDDGB2 and MDDGC2	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5083633	Defective POMT1 causes MDDGA1, MDDGB1 and MDDGC1	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5221030	TET1,2,3 and TDG demethylate DNA	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5250958	Toxicity of botulinum toxin type B (botB)	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5250971	Toxicity of botulinum toxin type C (botC)	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5250982	Toxicity of tetanus toxin (tetX)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5250989	Toxicity of botulinum toxin type G (botG)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5250992	Toxicity of botulinum toxin type E (botE)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5263617	Metabolism of ingested MeSeO2H into MeSeH	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5339700	Signaling by TCF7L2 mutants	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5340573	LGK974 inhibits PORCN	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5357609	Glycogen storage disease type II (GAA)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5368598	Negative regulation of TCF-dependent signaling by DVL-interacting proteins	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5467333	APC truncation mutants are not K63 polyubiquitinated	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5467343	Deletions in the AMER1 gene destabilize the destruction complex	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-5467345	Deletions in the AXIN1 gene destabilize the destruction complex	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-5545483	Defective Mismatch Repair Associated With MLH1	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5545619	XAV939 stabilizes AXIN	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-556833	Metabolism of lipids	Homo sapiens	758	False	97	above_maximum_genes
+R-HSA-5578995	Defective TPMT causes TPMT deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5578996	Defective CYP27A1 causes CTX	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5578997	Defective AHCY causes HMAHCHD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5578998	Defective OPLAH causes OPLAHD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5578999	Defective GCLC causes HAGGSD	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5579000	Defective CYP1B1 causes Glaucoma	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579002	Defective UGT1A1 causes hyperbilirubinemia	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579004	Defective CYP26C1 causes FFDD4	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579005	Defective CYP4F22 causes ARCI5	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579006	Defective GSS causes GSS deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579007	Defective ACY1 causes encephalopathy	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579009	Defective CYP11B2 causes CMO-1 deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579010	Defective CYP24A1 causes HCAI	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579011	Defective CYP2U1 causes SPG56	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579012	Defective MAOA causes BRUNS	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579013	Defective CYP7B1 causes SPG5A and CBAS3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579014	Defective CYP27B1 causes VDDR1A	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579015	Defective CYP26B1 causes RHFCA	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579016	Defective UGT1A4 causes hyperbilirubinemia	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579017	Defective CYP11B1 causes AH4	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579019	Defective FMO3 causes TMAU	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579020	Defective SLC35D1 causes SCHBCKD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579021	Defective CYP21A2 causes AH3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579022	Defective GGT1 causes GLUTH	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579024	Defective MAT1A causes MATD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579026	Defective CYP11A1 causes AICSR	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5579027	Defective CYP27B1 causes VDDR1B	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579028	Defective CYP17A1 causes AH5	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579030	Defective CYP19A1 causes AEXS	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5579031	Defective ACTH causes obesity and POMCD	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5579032	Defective TBXAS1 causes GHDD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5602410	TLR3 deficiency - HSE	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5602415	UNC93B1 deficiency - HSE	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5602566	TICAM1 deficiency - HSE	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5602571	TRAF3 deficiency - HSE	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5602636	IKBKB deficiency causes SCID	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5602680	MyD88 deficiency (TLR5)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5603027	IKBKG deficiency causes anhidrotic ectodermal dysplasia with immunodeficiency (EDA-ID) (via TLR)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5609974	Defective PGM1 causes PGM1-CDG	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5609976	Defective GALK1 causes GALCT2	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5609977	Defective GALE causes EDG	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5609978	Defective GALT can cause GALCT	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619035	Defective SLC17A5 causes Salla disease (SD) and ISSD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619036	Defective SLC24A5 causes oculocutaneous albinism 6 (OCA6)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619037	Defective transport by SLC35A1 causes congenital disorder of glycosylation 2F (CDG2F)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619039	Defective SLC12A6 causes agenesis of the corpus callosum, with peripheral neuropathy (ACCPN)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619040	Defective SLC34A1 causes hypophosphatemic nephrolithiasis/osteoporosis 1 (NPHLOP1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619041	Defective SLC36A2 causes iminoglycinuria (IG) and hyperglycinuria (HG)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619042	Defective RHAG causes regulator type Rh-null hemolytic anemia (RHN)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619043	Defective SLC2A1 causes GLUT1 deficiency syndrome 1 (GLUT1DS1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619044	Defective transport of neurotransmitters by SLC6A19 causes Hartnup disorder (HND)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619045	Defective SLC34A2 causes pulmonary alveolar microlithiasis (PALM)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619046	Defective SLC26A4 causes Pendred syndrome (PDS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619047	Defective SLC2A9 causes hypouricemia renal 2 (RHUC2)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619048	Defective SLC11A2 causes hypochromic microcytic anemia, with iron overload 1 (AHMIO1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619049	Defective SLC40A1 causes hemochromatosis 4 (HFE4) (macrophages)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5619050	Defective SLC4A1 causes hereditary spherocytosis type 4 (HSP4),  distal renal tubular acidosis (dRTA) and dRTA with hemolytic anemia (dRTA-HA)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619052	Defective SLC9A9 causes autism 16 (AUTS16)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619053	Defective SLC22A5 causes systemic primary carnitine deficiency (CDSP)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619054	Defective SLC4A4 causes renal tubular acidosis, proximal, with ocular abnormalities and mental retardation (pRTA-OA)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619055	Defective SLC24A4 causes hypomineralized amelogenesis imperfecta (AI)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619056	Defective HK1 causes hexokinase deficiency (HK deficiency)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619058	Defective SLCO1B3 causes hyperbilirubinemia, Rotor type (HBLRR)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619060	Defective CP causes aceruloplasminemia (ACERULOP)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5619061	Defective SLC33A1 causes spastic paraplegia 42 (SPG42)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619062	Defective SLC1A3 causes episodic ataxia 6 (EA6)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619063	Defective SLC29A3 causes histiocytosis-lymphadenopathy plus syndrome (HLAS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619066	Defective SLC22A18 causes lung cancer (LNCR) and embryonal rhabdomyosarcoma 1 (RMSE1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619067	Defective SLC1A1 is implicated in schizophrenia 18 (SCZD18) and dicarboxylic aminoaciduria (DCBXA)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619068	Defective SLC2A10 causes arterial tortuosity syndrome (ATS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619070	Defective SLC16A1 causes symptomatic deficiency in lactate transport (SDLT)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5619071	Defective SLC22A12 causes renal hypouricemia 1 (RHUC1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619072	Defective SLC35A2 causes congenital disorder of glycosylation 2M (CDG2M)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619073	Defective GCK causes maturity-onset diabetes of the young 2 (MODY2)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619076	Defective SLC17A8 causes autosomal dominant deafness 25 (DFNA25)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619077	Defective SLC24A1 causes congenital stationary night blindness 1D (CSNB1D)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619078	Defective SLC35C1 causes congenital disorder of glycosylation 2C (CDG2C)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619081	Defective neurotransmitter clearance by SLC6A3 causes Parkinsonism-dystonia infantile (PKDYS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619083	Defective SLC35A3 causes arthrogryposis, mental retardation, and seizures (AMRS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619085	Defective SLC26A3 causes congenital secretory chloride diarrhea 1 (DIAR1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619087	Defective SLC12A3 causes Gitelman syndrome (GS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619088	Defective SLC39A4 causes acrodermatitis enteropathica, zinc-deficiency type (AEZ)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619089	Defective SLC6A5 causes hyperekplexia 3 (HKPX3)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619092	Defective SLC9A6 causes  X-linked, syndromic mental retardation,, Christianson type (MRXSCH)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619094	Variant SLC6A14 may confer susceptibility towards obesity	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619095	Defective SLCO2A1 causes primary, autosomal recessive hypertrophic osteoarthropathy 2 (PHOAR2)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619096	Defective SLC5A5 causes thyroid dyshormonogenesis 1 (TDH1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619097	Defective SLC34A3 causes Hereditary hypophosphatemic rickets with hypercalciuria (HHRH)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619098	Defective SLC2A2 causes Fanconi-Bickel syndrome (FBS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619099	Defective AVP does not bind AVPR1A,B and causes neurohypophyseal diabetes insipidus (NDI)	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5619101	Variant SLC6A20 affecting neurotransmitter transport contributes towards hyperglycinuria (HG) and iminoglycinuria (IG)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619104	Defective SLC12A1 causes Bartter syndrome 1 (BS1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619108	Defective SLC27A4 causes ichthyosis prematurity syndrome (IPS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619109	Defective SLC6A2 causes orthostatic intolerance (OI)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619110	Defective SLCO1B1 causes hyperbilirubinemia, Rotor type (HBLRR)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619111	Defective SLC20A2 causes idiopathic basal ganglia calcification 1 (IBGC1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5619113	Defective SLC3A1 causes cystinuria (CSNU)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5619114	Defective SLC5A7 in the neurotransmitter release cycle causes distal hereditary motor neuronopathy 7A (HMN7A)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5624958	ARL13B-mediated ciliary trafficking of INPP5E	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5627083	RHO GTPases regulate CFTR trafficking	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5632927	Defective Mismatch Repair Associated With MSH3	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5632928	Defective Mismatch Repair Associated With MSH2	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5632968	Defective Mismatch Repair Associated With MSH6	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5632987	Defective Mismatch Repair Associated With PMS2	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5633231	Defective ALG14 causes ALG14-CMS	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5635851	GLI proteins bind promoters of Hh responsive genes to promote transcription	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5652227	Fructose biosynthesis	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5653656	Vesicle-mediated transport	Homo sapiens	679	False	97	above_maximum_genes
+R-HSA-5653890	Lactose synthesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5655799	Defective SLC40A1 causes hemochromatosis 4 (HFE4) (duodenum)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5656364	Defective SLC5A1 causes congenital glucose/galactose malabsorption (GGM)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5657560	Hereditary fructose intolerance	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5657562	Essential fructosuria	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5657655	MGMT-mediated DNA damage reversal	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5658034	HHAT G278V doesn't palmitoylate Hh-Np	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-5658208	Defective SLC5A2 causes renal glucosuria (GLYS1)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5658471	Defective transport by SLC5A7 causes distal hereditary motor neuronopathy 7A (HMN7A)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5659735	Defective transport of amino acids by SLC6A19 causes Hartnup disorder (HND)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5659898	Intestinal saccharidase deficiencies	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5659996	RPIA deficiency: failed conversion of R5P to RU5P	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5660489	MTF1 activates gene expression	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-5660686	Variant SLC6A20 affecting amino acid transport contributes towards hyperglycinuria (HG) and iminoglycinuria (IG)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5660724	Defective transport of neurotransmitters by SLC6A3 causes Parkinsonism-dystonia infantile (PKDYS)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5660862	Defective amino acid transport by SLC7A7 causes lysinuric protein intolerance (LPI)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5660883	Defective amino acid transport by SLC7A9 causes cystinuria (CSNU)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5662853	Essential pentosuria	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5663020	Defective SLC35A1 in sialic acid metabolism causes congenital disorder of glycosylation 2F (CDG2F)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5663205	Infectious disease	Homo sapiens	1663	False	97	above_maximum_genes
+R-HSA-5674404	PTEN Loss of Function in Cancer	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5678420	Defective ABCC9 causes CMD10, ATFB12 and Cantu syndrome	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5678520	Defective ABCB11 causes PFIC2 and BRIC2	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5678771	Defective ABCB4 causes PFIC3, ICP3 and GBD1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5679001	Defective ABCC2 causes DJS	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5679090	Defective ABCG8 causes GBD4 and sitosterolemia	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5679096	Defective ABCG5 causes sitosterolemia	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5682113	Defective ABCA1 causes TGD	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5682294	Defective ABCA12 causes ARCI4B	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5683177	Defective ABCC8 can cause hypo- and hyper-glycemias	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5683329	Defective ABCD4 causes MAHCJ	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-5683371	Defective ABCB6 causes MCOPCB7	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5683678	Defective ABCA3 causes SMDP3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5684045	Defective ABCD1 causes ALD	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5687583	Defective SLC34A2 causes PALM	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5687868	Defective SFTPA2 causes IPF	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5688031	Defective pro-SFTPB causes SMDP1 and RDS	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5688354	Defective pro-SFTPC causes SMDP2 and RDS	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5688399	Defective ABCA3 causes SMDP3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-5690338	Defective ABCC6 causes PXE	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-597592	Post-translational protein modification	Homo sapiens	1501	False	97	above_maximum_genes
+R-HSA-6791055	TALDO1 deficiency: failed conversion of SH7P, GA3P to Fru(6)P, E4P	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-6791461	RPIA deficiency: failed conversion of RU5P to R5P	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-6791462	TALDO1 deficiency: failed conversion of  Fru(6)P, E4P to SH7P, GA3P	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-6791465	Pentose phosphate pathway disease	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-6803544	Ion influx/efflux at host-pathogen interface	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-6804754	Regulation of TP53 Expression	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-6806664	Metabolism of vitamin K	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-6809583	Retinoid metabolism disease events	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-68881	Mitotic Metaphase/Anaphase Transition	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-69200	Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-69278	Cell Cycle, Mitotic	Homo sapiens	554	False	97	above_maximum_genes
+R-HSA-69560	Transcriptional activation of p53 responsive genes  	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-69895	Transcriptional  activation of  cell cycle inhibitor p21 	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-70688	Proline catabolism	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-71262	Carnitine synthesis	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-71737	Pyrophosphate hydrolysis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-73843	5-Phosphoribose 1-diphosphate biosynthesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-73857	RNA Polymerase II Transcription	Homo sapiens	1327	False	97	above_maximum_genes
+R-HSA-73930	Abasic sugar-phosphate removal via the single-nucleotide replacement pathway	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-74160	Gene expression (Transcription)	Homo sapiens	1522	False	97	above_maximum_genes
+R-HSA-75064	mRNA Editing: A to I Conversion	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-75102	C6 deamination of adenosine	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-75108	Activation, myristolyation of BID and translocation to mitochondria	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-75896	Plasmalogen biosynthesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-75944	Transcription from mitochondrial promoters	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-77042	Formation of editosomes by ADAR proteins	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-77108	Utilization of Ketone Bodies	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-77285	Beta oxidation of myristoyl-CoA to lauroyl-CoA	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-77305	Beta oxidation of palmitoyl-CoA to myristoyl-CoA	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-844455	The NLRP1 inflammasome	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-844615	The AIM2 inflammasome	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-880009	Interconversion of 2-oxoglutarate and 2-hydroxyglutarate	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8847453	Synthesis of PIPs in the nucleus	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8849175	Threonine catabolism	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8849472	PTK6 Down-Regulation	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8849474	PTK6 Activates STAT3	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8853333	Signaling by FGFR2 fusions	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-8853334	Signaling by FGFR3 fusions in cancer	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-8853336	Signaling by plasma membrane FGFR1 fusions	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8853383	Lysosomal oligosaccharide catabolism	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8854521	Interaction between PHLDA1 and AURKA	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-8866906	TFAP2 (AP-2) family regulates transcription of other transcription factors	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8874177	ATF6B (ATF6-beta) activates chaperones	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8875791	MET activates STAT3	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8877627	Vitamin E transport	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-888568	GABA synthesis	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-888593	Reuptake of GABA	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8932506	DAG1 core M1 glycosylations	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8941237	Invadopodia formation	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8941333	RUNX2 regulates genes involved in differentiation of myeloid cells	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8941413	Events associated with phagocytolytic activity of PMN cells	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-8942233	Intestinal infectious diseases	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-8951911	RUNX3 regulates RUNX1-mediated transcription	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-8953854	Metabolism of RNA	Homo sapiens	744	False	97	above_maximum_genes
+R-HSA-8953897	Cellular responses to stimuli	Homo sapiens	912	False	97	above_maximum_genes
+R-HSA-8963678	Intestinal lipid absorption	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-8964540	Alanine metabolism	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-8981373	Intestinal hexose absorption	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8981607	Intracellular oxygen transport	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-8985586	SLIT2:ROBO1 increases RHOA activity	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-8985801	Regulation of cortical dendrite branching	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9006821	Alternative Lengthening of Telomeres (ALT)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9006934	Signaling by Receptor Tyrosine Kinases	Homo sapiens	536	False	97	above_maximum_genes
+R-HSA-9007892	Interleukin-38 signaling	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9014843	Interleukin-33 signaling	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9018676	Biosynthesis of D-series resolvins	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9018681	Biosynthesis of protectins	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9018683	Biosynthesis of DPA-derived SPMs	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9020265	Biosynthesis of aspirin-triggered D-series resolvins	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9022534	Loss of MECP2 binding ability to 5hmC-DNA	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9022538	Loss of MECP2 binding ability to 5mC-DNA	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9022927	MECP2 regulates transcription of genes involved in GABA signaling	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9023661	Biosynthesis of E-series 18(R)-resolvins	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9024909	BDNF activates NTRK2 (TRKB) signaling	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9025046	NTF3 activates NTRK2 (TRKB) signaling	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9025094	Biosynthesis of DPAn-3 SPMs	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9025106	Biosynthesis of DPAn-6 SPMs	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026286	Biosynthesis of DPAn-3-derived protectins and resolvins	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026290	Biosynthesis of DPAn-3-derived maresins	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026357	NTF4 activates NTRK2 (TRKB) signaling	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026395	Biosynthesis of DHA-derived sulfido conjugates	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026403	Biosynthesis of DPAn-3-derived 13-series resolvins	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9026527	Activated NTRK2 signals through PLCG1	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9026762	Biosynthesis of maresin conjugates in tissue regeneration (MCTR)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9026766	Biosynthesis of protectin and resolvin conjugates in tissue regeneration (PCTR and RCTR)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9027604	Biosynthesis of electrophilic ω-3 PUFA oxo-derivatives	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9033807	ABO blood group biosynthesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9034013	NTF3 activates NTRK3 signaling	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9034793	Activated NTRK3 signals through PLCG1	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9035968	Defective GGT1 in aflatoxin detoxification causes GLUTH	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9036092	Defective AVP does not bind AVPR2 and causes neurohypophyseal diabetes insipidus (NDI)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9036866	Expression and Processing of Neurotrophins	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9037628	Rhesus blood group biosynthesis	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-916853	Degradation of GABA	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9603505	NTRK3 as a dependence receptor	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9605310	Defective Base Excision Repair Associated with MUTYH	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9608287	Defective MUTYH substrate binding	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9608290	Defective MUTYH substrate processing	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9616333	Defective Base Excision Repair Associated with NTHL1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9616334	Defective Base Excision Repair Associated with NEIL1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9629232	Defective Base Excision Repair Associated with NEIL3	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9630221	Defective NTHL1 substrate processing	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9630222	Defective NTHL1 substrate binding	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9630747	Diseases of Cellular Senescence	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9630750	Evasion of Oncogene Induced Senescence Due to p16INK4A Defects	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9630791	Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9630794	Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9632693	Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9632697	Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9632700	Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9636003	NEIL3-mediated resolution of ICLs	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9636249	Inhibition of nitric oxide production	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9636467	Blockage of phagosome acidification	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9636569	Suppression of autophagy	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9636667	Manipulation of host energy metabolism	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9637679	Escape of Mtb from the phagocyte	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9637698	Phagocyte cell death caused by cytosolic Mtb	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9640463	Wax biosynthesis	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9645722	Defective Intrinsic Pathway for Apoptosis Due to p14ARF Loss of Function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9646303	Evasion of Oncogene Induced Senescence Due to p14ARF Defects	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9646304	Evasion of Oxidative Stress Induced Senescence Due to p14ARF Defects	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-964975	Vitamin B6 activation to pyridoxal phosphate	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9649913	RAS GTPase cycle mutants	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9652169	Signaling by MAP2K mutants	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9652282	Drug-mediated inhibition of ERBB2 signaling	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9656249	Defective Base Excision Repair Associated with OGG1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9656255	Defective OGG1 Substrate Binding	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9656256	Defective OGG1 Substrate Processing	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9657050	Defective OGG1 Localization	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9657688	Defective factor XII causes hereditary angioedema	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9657689	Defective SERPING1 causes hereditary angioedema	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9661070	Defective translocation of RB1 mutants to the nucleus	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9663199	Defective DNA double strand break response due to BRCA1 loss of function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9665230	Drug resistance in ERBB2 KD mutants	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665233	Resistance of ERBB2 KD mutants to trastuzumab	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665244	Resistance of ERBB2 KD mutants to sapitinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665245	Resistance of ERBB2 KD mutants to tesevatinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665246	Resistance of ERBB2 KD mutants to neratinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665247	Resistance of ERBB2 KD mutants to osimertinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665249	Resistance of ERBB2 KD mutants to afatinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665250	Resistance of ERBB2 KD mutants to AEE788	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665251	Resistance of ERBB2 KD mutants to lapatinib	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9665737	Drug resistance in ERBB2 TMD/JMD mutants	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9669914	Dasatinib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669917	Imatinib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669921	KIT mutants bind TKIs	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669924	Masitinib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669926	Nilotinib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669929	Regorafenib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669933	Signaling by kinase domain mutants of KIT	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669934	Sunitinib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669935	Signaling by juxtamembrane domain KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669936	Sorafenib-resistant KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9669937	Drug resistance of KIT mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9670613	Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9670615	Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9670621	Defective Inhibition of DNA Recombination at Telomere	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9672383	Defective factor IX causes thrombophilia	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9672387	Defective F8 accelerates dissociation of the A2 domain	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9672391	Defective F8 cleavage by thrombin	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9672393	Defective F8 binding to von Willebrand factor	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9672395	Defective F8 binding to the cell membrane	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9672396	Defective cofactor function of FVIIIa variant	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9672397	Defective F8 secretion	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9673013	Diseases of Telomere Maintenance	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9673163	Oleoyl-phe metabolism	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9673202	Defective F9 variant does not activate FX	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9673218	Defective F9 secretion	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9673240	Defective gamma-carboxylation of F9	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9673766	Signaling by cytosolic PDGFRA and PDGFRB fusion proteins	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9674396	Imatinib-resistant PDGFR mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674401	Sunitinib-resistant PDGFR mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674403	Regorafenib-resistant PDGFR mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674404	Sorafenib-resistant PDGFR mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674415	Drug resistance of PDGFR mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674428	PDGFR mutants bind TKIs	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9674519	Defective F8 sulfation at Y1699	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9675108	Nervous system development	Homo sapiens	563	False	97	above_maximum_genes
+R-HSA-9675132	Diseases of cellular response to stress	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9678110	Attachment and Entry	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9679509	Virion Assembly and Release	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9680187	Signaling by extracellular domain mutants of KIT	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9682708	Transcription of SARS-CoV-1 sgRNAs	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9683439	Assembly of the SARS-CoV-1 Replication-Transcription Complex (RTC)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9683612	Maturation of protein M	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9683683	Maturation of protein E	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9684325	Maturation of replicase proteins	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9692912	SARS-CoV-1 targets PDZ proteins in cell-cell junction	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9692913	SARS-CoV-1-mediated effects on programmed cell death	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9694271	Assembly of the SARS-CoV-2 Replication-Transcription Complex (RTC)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9694301	Maturation of replicase proteins	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9694594	Maturation of protein M	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9694786	Transcription of SARS-CoV-2 sgRNAs	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9699150	Defective DNA double strand break response due to BARD1 loss of function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9700649	Drug resistance of ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702506	Drug resistance of FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702509	FLT3 mutants bind TKIs	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702569	KW2449-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702577	semaxanib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702581	crenolanib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702590	gilteritinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702596	lestaurtinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702600	midostaurin-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702605	pexidartinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702614	ponatinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702620	quizartinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702624	sorafenib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702632	sunitinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702636	tandutinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9702998	linifanib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9703009	tamatinib-resistant FLT3 mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9708296	tRNA-derived small RNA (tsRNA or tRNA-related fragment, tRF) biogenesis	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9709275	Impaired BRCA2 translocation to the nucleus	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9709957	Sensory Perception	Homo sapiens	621	False	97	above_maximum_genes
+R-HSA-9716542	Signaling by Rho GTPases, Miro GTPases and RHOBTB3	Homo sapiens	724	False	97	above_maximum_genes
+R-HSA-9717264	ASP-3026-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717301	NVP-TAE684-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717316	alectinib-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717319	brigatinib-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717323	ceritinib-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717326	crizotinib-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9717329	lorlatinib-resistant ALK mutants	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9723905	Loss of function of TP53 in cancer due to loss of tetramerization ability	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9723907	Loss of Function of TP53 in Cancer	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9727281	Translation of Accessory Proteins	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9729555	Sensory perception of sour taste	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9729902	Reversible DNA damage induced by alkylating chemotherapeutic drugs	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9730737	Alkylating DNA damage induced by chemotherapeutic drugs	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9734091	Drug-mediated inhibition of MET activation	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9734195	Defective APRT disrupts adenine salvage	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9734207	Nucleotide salvage defects	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9734281	Defective HPRT1 disrupts guanine and hypoxanthine salvage	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9734735	Defective ADA disrupts (deoxy)adenosine deamination	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9735763	Defective PNP disrupts phosphorolysis of (deoxy)guanosine and (deoxy)inosine	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9735786	Nucleotide catabolism defects	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9735804	Diseases of nucleotide metabolism	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9750126	Drug-induced formation of DNA interstrand crosslinks	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9753510	Signaling by RAS GAP mutants	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9753512	Signaling by RAS GTPase mutants	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-975574	Reactions specific to the hybrid N-glycan synthesis pathway	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9758919	Epithelial-Mesenchymal Transition (EMT) during gastrulation	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9759774	Diseases of mitochondrial beta oxidation	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9759785	Diseases of propionyl-CoA catabolism	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9763198	Impaired BRCA2 binding to SEM1 (DSS1)	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9768777	Regulation of NPAS4 gene transcription	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9793242	SUMOylation of nuclear envelope proteins	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9818025	NFE2L2 regulating TCA cycle genes	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9820962	Assembly and release of respiratory syncytial virus (RSV) virions	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9824446	Viral Infection Pathways	Homo sapiens	1214	False	97	above_maximum_genes
+R-HSA-9824856	Defective regulation of TLR7 by endogenous ligand	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9828642	Respiratory syncytial virus genome transcription	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9828721	Translation of respiratory syncytial virus mRNAs	Homo sapiens	0	False	97	below_minimum_genes
+R-HSA-9834752	Respiratory syncytial virus genome replication	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9837092	FASTK family proteins regulate processing and stability of mitochondrial RNAs	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9839397	TGFBR3 regulates FGF2 signaling	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9839406	TGFBR3 regulates activin signaling	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9845619	Enhanced cleavage of VWF variant by ADAMTS13	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9845621	Defective VWF cleavage by ADAMTS13 variant	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9845622	Defective VWF binding to collagen type I 	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9851151	MDK and PTN in ALK signaling	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9853506	OGDH complex synthesizes succinyl-CoA from 2-OG	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9853846	Defective ANO6 does not expose PS, PE on the platelet membrane	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9854907	Regulation of MITF-M dependent genes involved in metabolism	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9854909	Regulation of MITF-M dependent genes involved in invasion	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9858328	OADH complex synthesizes glutaryl-CoA from 2-OA	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9859138	BCKDH synthesizes BCAA-CoA from KIC, KMVA, KIV	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9865113	Loss-of-function mutations in DBT cause MSUD2	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9865125	Loss-of-function mutations in BCKDHA or BCKDHB cause MSUD	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9907570	Loss-of-function mutations in DLD cause MSUD3/DLDD	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9909438	3-Methylcrotonyl-CoA carboxylase deficiency	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9911233	Expression of NOTCH2NL genes	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9914274	3-methylglutaconic aciduria	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9914355	Isovaleric acidemia	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9915355	Beta-ketothiolase deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9916720	Mitochondrial short-chain enoyl-CoA hydratase deficiency 1	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9916722	3-hydroxyisobutyryl-CoA hydrolase deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9918436	Defective visual phototransduction due to OPN1MW loss of function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9918438	Defective visual phototransduction due to RDH5 loss of function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9918440	Defective visual phototransduction due to RDH12 loss of function	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9918442	Defective visual phototransduction due to LRAT loss of function	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9918443	Defective visual phototransduction due to OPN1SW loss of function	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9918449	Defective visual phototransduction due to STRA6 loss of function	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9918450	Defective visual phototransduction due to OPN1LW loss of function	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9918454	Defective visual phototransduction due to ABCA4 loss of function	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9930449	Defective cleavage of FV variant at a.a.534 	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9930479	Defective cleavage of FV variant at R334	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9930483	Defective FV causes thrombophilia 	Homo sapiens	3	False	97	below_minimum_genes
+R-HSA-9931512	Phosphorylation of CLOCK, acetylation of BMAL1 (ARNTL) at target gene promoters	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9931929	Defective GALM causes GALAC4	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9936686	Aggregated β-amyloid interacts with fibrinogen	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9936900	Aggregated β-amyloid induces FXII autocatalysis	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9948011	CASP5 inflammasome assembly	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9953038	MPS I - Hurler syndrome (CS/DS degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9953078	MPS II - Hunter syndrome (CS/DS degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9953080	MPS VII - Sly syndrome (CS/DS degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9953097	MPS IX - Natowicz syndrome (CS/DS degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9953111	MPS IV - Morquio syndrome B (CS/DS degradation)	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9955542	CPS1 variants cause CPS1 deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9955693	NAGS variants cause NAGS deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956508	SLC25A15 variants cause hyperornithinemia-hyperammonemia-homocitrullinemia syndrome 	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956514	ARG1 variants cause hyperargininemia	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956520	ASS1 variants cause citrullinemia	Homo sapiens	2	False	97	below_minimum_genes
+R-HSA-9956522	OTC variants cause OTC deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956529	ASL variants cause argininosuccinate aciduria	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956551	OTC leader sequence variants cause OTC deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9956553	OTC main chain variants cause OTC deficiency	Homo sapiens	1	False	97	below_minimum_genes
+R-HSA-9959399	SLC-mediated transport of oligopeptides	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9968551	Regulation of GBP-mediated host defense	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9969901	Cholesterol biosynthesis from zymosterol (modified Kandutsch-Russell pathway)	Homo sapiens	4	False	97	below_minimum_genes
+R-HSA-9988426	Negative transcriptional regulation of urea cycle enzymes	Homo sapiens	4	False	97	below_minimum_genes

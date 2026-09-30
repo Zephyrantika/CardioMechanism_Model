@@ -1,0 +1,39 @@
+{
+  "candidate_genes": 16992,
+  "hpo_gene_seed_terms": 2187,
+  "isolated_nodes_with_self_loop": 0,
+  "matrix_shape": [
+    39065,
+    39065
+  ],
+  "maximum_row_sum_error": 7.771561172376096e-16,
+  "negative_relation_weights": 0,
+  "node_counts": {
+    "gene": 16992,
+    "pathway": 2179,
+    "phenotype": 19894
+  },
+  "nodes": 39065,
+  "relation_nnz": {
+    "gene_gene": 465738,
+    "gene_hpo": 8660,
+    "gene_pathway": 104078,
+    "hpo_gene": 8660,
+    "hpo_hpo": 48872,
+    "pathway_gene": 104078,
+    "pathway_pathway": 3910
+  },
+  "relation_sha256": {
+    "gene_gene": "60f50c29c025d89a6dfd677771bb7230fdc9bc78c919ee95578d25abafc4b625",
+    "gene_hpo": "1527fb22bdc9b158af38075bae8442b0ea4a749631119a13685315b6af9c7162",
+    "gene_pathway": "c0d553a7f9f62d941569f5737ef43088020aae4a972185f443cb49bc2e02a006",
+    "hpo_gene": "9930b47c0aea8c354d920f1e2e203bd43de516cf12e64391220dffeb437deca4",
+    "hpo_hpo": "33b0001e4404c6066247ebeec5df440c05bcbe3260385118aac3b821dd2d3d3b",
+    "pathway_gene": "96e615a8cb376c18d35f70f4b1b079a4f8945949727104efd7b3b4f2d859512e",
+    "pathway_pathway": "b2df657653b90a335627a77acc616b4dccf059d5569ee6f295214802639eb09f"
+  },
+  "row_sum_max": 1.0000000000000007,
+  "row_sum_min": 0.9999999999999992,
+  "transition_nnz": 743996,
+  "transition_sha256": "10ee75e41dd0f662a384a83f86118b66b9a8e3c8631f25aec75ccd0ad6b09126"
+}
