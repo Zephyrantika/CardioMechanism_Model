@@ -1,0 +1,14 @@
+{
+  "config_hash": "c2565bd81da99b331f60d0a2b9eec0fda377dab2375151041a467d8e6b88e89a",
+  "created_at": "2026-09-09T03:01:27+00:00",
+  "data_hashes": {
+    "queries": "fold_0"
+  },
+  "epoch": 3,
+  "framework_versions": {
+    "torch": "2.11.0+cu128"
+  },
+  "git_commit": "284a27de54875483b6597ec2c9edae36f34493ec",
+  "schema_version": 1,
+  "seed": 42
+}

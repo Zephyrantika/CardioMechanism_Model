@@ -1,0 +1,26 @@
+{
+  "ablation": "full",
+  "best_epoch": 2,
+  "best_val_loss": 0.0003804990956268739,
+  "checkpoint": "outputs\\v1\\recipe\\smoke\\fold_0\\model.pt",
+  "device": "cuda",
+  "fold": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0009067130595212802,
+      "val_loss": 0.0005401591988629662
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0005170460572117008,
+      "val_loss": 0.0003804990956268739
+    }
+  ],
+  "learning_rate": 0.001,
+  "params": 7794106,
+  "patience": 30,
+  "pu": true,
+  "ratio": 20,
+  "weight_decay": 1e-05
+}

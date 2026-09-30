@@ -1,0 +1,1573 @@
+{
+  "fold": 0,
+  "git_commit": "284a27de54875483b6597ec2c9edae36f34493ec",
+  "per_query": [
+    {
+      "disease_id": "MONDO:0007269",
+      "v0_rwr": {
+        "mrr": 1.0,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.009174311926605505,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0007781",
+      "v0_rwr": {
+        "mrr": 0.0015174506828528073,
+        "n_positive": 8,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0032258064516129032,
+        "n_positive": 8,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0007918",
+      "v0_rwr": {
+        "mrr": 0.0005995203836930455,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0003295978905735003,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0007919",
+      "v0_rwr": {
+        "mrr": 0.043478260869565216,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.022727272727272728,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0008409",
+      "v0_rwr": {
+        "mrr": 0.011904761904761904,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.008130081300813009,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0008436",
+      "v0_rwr": {
+        "mrr": 0.16666666666666666,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.013888888888888888,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0008922",
+      "v0_rwr": {
+        "mrr": 0.0013513513513513514,
+        "n_positive": 3,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001373437714599643,
+        "n_positive": 3,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0009677",
+      "v0_rwr": {
+        "mrr": 0.000376081233546446,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001368738023542294,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0009837",
+      "v0_rwr": {
+        "mrr": 0.05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.002551020408163265,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010400",
+      "v0_rwr": {
+        "mrr": 0.00010753844499408539,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.000514668039114771,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010401",
+      "v0_rwr": {
+        "mrr": 0.000123334977799704,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00049800796812749,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010542",
+      "v0_rwr": {
+        "mrr": 0.00303951367781155,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0006108735491753207,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010543",
+      "v0_rwr": {
+        "mrr": 0.000326797385620915,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00011119759813188036,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010771",
+      "v0_rwr": {
+        "mrr": 0.0018832391713747645,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00016302575806977502,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010787",
+      "v0_rwr": {
+        "mrr": 0.0002701972439881113,
+        "n_positive": 2,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001554726368159204,
+        "n_positive": 2,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0010788",
+      "v0_rwr": {
+        "mrr": 0.0018214936247723133,
+        "n_positive": 12,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00020554984583761563,
+        "n_positive": 12,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011003",
+      "v0_rwr": {
+        "mrr": 0.25,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.03333333333333333,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011028",
+      "v0_rwr": {
+        "mrr": 0.001455604075691412,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.000258732212160414,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011076",
+      "v0_rwr": {
+        "mrr": 0.0008051529790660225,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0023923444976076554,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011094",
+      "v0_rwr": {
+        "mrr": 0.004081632653061225,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0031545741324921135,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011095",
+      "v0_rwr": {
+        "mrr": 0.16666666666666666,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.024390243902439025,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011377",
+      "v0_rwr": {
+        "mrr": 0.125,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.045454545454545456,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011400",
+      "v0_rwr": {
+        "mrr": 0.009174311926605505,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00228310502283105,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011423",
+      "v0_rwr": {
+        "mrr": 0.00042069835927639884,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001287664177182591,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011482",
+      "v0_rwr": {
+        "mrr": 0.0017605633802816902,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.002551020408163265,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011541",
+      "v0_rwr": {
+        "mrr": 0.000175530981218185,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 7.34322220590395e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011702",
+      "v0_rwr": {
+        "mrr": 0.0033783783783783786,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001635858007524947,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011840",
+      "v0_rwr": {
+        "mrr": 0.010526315789473684,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.004048582995951417,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011843",
+      "v0_rwr": {
+        "mrr": 0.0058823529411764705,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.002004008016032064,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0011968",
+      "v0_rwr": {
+        "mrr": 0.0006230529595015577,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00020458265139116204,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012062",
+      "v0_rwr": {
+        "mrr": 0.03125,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.04,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012362",
+      "v0_rwr": {
+        "mrr": 0.00980392156862745,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0008298755186721991,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012556",
+      "v0_rwr": {
+        "mrr": 0.0019880715705765406,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00012007684918347742,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012667",
+      "v0_rwr": {
+        "mrr": 0.006896551724137931,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00022999080036798528,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012699",
+      "v0_rwr": {
+        "mrr": 0.00030321406913280777,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 8.077544426494346e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012704",
+      "v0_rwr": {
+        "mrr": 0.00040567951318458417,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 8.2223318533136e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012714",
+      "v0_rwr": {
+        "mrr": 0.015625,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0028328611898017,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012744",
+      "v0_rwr": {
+        "mrr": 0.010101010101010102,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.006944444444444444,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012745",
+      "v0_rwr": {
+        "mrr": 0.001658374792703151,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0035587188612099642,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012746",
+      "v0_rwr": {
+        "mrr": 0.05263157894736842,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.017241379310344827,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0012808",
+      "v0_rwr": {
+        "mrr": 0.007142857142857143,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.010309278350515464,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013030",
+      "v0_rwr": {
+        "mrr": 0.0136986301369863,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.003367003367003367,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013071",
+      "v0_rwr": {
+        "mrr": 0.00020554984583761563,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00015174506828528073,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013072",
+      "v0_rwr": {
+        "mrr": 0.000364963503649635,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00012623074981065388,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013147",
+      "v0_rwr": {
+        "mrr": 0.0005878894767783657,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0009250693802035153,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013168",
+      "v0_rwr": {
+        "mrr": 0.0020876826722338203,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0038461538461538464,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013198",
+      "v0_rwr": {
+        "mrr": 0.02857142857142857,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.011235955056179775,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013211",
+      "v0_rwr": {
+        "mrr": 0.05555555555555555,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.016129032258064516,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013261",
+      "v0_rwr": {
+        "mrr": 0.015151515151515152,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.013888888888888888,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013262",
+      "v0_rwr": {
+        "mrr": 0.2,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00909090909090909,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013324",
+      "v0_rwr": {
+        "mrr": 0.00023353573096683791,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00015101177891875566,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013339",
+      "v0_rwr": {
+        "mrr": 0.0016778523489932886,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00023518344308560678,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013371",
+      "v0_rwr": {
+        "mrr": 0.0013966480446927375,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.000580046403712297,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013373",
+      "v0_rwr": {
+        "mrr": 0.0009813542688910696,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00011147029316687103,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013479",
+      "v0_rwr": {
+        "mrr": 0.0003167564143173899,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0001590077913817777,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013677",
+      "v0_rwr": {
+        "mrr": 0.0014641288433382138,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.004878048780487805,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013770",
+      "v0_rwr": {
+        "mrr": 0.07692307692307693,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0058823529411764705,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013848",
+      "v0_rwr": {
+        "mrr": 7.685804319422027e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 6.172077521293668e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0013968",
+      "v0_rwr": {
+        "mrr": 0.0033222591362126247,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00029291154071470416,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014073",
+      "v0_rwr": {
+        "mrr": 0.0003081664098613251,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 7.57002271006813e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014095",
+      "v0_rwr": {
+        "mrr": 0.0009578544061302681,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00014275517487508923,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014100",
+      "v0_rwr": {
+        "mrr": 0.0004955401387512388,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0008496176720475786,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014152",
+      "v0_rwr": {
+        "mrr": 0.00019825535289452815,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00011958861516383641,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014163",
+      "v0_rwr": {
+        "mrr": 0.0032258064516129032,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.004219409282700422,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014396",
+      "v0_rwr": {
+        "mrr": 0.001122334455667789,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00032658393207054214,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014676",
+      "v0_rwr": {
+        "mrr": 0.07692307692307693,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.006622516556291391,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0014788",
+      "v0_rwr": {
+        "mrr": 0.00011981787682722263,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 6.144015728680265e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0016097",
+      "v0_rwr": {
+        "mrr": 0.003205128205128205,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0007102272727272727,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0017309",
+      "v0_rwr": {
+        "mrr": 0.011764705882352941,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.004672897196261682,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0021569",
+      "v0_rwr": {
+        "mrr": 0.017241379310344827,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.006802721088435374,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0024523",
+      "v0_rwr": {
+        "mrr": 0.003787878787878788,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.011111111111111112,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0030077",
+      "v0_rwr": {
+        "mrr": 0.00013749484394335213,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.001310615989515072,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0030300",
+      "v0_rwr": {
+        "mrr": 0.00031446540880503143,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 7.093204709887927e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0030366",
+      "v0_rwr": {
+        "mrr": 0.0125,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0016891891891891893,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0030680",
+      "v0_rwr": {
+        "mrr": 0.00010970927043335162,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00014367816091954023,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0030887",
+      "v0_rwr": {
+        "mrr": 0.0007062146892655367,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.001607717041800643,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0032592",
+      "v0_rwr": {
+        "mrr": 0.0004424778761061947,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.000942507068803016,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0032783",
+      "v0_rwr": {
+        "mrr": 0.0001725625539257981,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00024342745861733204,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0032853",
+      "v0_rwr": {
+        "mrr": 1.0,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 1.0,
+        "recall_k20": 1.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.017857142857142856,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0100531",
+      "v0_rwr": {
+        "mrr": 0.000731528895391368,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0008880994671403197,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0859358",
+      "v0_rwr": {
+        "mrr": 0.0002460024600246002,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 8.534607834769993e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0859381",
+      "v0_rwr": {
+        "mrr": NaN,
+        "n_positive": 0,
+        "n_ranked": 16992,
+        "recall_k10": NaN,
+        "recall_k20": NaN
+      },
+      "v1_conditioned": {
+        "mrr": NaN,
+        "n_positive": 0,
+        "n_ranked": 16992,
+        "recall_k10": NaN,
+        "recall_k20": NaN
+      }
+    },
+    {
+      "disease_id": "MONDO:0957545",
+      "v0_rwr": {
+        "mrr": 0.00011712344811431249,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 6.359300476947535e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0957984",
+      "v0_rwr": {
+        "mrr": 9.531071292413267e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00019109497420217848,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0971175",
+      "v0_rwr": {
+        "mrr": 6.002400960384154e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0004158004158004158,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0976134",
+      "v0_rwr": {
+        "mrr": 0.015151515151515152,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0015060240963855422,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0976135",
+      "v0_rwr": {
+        "mrr": NaN,
+        "n_positive": 0,
+        "n_ranked": 16992,
+        "recall_k10": NaN,
+        "recall_k20": NaN
+      },
+      "v1_conditioned": {
+        "mrr": NaN,
+        "n_positive": 0,
+        "n_ranked": 16992,
+        "recall_k10": NaN,
+        "recall_k20": NaN
+      }
+    },
+    {
+      "disease_id": "MONDO:0979236",
+      "v0_rwr": {
+        "mrr": 0.002304147465437788,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0033783783783783786,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0979239",
+      "v0_rwr": {
+        "mrr": 6.989585517578807e-05,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.00036088054853843375,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0979243",
+      "v0_rwr": {
+        "mrr": 0.00033534540576794097,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0008271298593879239,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    },
+    {
+      "disease_id": "MONDO:0981022",
+      "v0_rwr": {
+        "mrr": 0.001876172607879925,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      },
+      "v1_conditioned": {
+        "mrr": 0.0009407337723424271,
+        "n_positive": 1,
+        "n_ranked": 16992,
+        "recall_k10": 0.0,
+        "recall_k20": 0.0
+      }
+    }
+  ],
+  "queries": 91,
+  "scorer_mode": "conditioned",
+  "v0_rwr_aggregate": {
+    "mrr": 0.03998380165911577,
+    "recall_k10": 0.07865168539325842,
+    "recall_k20": 0.1348314606741573
+  },
+  "v1_conditioned_aggregate": {
+    "mrr": 0.0045458435265802125,
+    "recall_k10": 0.0,
+    "recall_k20": 0.0
+  },
+  "v1_vs_v0_bootstrap_mrr_delta": {
+    "ci_high": NaN,
+    "ci_low": NaN,
+    "iterations": 1000,
+    "n_queries": 91,
+    "observed_delta": NaN,
+    "seed": 42
+  }
+}
