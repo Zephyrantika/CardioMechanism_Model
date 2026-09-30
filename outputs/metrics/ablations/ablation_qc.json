@@ -1,0 +1,2252 @@
+{
+  "candidate_genes": 16992,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "per_disease_rows": 4059,
+  "records": [
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 1731254,
+        "source": "BioGRID_5.0.260"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 8.881784197001252e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 95,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.368980577231559e-11,
+      "test_maximum_mass_error": 2.1760371282653068e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 2011695,
+      "transition_sha256": "1bddfc14368d85185d4a7aba81c2d07c94238fd8394081c5ea10f52339105679",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 97,
+        "maximum_final_diff": 7.992922837069592e-11,
+        "mrr": 0.05324110806555977,
+        "recall_at_10": 0.04666666666666667,
+        "variant": "biogrid"
+      },
+      "variant": "biogrid"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.7,
+      "test_iterations": 20,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 6.973572253214065e-11,
+      "test_maximum_mass_error": 5.995204332975845e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 55787,
+      "transition_sha256": "c11d385ee66d3dd94da511099d90f0370055228ae52abd11d0369c415a58c048",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.7,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 20,
+        "maximum_final_diff": 6.973574916443705e-11,
+        "mrr": 0.04713108032618158,
+        "recall_at_10": 0.035555555555555556,
+        "variant": "hpo_gene_only"
+      },
+      "variant": "hpo_gene_only"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 71,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.2314749807573e-11,
+      "test_maximum_mass_error": 1.4988010832439613e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 505826,
+      "transition_sha256": "0456b37d1b24046224a4bee024054854e7d425e26ff99780b59df0a79698ec3c",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 72,
+        "maximum_final_diff": 7.734823870884092e-11,
+        "mrr": 0.05279144582645878,
+        "recall_at_10": 0.035555555555555556,
+        "variant": "hpo_gene_ppi"
+      },
+      "variant": "hpo_gene_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 9991,
+        "output_hpo_gene_edges": 9740,
+        "removed_hpo_gene_edges": 251,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 251
+        },
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 93,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.962741513741717e-11,
+      "test_maximum_mass_error": 3.297362383136715e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 746156,
+      "transition_sha256": "3f79d0853b267b6b0aed61daf52dffcad7b1e78a6b6be7aa868ba5e4ac72e43a",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 96,
+        "maximum_final_diff": 9.782883055943527e-11,
+        "mrr": 0.050057634758768135,
+        "recall_at_10": 0.04666666666666667,
+        "variant": "no_frequency"
+      },
+      "variant": "no_frequency"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 114,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.625731360791604e-11,
+      "test_maximum_mass_error": 1.687538997430238e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 714676,
+      "transition_sha256": "ab2c2865660e158e12f7343317a22448c2560e6271d3f0665ed592654ee7dd0e",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 115,
+        "maximum_final_diff": 8.625124968261635e-11,
+        "mrr": 0.05187754054798246,
+        "recall_at_10": 0.04666666666666667,
+        "variant": "no_hpo_hierarchy"
+      },
+      "variant": "no_hpo_hierarchy"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 9991,
+        "output_hpo_gene_edges": 9621,
+        "removed_hpo_gene_edges": 251,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 251
+        },
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 190,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.211442232549711e-11,
+      "test_maximum_mass_error": 2.398081733190338e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 745918,
+      "transition_sha256": "b1d3af74411dfbdf7d531a9a4317cad7a49807c95c2a27d51be0291640533c25",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 195,
+        "maximum_final_diff": 9.954061258791755e-11,
+        "mrr": 0.049467266644978566,
+        "recall_at_10": 0.04666666666666667,
+        "variant": "no_ic"
+      },
+      "variant": "no_ic"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 95,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.439544403006943e-11,
+      "test_maximum_mass_error": 4.929390229335695e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 285680,
+      "transition_sha256": "9f61b7c19c1bc4e48fd89a0c5cb23e3cfda023c5a6e8a76ac682ab46329dfcba",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 97,
+        "maximum_final_diff": 8.04696067250306e-11,
+        "mrr": 0.053484519208063526,
+        "recall_at_10": 0.04666666666666667,
+        "variant": "no_ppi"
+      },
+      "variant": "no_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene",
+        "hpo_hpo"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 95,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.382008405937549e-11,
+      "test_maximum_mass_error": 3.3639757646142243e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 537068,
+      "transition_sha256": "872f15530ce4099a2f0a0cb9205f39e8592980d1fef1c228fc7c3970cdda1cf6",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 97,
+        "maximum_final_diff": 8.006124108312207e-11,
+        "mrr": 0.057282164614391,
+        "recall_at_10": 0.05777777777777778,
+        "variant": "no_reactome"
+      },
+      "variant": "no_reactome"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 199166,
+        "source": "STRING_v12_threshold_900"
+      },
+      "fold": 0,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 95,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.382722651499034e-11,
+      "test_maximum_mass_error": 3.552713678800501e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 481872,
+      "transition_sha256": "0fa51fd58e4f74c2475d6ca8bc8862c3cc0a4c44dd16e785c4cf3b6bca01db2e",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 0,
+        "iterations": 97,
+        "maximum_final_diff": 8.017547919566922e-11,
+        "mrr": 0.05573886962931511,
+        "recall_at_10": 0.05777777777777778,
+        "variant": "string900"
+      },
+      "variant": "string900"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 1731254,
+        "source": "BioGRID_5.0.260"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 8.881784197001252e-16,
+      "selected_alpha": 0.7,
+      "test_iterations": 20,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 3.250066071974518e-11,
+      "test_maximum_mass_error": 3.297362383136715e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 2008069,
+      "transition_sha256": "c3959081cdda50ae83f0feb38e68c3aa4cc901ffe1bd984d83cc351518f7a827",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.7,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 19,
+        "maximum_final_diff": 9.855282226303702e-11,
+        "mrr": 0.054398242982886355,
+        "recall_at_10": 0.09882305194805195,
+        "variant": "biogrid"
+      },
+      "variant": "biogrid"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 4.440892098500626e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 226,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.116700315786547e-11,
+      "test_maximum_mass_error": 4.6629367034256575e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 52300,
+      "transition_sha256": "95f5d4af5367af3daeff9e42703f41fb39f84a90a36ff23c1f7cdd0c68998564",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 226,
+        "maximum_final_diff": 9.11670217593178e-11,
+        "mrr": 0.062113174843064105,
+        "recall_at_10": 0.1101866883116883,
+        "variant": "hpo_gene_only"
+      },
+      "variant": "hpo_gene_only"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 124,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.61908113209886e-11,
+      "test_maximum_mass_error": 9.769962616701378e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 502339,
+      "transition_sha256": "ff437fc0dce43673ce9e5e8cd17a054b9b1430365419205542d6a6815c228495",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 124,
+        "maximum_final_diff": 8.684174327347833e-11,
+        "mrr": 0.06048907450868049,
+        "recall_at_10": 0.09882305194805195,
+        "variant": "hpo_gene_ppi"
+      },
+      "variant": "hpo_gene_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 8137,
+        "output_hpo_gene_edges": 7926,
+        "removed_hpo_gene_edges": 211,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 211
+        },
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.5,
+      "test_iterations": 33,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 7.485743526361334e-11,
+      "test_maximum_mass_error": 3.885780586188048e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 742528,
+      "transition_sha256": "d9dc2216ac1a241b2cd8182d985d3fb1b099867b521214a325430e65f2d46733",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.5,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 33,
+        "maximum_final_diff": 8.522260854788597e-11,
+        "mrr": 0.07028651260069371,
+        "recall_at_10": 0.09882305194805195,
+        "variant": "no_frequency"
+      },
+      "variant": "no_frequency"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 115,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.810848717250198e-11,
+      "test_maximum_mass_error": 2.0872192862952943e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 711188,
+      "transition_sha256": "219634e0558ca1c25f402c809c59c6dea4492ea8f539208b0110302a1e8e4239",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 114,
+        "maximum_final_diff": 9.938057977514979e-11,
+        "mrr": 0.0608690702740683,
+        "recall_at_10": 0.1101866883116883,
+        "variant": "no_hpo_hierarchy"
+      },
+      "variant": "no_hpo_hierarchy"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 8137,
+        "output_hpo_gene_edges": 7808,
+        "removed_hpo_gene_edges": 211,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 211
+        },
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 194,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.207827266277329e-11,
+      "test_maximum_mass_error": 2.731148640577885e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 742292,
+      "transition_sha256": "ea93d789861c48878e71be2e75e152ed9069df86de42c01a696840bc85004bcb",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 198,
+        "maximum_final_diff": 9.599168223388555e-11,
+        "mrr": 0.06402294719614102,
+        "recall_at_10": 0.12155032467532467,
+        "variant": "no_ic"
+      },
+      "variant": "no_ic"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.5,
+      "test_iterations": 33,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 6.729516206265882e-11,
+      "test_maximum_mass_error": 3.752553823233029e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 282051,
+      "transition_sha256": "3b7b6fd37ab8ecb82fe57b9bd98182c1067ac96936cf07eb56463e8e50378b7e",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.5,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 33,
+        "maximum_final_diff": 8.848527455629758e-11,
+        "mrr": 0.05555514615847395,
+        "recall_at_10": 0.09882305194805195,
+        "variant": "no_ppi"
+      },
+      "variant": "no_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene",
+        "hpo_hpo"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 197,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.157678566646816e-11,
+      "test_maximum_mass_error": 2.042810365310288e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 533443,
+      "transition_sha256": "79e76ca88eeb839088efb1a8ec477b4e9ce879843d99b6cb82c218f2f17e4943",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 201,
+        "maximum_final_diff": 9.873938166746774e-11,
+        "mrr": 0.06244702705314809,
+        "recall_at_10": 0.09124729437229438,
+        "variant": "no_reactome"
+      },
+      "variant": "no_reactome"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 199166,
+        "source": "STRING_v12_threshold_900"
+      },
+      "fold": 1,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 197,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.157574211755492e-11,
+      "test_maximum_mass_error": 2.8754776337791554e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 478247,
+      "transition_sha256": "b9b68b24da86486f61bbd2d9e02ab0cc951ee810c7822268d45c3c17bb0bd3c9",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 1,
+        "iterations": 201,
+        "maximum_final_diff": 9.8748925140407e-11,
+        "mrr": 0.06423539629584765,
+        "recall_at_10": 0.10261093073593074,
+        "variant": "string900"
+      },
+      "variant": "string900"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 1731254,
+        "source": "BioGRID_5.0.260"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 8.881784197001252e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 203,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.049231973661779e-11,
+      "test_maximum_mass_error": 1.6653345369377348e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 2009773,
+      "transition_sha256": "2ef649636fb9b3ff043888098a7e28d2909796394d937ef4e0213185652dd527",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 222,
+        "maximum_final_diff": 9.029370732077823e-11,
+        "mrr": 0.09430483417999258,
+        "recall_at_10": 0.11969696969696969,
+        "variant": "biogrid"
+      },
+      "variant": "biogrid"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 5.551115123125783e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 226,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.116698797879683e-11,
+      "test_maximum_mass_error": 3.552713678800501e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 53976,
+      "transition_sha256": "c0d046b22774cc0f6955fee5b65abdcfe89f71d3aaeaead8a4ee7d90962a24b6",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 226,
+        "maximum_final_diff": 9.116696862885854e-11,
+        "mrr": 0.09514510990792203,
+        "recall_at_10": 0.09469696969696968,
+        "variant": "hpo_gene_only"
+      },
+      "variant": "hpo_gene_only"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 124,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.6245061023949e-11,
+      "test_maximum_mass_error": 9.880984919163893e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 504022,
+      "transition_sha256": "9ff6b0389e8c60135d40ceed2811910ba4f6757ca637f5f5aa261e9bba477202",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 125,
+        "maximum_final_diff": 8.67481950901764e-11,
+        "mrr": 0.09797335962586776,
+        "recall_at_10": 0.18409090909090908,
+        "variant": "hpo_gene_ppi"
+      },
+      "variant": "hpo_gene_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 9148,
+        "output_hpo_gene_edges": 8812,
+        "removed_hpo_gene_edges": 333,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 333
+        },
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 200,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.723116846496529e-11,
+      "test_maximum_mass_error": 2.55351295663786e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 744300,
+      "transition_sha256": "acfeb25dcf248a62b9c928e4c88897fe5eb2cb89eaae8cc4a17b8dbce5d71559",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 222,
+        "maximum_final_diff": 9.028333959839723e-11,
+        "mrr": 0.10683682150535559,
+        "recall_at_10": 0.17272727272727273,
+        "variant": "no_frequency"
+      },
+      "variant": "no_frequency"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 115,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.783055149720008e-11,
+      "test_maximum_mass_error": 2.3092638912203256e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 712869,
+      "transition_sha256": "b7e45b2478476cb7a7d9a7b1bd00f23464f367ab8d55e03f250acc61427389b4",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 115,
+        "maximum_final_diff": 9.005491474841983e-11,
+        "mrr": 0.09579062936323957,
+        "recall_at_10": 0.19545454545454544,
+        "variant": "no_hpo_hierarchy"
+      },
+      "variant": "no_hpo_hierarchy"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 9148,
+        "output_hpo_gene_edges": 8663,
+        "removed_hpo_gene_edges": 333,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 333
+        },
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 200,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.776543255953326e-11,
+      "test_maximum_mass_error": 1.8096635301390052e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 744002,
+      "transition_sha256": "3bd51481404af72d0887d8e6c86f802c95a5c88d8a79c963b960adbf168e7a64",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 217,
+        "maximum_final_diff": 9.894113251031753e-11,
+        "mrr": 0.10683529737318657,
+        "recall_at_10": 0.17272727272727273,
+        "variant": "no_ic"
+      },
+      "variant": "no_ic"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 203,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.133567187337524e-11,
+      "test_maximum_mass_error": 4.75175454539567e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 283753,
+      "transition_sha256": "7012cadbb797c304ef154633363b282f7997e15e274786d2afc426425b69034b",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 222,
+        "maximum_final_diff": 9.03863189980878e-11,
+        "mrr": 0.09664860143021568,
+        "recall_at_10": 0.1424242424242424,
+        "variant": "no_ppi"
+      },
+      "variant": "no_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene",
+        "hpo_hpo"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 203,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.055928180269026e-11,
+      "test_maximum_mass_error": 1.354472090042691e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 535149,
+      "transition_sha256": "4e1c8fa406f9d48f0a5b09b0988dbd1e0806f5ff08aed83e6bd20cbe8c2f0bb2",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 222,
+        "maximum_final_diff": 9.030355843639653e-11,
+        "mrr": 0.11782439783032984,
+        "recall_at_10": 0.2159090909090909,
+        "variant": "no_reactome"
+      },
+      "variant": "no_reactome"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 199166,
+        "source": "STRING_v12_threshold_900"
+      },
+      "fold": 2,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 203,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.054238839923602e-11,
+      "test_maximum_mass_error": 2.853273173286652e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 479948,
+      "transition_sha256": "8cf928d0f8bf78f4e234869bd77e592d0d966f5faf1733c0ed039a700a525b01",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 88,
+        "fold": 2,
+        "iterations": 222,
+        "maximum_final_diff": 9.031074109332781e-11,
+        "mrr": 0.10825743734425544,
+        "recall_at_10": 0.19318181818181818,
+        "variant": "string900"
+      },
+      "variant": "string900"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 1731254,
+        "source": "BioGRID_5.0.260"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 8.881784197001252e-16,
+      "selected_alpha": 0.5,
+      "test_iterations": 34,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.165527560699055e-11,
+      "test_maximum_mass_error": 3.752553823233029e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 2011873,
+      "transition_sha256": "e780bbf7e68f9c6264e73430118bfaa7276168324b7e86c29e7240671177d90d",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.5,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 32,
+        "maximum_final_diff": 9.857369465945838e-11,
+        "mrr": 0.04196845420443327,
+        "recall_at_10": 0.06666666666666667,
+        "variant": "biogrid"
+      },
+      "variant": "biogrid"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 5.551115123125783e-16,
+      "selected_alpha": 0.3,
+      "test_iterations": 67,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.367567617827715e-11,
+      "test_maximum_mass_error": 4.218847493575595e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 56148,
+      "transition_sha256": "ed2dee5e95e38d8e2a83a022250a042e2ec9bc61cf80509addf9c79f16988614",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.3,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 67,
+        "maximum_final_diff": 8.367561373647735e-11,
+        "mrr": 0.041432991855844904,
+        "recall_at_10": 0.07777777777777778,
+        "variant": "hpo_gene_only"
+      },
+      "variant": "hpo_gene_only"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 72,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.199476999200497e-11,
+      "test_maximum_mass_error": 1.2212453270876722e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 506198,
+      "transition_sha256": "d0e07a6491fb61b4cb3cd0f203d8307bf8476d6399e158299d6776080688f29b",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 71,
+        "maximum_final_diff": 9.036524262594473e-11,
+        "mrr": 0.05008755229596177,
+        "recall_at_10": 0.125,
+        "variant": "hpo_gene_ppi"
+      },
+      "variant": "hpo_gene_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 10256,
+        "output_hpo_gene_edges": 9809,
+        "removed_hpo_gene_edges": 444,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 444
+        },
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 222,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.324632947379625e-11,
+      "test_maximum_mass_error": 2.1538326677728037e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 746294,
+      "transition_sha256": "6c369d152eb708c4b38811df6504b6ee561ff303bb61ed3a6c52ab49001c36e6",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 188,
+        "maximum_final_diff": 9.164525957212952e-11,
+        "mrr": 0.04836060350416556,
+        "recall_at_10": 0.08888888888888889,
+        "variant": "no_frequency"
+      },
+      "variant": "no_frequency"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 115,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.456650209917054e-11,
+      "test_maximum_mass_error": 1.7763568394002505e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 715047,
+      "transition_sha256": "f6841d2f6d702fbd508144e88a4702e25b96f2e97e10da953cb627fc31212a79",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 114,
+        "maximum_final_diff": 8.528253292628029e-11,
+        "mrr": 0.04956571503495784,
+        "recall_at_10": 0.10277777777777777,
+        "variant": "no_hpo_hierarchy"
+      },
+      "variant": "no_hpo_hierarchy"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 10256,
+        "output_hpo_gene_edges": 9713,
+        "removed_hpo_gene_edges": 444,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 444
+        },
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 217,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.893677663393934e-11,
+      "test_maximum_mass_error": 2.708944180085382e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 746102,
+      "transition_sha256": "23772ed97b485af3b05ee4732a7bc2c1d64f94b1b082c2349b242b2fce50cc94",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 191,
+        "maximum_final_diff": 9.182325780862944e-11,
+        "mrr": 0.04432175379643739,
+        "recall_at_10": 0.08888888888888889,
+        "variant": "no_ic"
+      },
+      "variant": "no_ic"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 106,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.03078152778491e-11,
+      "test_maximum_mass_error": 3.574918139293004e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 285847,
+      "transition_sha256": "10b3874001072d42e190fa8f3880eefc112f30921dd1e4908b626453b8fb1b2d",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 95,
+        "maximum_final_diff": 8.666520084007909e-11,
+        "mrr": 0.042840608827859374,
+        "recall_at_10": 0.07777777777777778,
+        "variant": "no_ppi"
+      },
+      "variant": "no_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene",
+        "hpo_hpo"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.2,
+      "test_iterations": 106,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 8.025124115783756e-11,
+      "test_maximum_mass_error": 1.9761969838327786e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 537247,
+      "transition_sha256": "d41fd66ac204699cd3f009da2bef59534869ef8c88eed3ad4b3a241da15108b3",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.2,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 95,
+        "maximum_final_diff": 8.494391818007735e-11,
+        "mrr": 0.04979180239810542,
+        "recall_at_10": 0.08888888888888889,
+        "variant": "no_reactome"
+      },
+      "variant": "no_reactome"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 199166,
+        "source": "STRING_v12_threshold_900"
+      },
+      "fold": 3,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 222,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.328173013864177e-11,
+      "test_maximum_mass_error": 2.7533531010703882e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 482046,
+      "transition_sha256": "ee31e93fc414eb7b578d3fbac8e6693acdf665eb9c4447bde00bf5391c893b6b",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 90,
+        "fold": 3,
+        "iterations": 193,
+        "maximum_final_diff": 9.819233430385101e-11,
+        "mrr": 0.049913942743491015,
+        "recall_at_10": 0.1,
+        "variant": "string900"
+      },
+      "variant": "string900"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 1731254,
+        "source": "BioGRID_5.0.260"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 8.881784197001252e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 191,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.933744814232058e-11,
+      "test_maximum_mass_error": 2.3314683517128287e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 2013433,
+      "transition_sha256": "8066b33ad5b57730e4341a9d6bf829d00e0c2fb2b9b92c8a2cea90ebff01cd30",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 195,
+        "maximum_final_diff": 8.988158233903569e-11,
+        "mrr": 0.036351782739891945,
+        "recall_at_10": 0.06741573033707865,
+        "variant": "biogrid"
+      },
+      "variant": "biogrid"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 5.551115123125783e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 226,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.116703460250118e-11,
+      "test_maximum_mass_error": 3.9968028886505635e-15,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 57534,
+      "transition_sha256": "a738dadbeb31c70d7a79f432ecdb595dbd09793a888273277351a8fad696420d",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 226,
+        "maximum_final_diff": 9.116713272363159e-11,
+        "mrr": 0.039029801159130545,
+        "recall_at_10": 0.0898876404494382,
+        "variant": "hpo_gene_only"
+      },
+      "variant": "hpo_gene_only"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 124,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.521671602621521e-11,
+      "test_maximum_mass_error": 1.2212453270876722e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 507586,
+      "transition_sha256": "b37a5979ba1ed0710e956613568703e8bda2efeab0f7ff603f853bc4fefc41fd",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 123,
+        "maximum_final_diff": 9.077848470914132e-11,
+        "mrr": 0.04288269424050362,
+        "recall_at_10": 0.12359550561797752,
+        "variant": "hpo_gene_ppi"
+      },
+      "variant": "hpo_gene_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 10988,
+        "output_hpo_gene_edges": 10589,
+        "removed_hpo_gene_edges": 399,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 399
+        },
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 191,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.642863574351953e-11,
+      "test_maximum_mass_error": 2.2648549702353193e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 747854,
+      "transition_sha256": "f0b7d7b962dbf9dd7525ec3b9255c812759cefad7fccdcd405022af2e201d844",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": false,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 190,
+        "maximum_final_diff": 9.624967778472985e-11,
+        "mrr": 0.03971764906985894,
+        "recall_at_10": 0.07865168539325842,
+        "variant": "no_frequency"
+      },
+      "variant": "no_frequency"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 117,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.58052155224073e-11,
+      "test_maximum_mass_error": 1.887379141862766e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 716436,
+      "transition_sha256": "500f93da168b9f3de5b5e702ffe2c099781087d7326ebc722f740f17e95ae887",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 113,
+        "maximum_final_diff": 9.383384790494079e-11,
+        "mrr": 0.04217631829735721,
+        "recall_at_10": 0.11235955056179775,
+        "variant": "no_hpo_hierarchy"
+      },
+      "variant": "no_hpo_hierarchy"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "input_hpo_gene_edges": 10988,
+        "output_hpo_gene_edges": 10490,
+        "removed_hpo_gene_edges": 399,
+        "source": "rebuilt_train_only",
+        "unresolved_by_reason": {
+          "gene_outside_candidate_universe": 399
+        },
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 189,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.671965122642393e-11,
+      "test_maximum_mass_error": 1.509903313490213e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 747656,
+      "transition_sha256": "cd6a6c4b6bbbe295c570d30e08e22f2cf533fd261e2014c2a019e74fa061e019",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": false
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 191,
+        "maximum_final_diff": 9.637365891681517e-11,
+        "mrr": 0.04112570825421714,
+        "recall_at_10": 0.07865168539325842,
+        "variant": "no_ic"
+      },
+      "variant": "no_ic"
+    },
+    {
+      "active_relations": [
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.3,
+      "test_iterations": 61,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 7.405521648534482e-11,
+      "test_maximum_mass_error": 5.4289905904170155e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 287405,
+      "transition_sha256": "d4d15583c729b640f75ef6487ce6cc8aaee2ae6cc2745dd49d48aabd655115ba",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.3,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 60,
+        "maximum_final_diff": 9.501810227524898e-11,
+        "mrr": 0.03585820006078614,
+        "recall_at_10": 0.06741573033707865,
+        "variant": "no_ppi"
+      },
+      "variant": "no_ppi"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "hpo_gene",
+        "hpo_hpo"
+      ],
+      "edge_qc": {
+        "source": "fold_graph"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 6.661338147750939e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 191,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.952657496521458e-11,
+      "test_maximum_mass_error": 1.2212453270876722e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 538806,
+      "transition_sha256": "50f7b0d91ac4461813d8cb20928d6a26d3a0f9a552e02e34718b4bcc1c66be86",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 195,
+        "maximum_final_diff": 8.990296382055164e-11,
+        "mrr": 0.04174178940821679,
+        "recall_at_10": 0.0898876404494382,
+        "variant": "no_reactome"
+      },
+      "variant": "no_reactome"
+    },
+    {
+      "active_relations": [
+        "gene_gene",
+        "gene_hpo",
+        "gene_pathway",
+        "hpo_gene",
+        "hpo_hpo",
+        "pathway_gene",
+        "pathway_pathway"
+      ],
+      "edge_qc": {
+        "gene_gene_nnz": 199166,
+        "source": "STRING_v12_threshold_900"
+      },
+      "fold": 4,
+      "maximum_row_sum_error": 7.771561172376096e-16,
+      "selected_alpha": 0.1,
+      "test_iterations": 191,
+      "test_labels_used_for_tuning": false,
+      "test_maximum_final_diff": 9.96035778530863e-11,
+      "test_maximum_mass_error": 2.5979218776228663e-14,
+      "test_minimum_score": 0.0,
+      "test_seed_qc": {
+        "queries": 90,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "train_only_graph_labels": true,
+      "transition_nnz": 483606,
+      "transition_sha256": "f67c594f1555dbdc59766bc598a9361183b228b8121c9458673ef7ab9d610d58",
+      "validation_labels_used_for_alpha_only": true,
+      "validation_seed_qc": {
+        "queries": 91,
+        "uniform_seed_fallback_diseases": [],
+        "use_frequency": true,
+        "use_ic": true
+      },
+      "validation_selection": {
+        "alpha": 0.1,
+        "evaluable_diseases": 89,
+        "fold": 4,
+        "iterations": 195,
+        "maximum_final_diff": 8.999546798310059e-11,
+        "mrr": 0.041207383142927094,
+        "recall_at_10": 0.0898876404494382,
+        "variant": "string900"
+      },
+      "variant": "string900"
+    }
+  ],
+  "smoke": false,
+  "unresolved_relation_edges": 3276,
+  "validation_rows": 225,
+  "variants": [
+    "biogrid",
+    "hpo_gene_only",
+    "hpo_gene_ppi",
+    "no_frequency",
+    "no_hpo_hierarchy",
+    "no_ic",
+    "no_ppi",
+    "no_reactome",
+    "string900"
+  ]
+}

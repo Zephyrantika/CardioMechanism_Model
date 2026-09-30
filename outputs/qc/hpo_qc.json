@@ -1,0 +1,20 @@
+{
+  "duplicate_records": 0,
+  "input_is_a_edges": 24436,
+  "input_records": 20482,
+  "non_hpo_terms_ignored": 3,
+  "obsolete_records": 588,
+  "ontology_data_version": "hp/releases/2026-09-01",
+  "ontology_format_version": "1.2",
+  "output_is_a_edges": 24436,
+  "output_records": 19894,
+  "parser": "pronto 2.7.3",
+  "removed_records": 588,
+  "replaced_records": 506,
+  "source_encoding": "utf-8",
+  "source_file": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\hpo\\hp.obo",
+  "source_sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+  "unmapped_records": 82,
+  "unresolved_is_a_edges": 0,
+  "unresolved_records": 82
+}

@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "alpha": 0.1,
+      "evaluable_diseases": 88,
+      "iterations": 222,
+      "maximum_final_diff": 9.029753798780433e-11,
+      "mrr": 0.11642526522016056,
+      "recall_at_10": 0.20681818181818182
+    },
+    {
+      "alpha": 0.2,
+      "evaluable_diseases": 88,
+      "iterations": 105,
+      "maximum_final_diff": 9.721596982683108e-11,
+      "mrr": 0.10286007634805716,
+      "recall_at_10": 0.19545454545454544
+    },
+    {
+      "alpha": 0.3,
+      "evaluable_diseases": 88,
+      "iterations": 66,
+      "maximum_final_diff": 8.960534816141369e-11,
+      "mrr": 0.1006715580382861,
+      "recall_at_10": 0.18409090909090908
+    },
+    {
+      "alpha": 0.5,
+      "evaluable_diseases": 88,
+      "iterations": 34,
+      "maximum_final_diff": 8.879252044314577e-11,
+      "mrr": 0.09853588214117623,
+      "recall_at_10": 0.14242424242424245
+    },
+    {
+      "alpha": 0.7,
+      "evaluable_diseases": 88,
+      "iterations": 20,
+      "maximum_final_diff": 5.3633799562866404e-11,
+      "mrr": 0.09055575964564165,
+      "recall_at_10": 0.14242424242424245
+    }
+  ],
+  "selected_alpha": 0.1,
+  "selection_metric": "mrr"
+}

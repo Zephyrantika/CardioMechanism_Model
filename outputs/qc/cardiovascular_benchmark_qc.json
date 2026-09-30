@@ -1,0 +1,103 @@
+{
+  "cardiovascular_root": "MONDO:0004995",
+  "core_case_coverage": {
+    "MONDO:0005068": {
+      "eligible": false,
+      "has_public_genes": false,
+      "has_public_phenotypes": false
+    },
+    "MONDO:0005252": {
+      "eligible": false,
+      "has_public_genes": false,
+      "has_public_phenotypes": false
+    },
+    "MONDO:0021661": {
+      "eligible": false,
+      "has_public_genes": false,
+      "has_public_phenotypes": false
+    }
+  },
+  "input_counts": {
+    "gene_associations": 16099,
+    "hpo_annotations": 286651,
+    "unique_source_diseases": 14871
+  },
+  "minimum_genes": 1,
+  "minimum_phenotypes": 3,
+  "output_counts": {
+    "clinical_features": 5,
+    "disease_gene_edges": 686,
+    "diseases": 451,
+    "negative_phenotypes": 18,
+    "phenotype_conflict_pairs": 3,
+    "positive_phenotypes": 12364
+  },
+  "removed_counts": {
+    "ancestor_disease_labels_excluded": 38,
+    "cardiovascular_diseases_below_threshold": 230,
+    "gene_rows_outside_final_benchmark": 15413,
+    "phenotype_rows_outside_final_benchmark": 274269
+  },
+  "sources": {
+    "genes_to_disease": {
+      "bytes": 1492039,
+      "file_name": "genes_to_disease.txt",
+      "sha256": "7937a1b92779dc8614e39ace623b443c7c71dd15e4de11d5e52b14e331ab5978",
+      "version": "2026-09-02"
+    },
+    "hpo_nodes": {
+      "bytes": 2074718,
+      "file_name": "hpo_nodes.parquet",
+      "sha256": "c40f4543173ba5cbe824e1c5154d97f04d5a81113631ca6ca4bfa409639d2930",
+      "version": null
+    },
+    "hpoa": {
+      "bytes": 35816037,
+      "file_name": "phenotype.hpoa",
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "version": "2026-09-02"
+    },
+    "mondo": {
+      "bytes": 52967808,
+      "file_name": "mondo-2026-07-06.obo",
+      "sha256": "75c51066741e04c0ec4751210911d29e17e16431ed2ba5b8a46fc6a37ff5b00e",
+      "version": "releases/2026-07-06"
+    },
+    "obsolete_hpo_mapping": {
+      "bytes": 29857,
+      "file_name": "obsolete_hpo_mapping.parquet",
+      "sha256": "b658659625e991de49afa6c52cb2444593e823cd748081e3deeca225ee8fe23a",
+      "version": null
+    }
+  },
+  "transformation_counts": {
+    "diseases": {
+      "ancestor_labels_excluded": 38,
+      "below_threshold": 230,
+      "input_unique_source_ids": 14871,
+      "mapped_cardiovascular": 719,
+      "output": 451
+    },
+    "genes_to_disease": {
+      "cardiovascular_rows": 1117,
+      "duplicate_or_below_disease_threshold": 431,
+      "input": 16099,
+      "invalid_gene_id": 0,
+      "output": 686,
+      "outside_cardiovascular_scope": 14982
+    },
+    "hpoa": {
+      "below_disease_threshold": 4891,
+      "cardiovascular_rows": 17273,
+      "input": 286651,
+      "invalid_or_unresolved_hpo": 0,
+      "output": 12382,
+      "outside_cardiovascular_scope": 269378
+    }
+  },
+  "unresolved_counts": {
+    "diseases": 14004,
+    "frequencies_or_hpo_ids": 0,
+    "genes": 0
+  }
+}

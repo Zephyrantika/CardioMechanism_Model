@@ -1,0 +1,694 @@
+{
+  "ambiguous_proteins": 1,
+  "benchmark_gene_coverage": {
+    "covered_genes": 401,
+    "fraction": 0.9639423076923077,
+    "reference_genes": 416
+  },
+  "core_case_gene_coverage": {
+    "MONDO:0005068": {
+      "covered_genes": 0,
+      "fraction": null,
+      "reference_genes": 0
+    },
+    "MONDO:0005252": {
+      "covered_genes": 0,
+      "fraction": null,
+      "reference_genes": 0
+    },
+    "MONDO:0021661": {
+      "covered_genes": 0,
+      "fraction": null,
+      "reference_genes": 0
+    }
+  },
+  "graph_summaries": {
+    "400": {
+      "components": 2,
+      "edges": 913092,
+      "largest_component_fraction": 0.9998953482287688,
+      "largest_component_nodes": 19109,
+      "nodes": 19111,
+      "top_degree_genes": [
+        {
+          "degree": 2261,
+          "gene_id": "7157"
+        },
+        {
+          "degree": 1929,
+          "gene_id": "2597"
+        },
+        {
+          "degree": 1841,
+          "gene_id": "60"
+        },
+        {
+          "degree": 1812,
+          "gene_id": "207"
+        },
+        {
+          "degree": 1573,
+          "gene_id": "4609"
+        },
+        {
+          "degree": 1552,
+          "gene_id": "7124"
+        },
+        {
+          "degree": 1545,
+          "gene_id": "1499"
+        },
+        {
+          "degree": 1543,
+          "gene_id": "7311"
+        },
+        {
+          "degree": 1533,
+          "gene_id": "6233"
+        },
+        {
+          "degree": 1517,
+          "gene_id": "1956"
+        },
+        {
+          "degree": 1447,
+          "gene_id": "6714"
+        },
+        {
+          "degree": 1384,
+          "gene_id": "7316"
+        },
+        {
+          "degree": 1370,
+          "gene_id": "3569"
+        },
+        {
+          "degree": 1292,
+          "gene_id": "7314"
+        },
+        {
+          "degree": 1284,
+          "gene_id": "3320"
+        },
+        {
+          "degree": 1281,
+          "gene_id": "3630"
+        },
+        {
+          "degree": 1257,
+          "gene_id": "213"
+        },
+        {
+          "degree": 1212,
+          "gene_id": "3553"
+        },
+        {
+          "degree": 1176,
+          "gene_id": "6774"
+        },
+        {
+          "degree": 1144,
+          "gene_id": "3326"
+        },
+        {
+          "degree": 1118,
+          "gene_id": "920"
+        },
+        {
+          "degree": 1117,
+          "gene_id": "5566"
+        },
+        {
+          "degree": 1094,
+          "gene_id": "2099"
+        },
+        {
+          "degree": 1082,
+          "gene_id": "3725"
+        },
+        {
+          "degree": 1057,
+          "gene_id": "653604"
+        },
+        {
+          "degree": 1056,
+          "gene_id": "8361"
+        },
+        {
+          "degree": 1045,
+          "gene_id": "2033"
+        },
+        {
+          "degree": 1042,
+          "gene_id": "3458"
+        },
+        {
+          "degree": 1041,
+          "gene_id": "8356"
+        },
+        {
+          "degree": 1038,
+          "gene_id": "5567"
+        },
+        {
+          "degree": 1037,
+          "gene_id": "2335"
+        },
+        {
+          "degree": 1031,
+          "gene_id": "3308"
+        },
+        {
+          "degree": 1016,
+          "gene_id": "3021"
+        },
+        {
+          "degree": 1015,
+          "gene_id": "5568"
+        },
+        {
+          "degree": 1002,
+          "gene_id": "672"
+        },
+        {
+          "degree": 992,
+          "gene_id": "5728"
+        },
+        {
+          "degree": 985,
+          "gene_id": "596"
+        },
+        {
+          "degree": 957,
+          "gene_id": "4790"
+        },
+        {
+          "degree": 948,
+          "gene_id": "3091"
+        },
+        {
+          "degree": 946,
+          "gene_id": "3065"
+        },
+        {
+          "degree": 940,
+          "gene_id": "5595"
+        },
+        {
+          "degree": 931,
+          "gene_id": "8290"
+        },
+        {
+          "degree": 920,
+          "gene_id": "3312"
+        },
+        {
+          "degree": 917,
+          "gene_id": "3845"
+        },
+        {
+          "degree": 917,
+          "gene_id": "925"
+        },
+        {
+          "degree": 904,
+          "gene_id": "1950"
+        },
+        {
+          "degree": 904,
+          "gene_id": "998"
+        },
+        {
+          "degree": 895,
+          "gene_id": "387"
+        },
+        {
+          "degree": 888,
+          "gene_id": "836"
+        },
+        {
+          "degree": 878,
+          "gene_id": "808"
+        }
+      ]
+    },
+    "700": {
+      "components": 125,
+      "edges": 232869,
+      "largest_component_fraction": 0.9805667001003009,
+      "largest_component_nodes": 15642,
+      "nodes": 15952,
+      "top_degree_genes": [
+        {
+          "degree": 765,
+          "gene_id": "7157"
+        },
+        {
+          "degree": 585,
+          "gene_id": "6233"
+        },
+        {
+          "degree": 513,
+          "gene_id": "7311"
+        },
+        {
+          "degree": 502,
+          "gene_id": "1956"
+        },
+        {
+          "degree": 465,
+          "gene_id": "1499"
+        },
+        {
+          "degree": 451,
+          "gene_id": "653604"
+        },
+        {
+          "degree": 450,
+          "gene_id": "8361"
+        },
+        {
+          "degree": 438,
+          "gene_id": "60"
+        },
+        {
+          "degree": 435,
+          "gene_id": "207"
+        },
+        {
+          "degree": 413,
+          "gene_id": "2197"
+        },
+        {
+          "degree": 412,
+          "gene_id": "8356"
+        },
+        {
+          "degree": 407,
+          "gene_id": "6222"
+        },
+        {
+          "degree": 407,
+          "gene_id": "6714"
+        },
+        {
+          "degree": 395,
+          "gene_id": "7316"
+        },
+        {
+          "degree": 391,
+          "gene_id": "6205"
+        },
+        {
+          "degree": 390,
+          "gene_id": "2033"
+        },
+        {
+          "degree": 386,
+          "gene_id": "7124"
+        },
+        {
+          "degree": 385,
+          "gene_id": "5469"
+        },
+        {
+          "degree": 385,
+          "gene_id": "6203"
+        },
+        {
+          "degree": 377,
+          "gene_id": "6188"
+        },
+        {
+          "degree": 372,
+          "gene_id": "3569"
+        },
+        {
+          "degree": 372,
+          "gene_id": "672"
+        },
+        {
+          "degree": 367,
+          "gene_id": "6194"
+        },
+        {
+          "degree": 365,
+          "gene_id": "6125"
+        },
+        {
+          "degree": 359,
+          "gene_id": "3320"
+        },
+        {
+          "degree": 359,
+          "gene_id": "6135"
+        },
+        {
+          "degree": 358,
+          "gene_id": "9349"
+        },
+        {
+          "degree": 357,
+          "gene_id": "6228"
+        },
+        {
+          "degree": 356,
+          "gene_id": "6217"
+        },
+        {
+          "degree": 354,
+          "gene_id": "6147"
+        },
+        {
+          "degree": 354,
+          "gene_id": "6187"
+        },
+        {
+          "degree": 353,
+          "gene_id": "3021"
+        },
+        {
+          "degree": 349,
+          "gene_id": "6124"
+        },
+        {
+          "degree": 346,
+          "gene_id": "4609"
+        },
+        {
+          "degree": 344,
+          "gene_id": "6193"
+        },
+        {
+          "degree": 338,
+          "gene_id": "3065"
+        },
+        {
+          "degree": 338,
+          "gene_id": "6208"
+        },
+        {
+          "degree": 329,
+          "gene_id": "6209"
+        },
+        {
+          "degree": 328,
+          "gene_id": "51154"
+        },
+        {
+          "degree": 325,
+          "gene_id": "6207"
+        },
+        {
+          "degree": 323,
+          "gene_id": "6189"
+        },
+        {
+          "degree": 323,
+          "gene_id": "6774"
+        },
+        {
+          "degree": 323,
+          "gene_id": "920"
+        },
+        {
+          "degree": 321,
+          "gene_id": "11224"
+        },
+        {
+          "degree": 321,
+          "gene_id": "6223"
+        },
+        {
+          "degree": 315,
+          "gene_id": "6201"
+        },
+        {
+          "degree": 314,
+          "gene_id": "6202"
+        },
+        {
+          "degree": 314,
+          "gene_id": "6234"
+        },
+        {
+          "degree": 313,
+          "gene_id": "6132"
+        },
+        {
+          "degree": 313,
+          "gene_id": "8290"
+        }
+      ]
+    },
+    "900": {
+      "components": 247,
+      "edges": 99583,
+      "largest_component_fraction": 0.9480295566502464,
+      "largest_component_nodes": 11547,
+      "nodes": 12180,
+      "top_degree_genes": [
+        {
+          "degree": 372,
+          "gene_id": "6233"
+        },
+        {
+          "degree": 347,
+          "gene_id": "7311"
+        },
+        {
+          "degree": 284,
+          "gene_id": "2197"
+        },
+        {
+          "degree": 283,
+          "gene_id": "7157"
+        },
+        {
+          "degree": 274,
+          "gene_id": "6205"
+        },
+        {
+          "degree": 273,
+          "gene_id": "6222"
+        },
+        {
+          "degree": 249,
+          "gene_id": "6203"
+        },
+        {
+          "degree": 244,
+          "gene_id": "6194"
+        },
+        {
+          "degree": 241,
+          "gene_id": "7316"
+        },
+        {
+          "degree": 236,
+          "gene_id": "6188"
+        },
+        {
+          "degree": 235,
+          "gene_id": "6125"
+        },
+        {
+          "degree": 232,
+          "gene_id": "6228"
+        },
+        {
+          "degree": 231,
+          "gene_id": "6189"
+        },
+        {
+          "degree": 230,
+          "gene_id": "6147"
+        },
+        {
+          "degree": 229,
+          "gene_id": "9349"
+        },
+        {
+          "degree": 226,
+          "gene_id": "6209"
+        },
+        {
+          "degree": 226,
+          "gene_id": "6223"
+        },
+        {
+          "degree": 224,
+          "gene_id": "8361"
+        },
+        {
+          "degree": 223,
+          "gene_id": "6135"
+        },
+        {
+          "degree": 221,
+          "gene_id": "6229"
+        },
+        {
+          "degree": 221,
+          "gene_id": "6234"
+        },
+        {
+          "degree": 220,
+          "gene_id": "6201"
+        },
+        {
+          "degree": 220,
+          "gene_id": "6202"
+        },
+        {
+          "degree": 220,
+          "gene_id": "6217"
+        },
+        {
+          "degree": 218,
+          "gene_id": "6193"
+        },
+        {
+          "degree": 216,
+          "gene_id": "7314"
+        },
+        {
+          "degree": 213,
+          "gene_id": "11224"
+        },
+        {
+          "degree": 213,
+          "gene_id": "6208"
+        },
+        {
+          "degree": 212,
+          "gene_id": "6207"
+        },
+        {
+          "degree": 212,
+          "gene_id": "653604"
+        },
+        {
+          "degree": 206,
+          "gene_id": "6187"
+        },
+        {
+          "degree": 203,
+          "gene_id": "8356"
+        },
+        {
+          "degree": 193,
+          "gene_id": "5469"
+        },
+        {
+          "degree": 191,
+          "gene_id": "6224"
+        },
+        {
+          "degree": 187,
+          "gene_id": "6156"
+        },
+        {
+          "degree": 183,
+          "gene_id": "5566"
+        },
+        {
+          "degree": 183,
+          "gene_id": "6206"
+        },
+        {
+          "degree": 181,
+          "gene_id": "6232"
+        },
+        {
+          "degree": 179,
+          "gene_id": "6141"
+        },
+        {
+          "degree": 178,
+          "gene_id": "5567"
+        },
+        {
+          "degree": 178,
+          "gene_id": "6143"
+        },
+        {
+          "degree": 178,
+          "gene_id": "6714"
+        },
+        {
+          "degree": 177,
+          "gene_id": "2033"
+        },
+        {
+          "degree": 177,
+          "gene_id": "60"
+        },
+        {
+          "degree": 176,
+          "gene_id": "6124"
+        },
+        {
+          "degree": 175,
+          "gene_id": "5568"
+        },
+        {
+          "degree": 175,
+          "gene_id": "6160"
+        },
+        {
+          "degree": 174,
+          "gene_id": "6175"
+        },
+        {
+          "degree": 174,
+          "gene_id": "6191"
+        },
+        {
+          "degree": 173,
+          "gene_id": "6218"
+        }
+      ]
+    }
+  },
+  "input_edges": 13715404,
+  "primary_threshold": 700,
+  "sources": {
+    "aliases": {
+      "bytes": 21134825,
+      "file_name": "9606.protein.aliases.v12.0.txt.gz",
+      "sha256": "7333739dd8353a8cd6fd2d56df14c0082c8e4f64a60ba664f520bab396c52c36",
+      "version": "12.0"
+    },
+    "links": {
+      "bytes": 172128742,
+      "file_name": "9606.protein.links.full.v12.0.txt.gz",
+      "sha256": "fcb33005822258807ec1d36cda1ee4bf4bda4e9ffc483956ce054606bad1c309",
+      "version": "12.0"
+    }
+  },
+  "taxonomy_id": 9606,
+  "threshold_edge_counts": {
+    "400": 913092,
+    "700": 232869,
+    "900": 99583
+  },
+  "threshold_node_counts": {
+    "400": 19111,
+    "700": 15952,
+    "900": 12180
+  },
+  "transformation_counts": {
+    "at_minimum_threshold": 1858944,
+    "below_minimum_threshold": 11856460,
+    "collapsed_duplicate_gene_edges": 914022,
+    "mapped": 1827122,
+    "output_at_minimum_threshold": 913092,
+    "outside_species": 0,
+    "removed_gene_self_loops": 8,
+    "without_unique_gene_mapping": 31822
+  },
+  "trusted_mapping_source": "Ensembl_HGNC_entrez_id",
+  "unique_mapped_proteins": 19196,
+  "unresolved_proteins": 366
+}

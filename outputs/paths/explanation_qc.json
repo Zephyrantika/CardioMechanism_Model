@@ -1,0 +1,23 @@
+{
+  "all_deletion_runs_converged": true,
+  "all_paths_simple": true,
+  "allowed_templates": [
+    "HPO-HPO-Gene",
+    "HPO-Gene-Gene",
+    "HPO-Gene-Pathway-Gene",
+    "HPO-HPO-Gene-Gene"
+  ],
+  "causal_claims_permitted": false,
+  "diseases": 451,
+  "expected_targets": 9020,
+  "main_explanations": 7567,
+  "maximum_path_length": 4,
+  "maximum_paths_per_target": 3,
+  "minimum_relative_contribution": 1e-06,
+  "paths": 26108,
+  "smoke": false,
+  "target_genes_per_disease": 20,
+  "targets_with_paths": 8860,
+  "test_labels_used": false,
+  "unresolved_targets": 160
+}

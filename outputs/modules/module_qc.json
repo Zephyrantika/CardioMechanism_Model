@@ -1,0 +1,24 @@
+{
+  "all_perturbations_converged": true,
+  "calibrated_z_used_for_module_scoring_only": true,
+  "candidate_modules": 2916,
+  "consensus_members": 73570,
+  "consensus_threshold": 0.6,
+  "diseases": 451,
+  "eligible_modules": 2732,
+  "enrichment_rows": 225791,
+  "folds": 5,
+  "module_members": 82102,
+  "module_score_formula": "0.50*mean_z_percentile + 0.25*internal_density + 0.25*mean_jaccard",
+  "module_size_limits": [
+    5,
+    100
+  ],
+  "modules": 2732,
+  "perturbation_runs_per_fold": 50,
+  "primary_candidate_ranking": "rwr_raw_top_200",
+  "rejected_single_hub_modules": 184,
+  "test_labels_used": false,
+  "total_perturbation_runs": 250,
+  "unresolved_module_labels": 0
+}

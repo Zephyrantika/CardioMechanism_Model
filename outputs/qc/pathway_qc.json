@@ -1,0 +1,56 @@
+{
+  "benchmark_gene_coverage": {
+    "covered_genes": 348,
+    "fraction": 0.8365384615384616,
+    "reference_genes": 416
+  },
+  "category_counts": {
+    "cardiac_energy_metabolism": 10,
+    "immune_inflammation": 82,
+    "lipid_metabolism": 49,
+    "oxidative_stress": 12,
+    "purine_urate_metabolism": 6
+  },
+  "input_counts": {
+    "gene_pathway_rows": 788194,
+    "hierarchy_rows": 23717,
+    "metadata_rows": 23603
+  },
+  "output_counts": {
+    "gene_pathway_rows": 115570,
+    "hierarchy_rows": 1955,
+    "pathways": 2179,
+    "registry_rows": 159
+  },
+  "removed_counts": {
+    "excluded_pathways": 704,
+    "invalid_or_unresolved_records": 232,
+    "nonhuman_gene_pathway_rows": 628623
+  },
+  "size_bounds": {
+    "maximum": 500,
+    "minimum": 5
+  },
+  "sources": {
+    "gene_pathway": {
+      "bytes": 98024930,
+      "file_name": "NCBI2Reactome_All_Levels.v97.txt",
+      "sha256": "53bbe42b357655e341630898547af8d23badab592e6050c34d4317fbffc04ce4",
+      "version": "97"
+    },
+    "hierarchy": {
+      "bytes": 634259,
+      "file_name": "ReactomePathwaysRelation.v97.txt",
+      "sha256": "fd49a624d80c14eb37ae57a02e141d574d5ede3f60022bb99edbd909448a3f1e",
+      "version": "97"
+    },
+    "metadata": {
+      "bytes": 1592393,
+      "file_name": "ReactomePathways.v97.txt",
+      "sha256": "f6d7a2bf89b5bcfe0250a0bc7f51bff94641447911712b8ff129f5b55e52df3a",
+      "version": "97"
+    }
+  },
+  "species": "Homo sapiens",
+  "unresolved_records": 232
+}

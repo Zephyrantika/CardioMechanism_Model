@@ -1,0 +1,106 @@
+{
+  "bootstrap_iterations": 1000,
+  "candidate_genes": 16992,
+  "candidate_reference_gene_count": 404,
+  "diseases": 451,
+  "diseases_with_no_covered_positive": 6,
+  "families": 216,
+  "input_sha256": {
+    "ablation_metrics": "13ec4759631ec363a51f3a4c1d5fbfafba2d449ef6122e318b5e9fba233b20ed",
+    "candidate_universe": "3ca39c8b2a6d8b17414f53848be0b5d7fa17783c829d5573e3620142289dddfe",
+    "disease_gene_labels": "70239d37969f32e1a51be43cbb1a1bf4891c43fa3e482e6b239b4eb9c25a4bd5",
+    "fold_0_calibrated": "3c09f42e180aa764e164aa588fff49184b2550d1c899759a035d75eacdc577d8",
+    "fold_0_rwr": "634379655253a2a2aa5424cd006a381b469e613b5fb6879d46178279100ffb7e",
+    "fold_0_semantic": "e73adc74b1be754baf80d265f5f7b4e38a5183c219f9c963cbbe969c73500617",
+    "fold_1_calibrated": "1c7416061f86690f8741ebb8faf302178bf3c92456d488257f47a844288395af",
+    "fold_1_rwr": "82ab74b87b80b4f27f867ea921c33c310b7423956aa9b48d83679608544d39d4",
+    "fold_1_semantic": "fea147bcd087927f0b9e518167fc1155d98323afa236d87ed27982442a15f480",
+    "fold_2_calibrated": "6c7f3be5a81a2ce60ab23b1d27ee62ad7a0fe1528a48a28dd0faba0d37b52985",
+    "fold_2_rwr": "cfb3658cc6f4d90c5df9039cf752f6d129079b4615efa4c7046faa6ed68139c4",
+    "fold_2_semantic": "04a65b60b53b0803f54a82fe991ab544254d18e0a4909aa20bc3b29980c6250c",
+    "fold_3_calibrated": "d2e7d63b3e35730b119da3091b6feaa54dd9fa1540be2e89fd0a4d6104a20ae1",
+    "fold_3_rwr": "bd27ecad138a84e02eff40a51c97b18cf5378becc5989dea91339a8b89bcdf7e",
+    "fold_3_semantic": "987484735a764ba96ff8f486b2aa881c57802c859549a864035f9dea1732cfad",
+    "fold_4_calibrated": "ad79dae6e08b64291eba9835e675c7f7758de2b4b2beb80c4fe7cabbd0b11226",
+    "fold_4_rwr": "67cc61e86fae0b5979e12d63bbe7df951f0b2746d6c4cbd1fee0b6c253e316af",
+    "fold_4_semantic": "a8ba1e75b8c8a8f69b2dca85131790e881bc148c048ce9c773a439d77d5f1e30",
+    "fold_assignments": "cb41f17c1e36113d44e11e9e0f37281ae30baa71156111ea3525bd00970130ce"
+  },
+  "majority_fold_checks": [
+    {
+      "beats_best_semantic_on_recall_or_mrr": true,
+      "best_semantic_mrr": 0.03796440472316772,
+      "best_semantic_recall_at_10": 0.07692307692307693,
+      "fold": 0,
+      "primary_model": "rwr_raw",
+      "primary_mrr": 0.03910503678748685,
+      "primary_recall_at_10": 0.07692307692307693
+    },
+    {
+      "beats_best_semantic_on_recall_or_mrr": true,
+      "best_semantic_mrr": 0.019058270713994886,
+      "best_semantic_recall_at_10": 0.05037037037037037,
+      "fold": 1,
+      "primary_model": "rwr_raw",
+      "primary_mrr": 0.0332246036214648,
+      "primary_recall_at_10": 0.024444444444444446
+    },
+    {
+      "beats_best_semantic_on_recall_or_mrr": true,
+      "best_semantic_mrr": 0.07235240182041526,
+      "best_semantic_recall_at_10": 0.08361111111111111,
+      "fold": 2,
+      "primary_model": "rwr_raw",
+      "primary_mrr": 0.08844935623497317,
+      "primary_recall_at_10": 0.12249999999999998
+    },
+    {
+      "beats_best_semantic_on_recall_or_mrr": true,
+      "best_semantic_mrr": 0.04736567510236499,
+      "best_semantic_recall_at_10": 0.06666666666666667,
+      "fold": 3,
+      "primary_model": "rwr_raw",
+      "primary_mrr": 0.05102854756753485,
+      "primary_recall_at_10": 0.07777777777777778
+    },
+    {
+      "beats_best_semantic_on_recall_or_mrr": false,
+      "best_semantic_mrr": 0.08597855287761788,
+      "best_semantic_recall_at_10": 0.11759259259259258,
+      "fold": 4,
+      "primary_model": "rwr_raw",
+      "primary_mrr": 0.059324979114501006,
+      "primary_recall_at_10": 0.1111111111111111
+    }
+  ],
+  "majority_fold_pass_count": 4,
+  "models": [
+    "ablation_biogrid",
+    "ablation_hpo_gene_only",
+    "ablation_hpo_gene_ppi",
+    "ablation_no_frequency",
+    "ablation_no_hpo_hierarchy",
+    "ablation_no_ic",
+    "ablation_no_ppi",
+    "ablation_no_reactome",
+    "ablation_string900",
+    "gene_degree",
+    "random",
+    "rwr_calibrated",
+    "rwr_raw",
+    "semantic_max",
+    "semantic_top5_mean",
+    "semantic_weighted_sum"
+  ],
+  "per_disease_rows": 7216,
+  "random_repetitions": 100,
+  "recall_ks": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "reference_gene_count": 416,
+  "test_labels_used_for_evaluation_only": true,
+  "test_labels_used_for_training_or_tuning": false
+}

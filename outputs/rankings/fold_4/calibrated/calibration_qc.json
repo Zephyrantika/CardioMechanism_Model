@@ -1,0 +1,144 @@
+{
+  "algorithm": "matched_training_profile_bootstrap_v1",
+  "calibration_hash": "96b54f505f33b2c75826439f4f4bd17141d770b610b2f59bbde652d3ad747943",
+  "degree_bias": {
+    "absolute_correlation_reduction": {
+      "count": 90,
+      "maximum": 0.8671574286450371,
+      "mean": 0.7730008160647851,
+      "median": 0.7804096932994371,
+      "minimum": 0.6206307272198053
+    },
+    "corrected_spearman": {
+      "count": 90,
+      "maximum": 0.19715457771333525,
+      "mean": -0.02694524676398488,
+      "median": -0.035450892340572006,
+      "minimum": -0.20801684794679054
+    },
+    "raw_spearman": {
+      "count": 90,
+      "maximum": 0.894512726918349,
+      "mean": 0.8538390909618706,
+      "median": 0.8595199608539176,
+      "minimum": 0.8156963793497762
+    },
+    "z_score_spearman": {
+      "count": 90,
+      "maximum": 0.16279975687484688,
+      "mean": -0.0366320225502965,
+      "median": -0.031939870635209894,
+      "minimum": -0.2337572202321984
+    }
+  },
+  "effective_config": {
+    "algorithm": "matched_training_profile_bootstrap_v1",
+    "candidate_gene_ids_sha256": "c9b3db18d58664477404a6473033ad10b74b471996ebe89a93f35445606779b9",
+    "fold": 4,
+    "hpo_edges_sha256": "1ca30073306df398a9032fd60c6319e1967851b64f6adc75e39a4894eaf25a22",
+    "matched_pool_size": 25,
+    "matching_temperature": 0.5,
+    "mode": "final",
+    "null_queries": 1000,
+    "phenotype_table_sha256": "082aaa22aba1ec138024bf52651e17398f8ffaedd1c57e15919a570c5fffc678",
+    "random_seed": 46,
+    "rwr_batch_size": 64,
+    "rwr_config_hash": "286ae92edc105ee2c06f839c79ca2a698cb3cd1db833b392f2cbee2597a2cb31",
+    "train_disease_ids_sha256": "a4fe84ff975c91ed04bf4d8f3c3b5f68e4c6217bcf708ad068fdd027f0942d5c",
+    "train_hpo_ic_sha256": "beb5b319cde2cb654f35267a28c4fef6b1e7a8a70c9637b74f751850daf50ccf",
+    "zero_variance_tolerance": 1e-12
+  },
+  "fold": 4,
+  "input_counts": {
+    "candidate_genes": 16992,
+    "test_queries": 90,
+    "train_null_pool_diseases": 270
+  },
+  "leakage_checks": {
+    "null_pool_is_train_only": true,
+    "test_labels_used": false,
+    "train_test_disjoint": true
+  },
+  "matching": {
+    "depth_distance": {
+      "count": 90000,
+      "maximum": 2.059259561595661,
+      "mean": 0.5047708235270675,
+      "median": 0.4465420186537369,
+      "minimum": 0.0
+    },
+    "ic_distance": {
+      "count": 90000,
+      "maximum": 3.1474144649741693,
+      "mean": 0.5733504431541797,
+      "median": 0.4721418960115657,
+      "minimum": 0.0
+    },
+    "matched_pool_size": 25,
+    "matching_temperature": 0.5,
+    "null_queries_per_test_query": 1000,
+    "phenotype_count_distance": {
+      "count": 90000,
+      "maximum": 2.1640093790823283,
+      "mean": 0.2898513161530618,
+      "median": 0.2180074959819273,
+      "minimum": 0.0
+    },
+    "system_distance": {
+      "count": 90000,
+      "maximum": 1.0,
+      "mean": 0.48551186492652015,
+      "median": 0.5,
+      "minimum": 0.0
+    },
+    "total_distance": {
+      "count": 90000,
+      "maximum": 4.080065060730919,
+      "mean": 1.8534844477608292,
+      "median": 1.8000596134614573,
+      "minimum": 0.3864444650568554
+    },
+    "unique_null_profiles_per_query": {
+      "count": 90,
+      "maximum": 25.0,
+      "mean": 24.988888888888887,
+      "median": 25.0,
+      "minimum": 24.0
+    }
+  },
+  "mode": "final",
+  "null_pool_rwr": {
+    "batch_size": 64,
+    "batches": 5,
+    "converged": true,
+    "maximum_final_diff": 9.974931665863572e-11,
+    "maximum_iterations": 198,
+    "maximum_mass_error": 1.9984014443252818e-14,
+    "minimum_score": 0.0,
+    "seed_qc": {
+      "queries": 270,
+      "uniform_seed_fallback_diseases": []
+    },
+    "selected_alpha": 0.1
+  },
+  "output_counts": {
+    "correlation_rows": 90,
+    "null_match_rows": 90000,
+    "profile_audit_rows": 360,
+    "ranking_rows": 1529280
+  },
+  "removed_records": 0,
+  "unresolved_identifiers": {
+    "depth_hpo_ids": [],
+    "depth_profile_term_rows": 0,
+    "system_profile_term_rows": 1,
+    "top_level_system_hpo_ids": [
+      "HP:0000118"
+    ]
+  },
+  "zero_variance": {
+    "fraction": 0.014830508474576272,
+    "rows": 22680,
+    "tolerance": 1e-12
+  }
+}

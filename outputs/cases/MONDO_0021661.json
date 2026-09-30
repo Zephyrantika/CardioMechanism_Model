@@ -1,0 +1,117 @@
+{
+  "clinical_feature_bridge": [
+    {
+      "bridge_mode": "literature_database_mapping_only",
+      "canonical_id": "3084-1",
+      "canonical_system": "LOINC",
+      "cohort_value_available": false,
+      "disease_id": "MONDO:0021661",
+      "disease_name": "coronary atherosclerosis",
+      "entered_training_graph": false,
+      "feature_id": "CLIN:SUA",
+      "feature_name": "serum uric acid",
+      "feature_type": "continuous",
+      "permitted_future_use": "clinical_context_only",
+      "registered_role": "clinical_bridge",
+      "unit": "mg/dL"
+    },
+    {
+      "bridge_mode": "literature_database_mapping_only",
+      "canonical_id": "CLIN:LDL_C",
+      "canonical_system": "LOCAL",
+      "cohort_value_available": false,
+      "disease_id": "MONDO:0021661",
+      "disease_name": "coronary atherosclerosis",
+      "entered_training_graph": false,
+      "feature_id": "CLIN:LDL_C",
+      "feature_name": "LDL cholesterol",
+      "feature_type": "continuous",
+      "permitted_future_use": "clinical_context_only",
+      "registered_role": "clinical_bridge",
+      "unit": "mg/dL"
+    },
+    {
+      "bridge_mode": "literature_database_mapping_only",
+      "canonical_id": "30522-7",
+      "canonical_system": "LOINC",
+      "cohort_value_available": false,
+      "disease_id": "MONDO:0021661",
+      "disease_name": "coronary atherosclerosis",
+      "entered_training_graph": false,
+      "feature_id": "CLIN:HS_CRP",
+      "feature_name": "high-sensitivity C-reactive protein",
+      "feature_type": "continuous",
+      "permitted_future_use": "clinical_context_only",
+      "registered_role": "clinical_bridge",
+      "unit": "mg/L"
+    },
+    {
+      "bridge_mode": "literature_database_mapping_only",
+      "canonical_id": "CLIN:IVUS_PLAQUE_BURDEN",
+      "canonical_system": "LOCAL",
+      "cohort_value_available": false,
+      "disease_id": "MONDO:0021661",
+      "disease_name": "coronary atherosclerosis",
+      "entered_training_graph": false,
+      "feature_id": "CLIN:IVUS_PLAQUE_BURDEN",
+      "feature_name": "IVUS plaque burden",
+      "feature_type": "continuous",
+      "permitted_future_use": "independent_association_or_external_validation",
+      "registered_role": "future_external_validation",
+      "unit": "%"
+    },
+    {
+      "bridge_mode": "literature_database_mapping_only",
+      "canonical_id": "CLIN:IVUS_MIN_LUMEN_AREA",
+      "canonical_system": "LOCAL",
+      "cohort_value_available": false,
+      "disease_id": "MONDO:0021661",
+      "disease_name": "coronary atherosclerosis",
+      "entered_training_graph": false,
+      "feature_id": "CLIN:IVUS_MIN_LUMEN_AREA",
+      "feature_name": "IVUS minimum lumen area",
+      "feature_type": "continuous",
+      "permitted_future_use": "independent_association_or_external_validation",
+      "registered_role": "future_external_validation",
+      "unit": "mm^2"
+    }
+  ],
+  "disease_id": "MONDO:0021661",
+  "disease_name": "coronary atherosclerosis",
+  "evaluable": false,
+  "explanation_paths": [],
+  "external_validation_versions": {
+    "biogrid": "5.0.260",
+    "go": "releases/2026-06-15",
+    "goa_human": "generated 2026-05-21",
+    "gtex": "v10 RNASeQC v2.4.2",
+    "gwas_catalog": "2026-08-03 v1.0 full"
+  },
+  "gtex_tissue_support": [],
+  "gwas_mapping_rule": "case-name exact substring in GWAS trait text",
+  "gwas_support": [],
+  "input_hpo": [],
+  "known_gene_hits": [],
+  "known_genes": [],
+  "limitations": [
+    "Network paths are model-internal evidence chains, not causal proof.",
+    "GTEx expression is tissue-context support, not standalone disease causality.",
+    "No patient-level prediction, diagnosis, or treatment recommendation is produced.",
+    "No ranking is produced because preregistered public inputs are insufficient."
+  ],
+  "mechanism_modules": [],
+  "missing_inputs": [
+    "insufficient_public_hpo_annotations",
+    "insufficient_public_known_gene_labels",
+    "not_in_family_disjoint_folds"
+  ],
+  "module_members": [],
+  "mondo_version": "2026-07-06",
+  "mondo_xrefs": [
+    "MEDGEN:3623",
+    "DOID:0061139"
+  ],
+  "propagation_trace": [],
+  "top_100_genes": [],
+  "top_20_genes": []
+}

@@ -1,0 +1,11 @@
+{
+  "clinical_bridge_rows": 15,
+  "clinical_features": 5,
+  "clinical_features_entered_training_graph": false,
+  "evaluable_cases": 0,
+  "manual_hpo_or_gene_labels_added": false,
+  "patient_level_values_used": false,
+  "preregistered_cases": 3,
+  "raw_ivus_images_used": false,
+  "unevaluable_cases": 3
+}

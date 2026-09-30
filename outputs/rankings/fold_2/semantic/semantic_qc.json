@@ -1,0 +1,11 @@
+{
+  "aggregation_methods": 3,
+  "cached_term_pairs": 2284527,
+  "candidate_genes": 16992,
+  "expected_ranking_rows": 4587840,
+  "fold": 2,
+  "ranking_rows": 4587840,
+  "test_diseases": 90,
+  "train_diseases": 271,
+  "train_only_labels": true
+}

@@ -1,0 +1,77 @@
+{
+  "biogrid": {
+    "ambiguous_symbols": 2,
+    "input_records": 2916237,
+    "output_unique_edges": 865627,
+    "physical_candidate_records": 1154974,
+    "removed_duplicate_edges": 289347,
+    "removed_invalid_identifier_records": 0,
+    "removed_nonhuman_records": 1624021,
+    "removed_nonphysical_records": 18821,
+    "removed_outside_candidate_universe": 109321,
+    "removed_self_loops": 9100,
+    "symbol_mappings": 20529
+  },
+  "candidate_genes": 16992,
+  "entered_training_graph": false,
+  "expanded_candidate_universe": false,
+  "go_terms": 17380,
+  "goa_human": {
+    "annotated_candidate_genes": 14955,
+    "excluded_not_qualifier": 1288,
+    "input_records": 828099,
+    "output_annotation_rows": 386994,
+    "removed_gene_outside_candidate_universe": 35921,
+    "removed_unmapped_or_ambiguous_gene_symbol": 47303
+  },
+  "gtex": {
+    "input_genes": 59033,
+    "mapped_candidate_genes": 15210,
+    "output_expression_rows": 76155,
+    "tissues": 5,
+    "unresolved_genes": 40228
+  },
+  "gwas_catalog": {
+    "input_records": 1188619,
+    "output_gene_support_rows": 829095,
+    "records_with_unambiguous_mapped_symbols": 803540,
+    "records_without_unambiguous_mapped_symbols": 385079,
+    "supported_candidate_genes": 14239
+  },
+  "purpose": "external_validation_only",
+  "sources": {
+    "biogrid": {
+      "path": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\biogrid\\BIOGRID-ALL-2026-08-03.tab3.zip",
+      "sha256": "738592162c8a008aba9edea529738f74c632277983832a7f74ed6e67a550d80d",
+      "size_bytes": 180256206
+    },
+    "go_ontology": {
+      "path": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\go\\go-basic-2026-06-26.obo",
+      "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+      "size_bytes": 32227785
+    },
+    "goa_human": {
+      "path": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\go\\goa_human-2026-05-28.gaf.gz",
+      "sha256": "92504b0208fc37d1b652beaab883298c169b0be342888b91924975a49778cfdb",
+      "size_bytes": 11020779
+    },
+    "gtex": {
+      "path": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\gtex\\GTEx_Analysis_v10_RNASeQCv2.4.2_gene_median_tpm.gct.gz",
+      "sha256": "b951fd32aae5cad48435026e07225860596a411a75efd0519e00f330b7a98294",
+      "size_bytes": 8846936
+    },
+    "gwas_catalog": {
+      "path": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\data\\raw\\gwas_catalog\\gwas-catalog-associations-full-2026-08-03.zip",
+      "sha256": "071b5caa8ec9495e9afb30dc38b27a44db78d4af198f8092997f429b0262c397",
+      "size_bytes": 68639216
+    }
+  },
+  "used_for_hyperparameter_selection": false,
+  "versions": {
+    "biogrid": "5.0.260",
+    "go": "releases/2026-06-15",
+    "goa_human": "generated 2026-05-21",
+    "gtex": "v10 RNASeQC v2.4.2",
+    "gwas_catalog": "2026-08-03 v1.0 full"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_genes": 16992,
+  "config_hash": "013b2bc5f258fa038d5d48d616a328cff76b1a715a4bb50afbbbf6c506de14cb",
+  "converged": true,
+  "fold": 0,
+  "iterations": 95,
+  "maximum_final_diff": 8.374111544964144e-11,
+  "maximum_mass_error": 2.3203661214665772e-14,
+  "minimum_score": 0.0,
+  "ranking_rows": 1546272,
+  "selected_alpha": 0.2,
+  "test_queries": 91,
+  "test_seed_qc": {
+    "queries": 91,
+    "uniform_seed_fallback_diseases": [],
+    "use_frequency": true,
+    "use_ic": true
+  },
+  "validation_seed_qc": {
+    "queries": 90,
+    "uniform_seed_fallback_diseases": [],
+    "use_frequency": true,
+    "use_ic": true
+  }
+}

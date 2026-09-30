@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "check": "required_files_exist",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "all_fold_leakage_and_transition_checks",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "m10_majority_fold_criterion",
+      "details": 4,
+      "passed": true
+    },
+    {
+      "check": "m10_test_labels_evaluation_only",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "external_resources_not_in_training",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m11_perturbations_complete",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m11_module_constraints",
+      "details": {
+        "diseases": 451,
+        "modules": 2732
+      },
+      "passed": true
+    },
+    {
+      "check": "m11_test_labels_unused",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m12_target_coverage",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m12_paths_simple_and_converged",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m12_no_causal_claim",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m13_cases_complete",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "m13_no_manual_or_patient_training_data",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "portable_no_absolute_paths",
+      "details": [],
+      "passed": true
+    },
+    {
+      "check": "portable_dependency_lock",
+      "details": null,
+      "passed": true
+    }
+  ],
+  "deep_learning_dependencies": false,
+  "failed_checks": 0,
+  "gpu_required": false,
+  "passed_checks": 15,
+  "status": "PASS",
+  "v0_interpretable_cpu_baseline": true
+}
