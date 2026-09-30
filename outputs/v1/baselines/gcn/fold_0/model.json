@@ -1,0 +1,15 @@
+{
+  "config_hash": "f59cbbeffd00b1a30fa03c2e8db77361f686985ceff9ef3b36f3ed5f7894ed0f",
+  "created_at": "2026-09-08T14:41:45+00:00",
+  "data_hashes": {
+    "heterodata": "heterodata.pt",
+    "query_instances": "c86a51064c20ad99a3f652b88e7494fba531c12f5d7826bfcc305e87e67a5969"
+  },
+  "epoch": 2,
+  "framework_versions": {
+    "torch": "2.11.0+cpu"
+  },
+  "git_commit": "fa22ce6a39092ab99852f2e95c6d80eceea87085",
+  "schema_version": 1,
+  "seed": 42
+}

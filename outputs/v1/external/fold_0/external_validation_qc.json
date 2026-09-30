@@ -1,0 +1,51 @@
+{
+  "external_never_alters_candidates_or_weights": true,
+  "fold": 0,
+  "git_commit": "cc1e90d5081b1d25b88bdcf77ae24fc7e2302a99",
+  "mapping_rules": {
+    "biogrid": "physical interactions, frozen (v0 external preparation)",
+    "go_goa": "frozen go_gene_annotations.parquet (v0 external preparation)",
+    "gtex_role": "tissue expression support only - not causal proof",
+    "gwas_locus_to_gene": "frozen gwas_gene_support.parquet (rule applied at V0 external preparation; configs/data.yaml gwas_catalog_version 2026-08-03)",
+    "string900": "frozen 900-threshold PPI sensitivity set"
+  },
+  "per_query": [
+    {
+      "disease_id": "MONDO:0007269",
+      "external_enrichment_top_k": {
+        "biogrid": {
+          "fraction": 0.94,
+          "in_top_k": 47
+        },
+        "go": {
+          "fraction": 0.8,
+          "in_top_k": 40
+        },
+        "gtex_cardiovascular": {
+          "fraction": 0.9,
+          "in_top_k": 45
+        },
+        "gwas": {
+          "fraction": 0.72,
+          "in_top_k": 36
+        },
+        "string900": {
+          "fraction": 0.1,
+          "in_top_k": 5
+        }
+      },
+      "robustness": {
+        "baseline_len": 16992,
+        "mean_stability": 0.9994876426046146,
+        "seeds": [
+          1
+        ],
+        "stabilities": [
+          0.9994876426046146
+        ]
+      }
+    }
+  ],
+  "queries": 1,
+  "top_k": 50
+}

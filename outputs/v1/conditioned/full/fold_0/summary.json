@@ -1,0 +1,21 @@
+{
+  "ablation": "full",
+  "best_epoch": 2,
+  "best_val_loss": 0.05085025727748871,
+  "checkpoint": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\outputs\\v1\\conditioned\\full\\fold_0\\model.pt",
+  "device": "cpu",
+  "fold": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4818437770009041,
+      "val_loss": 0.21086054295301437
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.15156309120357037,
+      "val_loss": 0.05085025727748871
+    }
+  ],
+  "params": 7794106
+}

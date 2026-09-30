@@ -1,0 +1,23 @@
+{
+  "best_epoch": 2,
+  "best_val_loss": 0.6664541482925415,
+  "checkpoint": "D:\\SCIENTIFICVS\\CardioModel\\phenotype-network-v0-main\\phenotype-network-v0-main\\outputs\\v1\\baselines\\gcn\\fold_0\\model.pt",
+  "device": "cpu",
+  "fold": 0,
+  "git_commit": "fa22ce6a39092ab99852f2e95c6d80eceea87085",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7501270771026611,
+      "val_loss": 0.7179101467132568
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6973719239234925,
+      "val_loss": 0.6664541482925415
+    }
+  ],
+  "model": "gcn",
+  "params": 2508609,
+  "seed": 42
+}

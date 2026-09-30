@@ -1,0 +1,193 @@
+{
+  "checks": [
+    {
+      "check": "fold_0_has_heterodata.pt",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_0_has_graph_manifest.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_0_has_leakage_report.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_0_leakage_pass",
+      "details": {
+        "failed": 0,
+        "passed": 10
+      },
+      "passed": true
+    },
+    {
+      "check": "fold_0_serialization_hash",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_0_query_instances",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_1_has_heterodata.pt",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_1_has_graph_manifest.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_1_has_leakage_report.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_1_leakage_pass",
+      "details": {
+        "failed": 0,
+        "passed": 10
+      },
+      "passed": true
+    },
+    {
+      "check": "fold_1_serialization_hash",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_1_query_instances",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_2_has_heterodata.pt",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_2_has_graph_manifest.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_2_has_leakage_report.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_2_leakage_pass",
+      "details": {
+        "failed": 0,
+        "passed": 10
+      },
+      "passed": true
+    },
+    {
+      "check": "fold_2_serialization_hash",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_2_query_instances",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_3_has_heterodata.pt",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_3_has_graph_manifest.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_3_has_leakage_report.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_3_leakage_pass",
+      "details": {
+        "failed": 0,
+        "passed": 10
+      },
+      "passed": true
+    },
+    {
+      "check": "fold_3_serialization_hash",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_3_query_instances",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_4_has_heterodata.pt",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_4_has_graph_manifest.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_4_has_leakage_report.json",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_4_leakage_pass",
+      "details": {
+        "failed": 0,
+        "passed": 10
+      },
+      "passed": true
+    },
+    {
+      "check": "fold_4_serialization_hash",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "fold_4_query_instances",
+      "details": null,
+      "passed": true
+    },
+    {
+      "check": "has_conditioned_checkpoint_fold0",
+      "details": "server training completes all folds on GPU",
+      "passed": true
+    },
+    {
+      "check": "metric_completeness_fold0",
+      "details": "full multi-fold metrics from server runs required for release claims",
+      "passed": true
+    },
+    {
+      "check": "portable_no_absolute_paths",
+      "details": [],
+      "passed": true
+    }
+  ],
+  "claim_boundaries": {
+    "gtex_tissue_support_not_causal": true,
+    "no_causal_claim": true,
+    "upstream_unavailable_not_claimed_reproduced": true
+  },
+  "failed_checks": 0,
+  "passed_checks": 33,
+  "status": "PASS",
+  "v1b_status": "not_started_no_patient_cohort"
+}
